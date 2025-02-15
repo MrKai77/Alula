@@ -17,18 +17,26 @@ class AlulaModel: ObservableObject {
     private let skeleton = AlulaSkeleton()
 
     private init() {
-//        let image = UIImage(resource: ._1D57B5C3095A4040A8B2Ce02E3Fb00D9)
+//        let image = UIImage(resource: ._1C27D219D5Fb470B99054E0De2Cf39E6)
 //        self.image = image
 //
-//        classifyImage(image)
+//        print(classifyImage(image))
     }
 
-    private func classifyImage(_ image: UIImage) {
+    private func classifyImage(_ image: UIImage) -> String? {
         do {
-            let prediction = try skeleton.makePredictions(for: image)
-            print(prediction)
+            guard let prediction = try skeleton.makePredictions(for: image).first else {
+                print("Vision was unable to make a prediction")
+                return nil
+            }
+
+            let name = PredictionConverter.convert(from: Int(prediction.classification) ?? 0)
+
+            return name
         } catch {
             print("Vision was unable to make a prediction...\n\n\(error.localizedDescription)")
         }
+
+        return nil
     }
 }
