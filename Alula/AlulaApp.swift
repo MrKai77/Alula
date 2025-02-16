@@ -31,7 +31,7 @@ struct ContentView: View {
                     .background { BackgroundView() }
             }
 
-            Tab("Catalog", systemImage: "book", value: AlulaTab.catalog) {
+            Tab("Catalogue", systemImage: "book", value: AlulaTab.catalog) {
                 CatalogView()
                     .background { BackgroundView() }
             }

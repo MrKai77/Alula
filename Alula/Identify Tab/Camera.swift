@@ -68,7 +68,7 @@ actor CaptureSessionActor {
 final class Camera: NSObject {
     // MARK: Properties
 
-    private let sessionQueue: DispatchQueue = .init(label: "com.MrKai77.Spectra.CameraQueue")
+    private let sessionQueue: DispatchQueue = .init(label: "com.MrKai77.alula.CameraQueue")
     private let sessionActor = CaptureSessionActor()
     private var isCaptureSessionConfigured = false
     private var deviceInput: AVCaptureDeviceInput?
@@ -357,9 +357,6 @@ final class Camera: NSObject {
             photoSettings.photoQualityPrioritization = .quality
 
             if let photoOutputConnection = photoOutput.connection(with: .video) {
-                // Note that UIDevice.current.orientation is used instead of UIScreen.main.orientation.
-                // This is because Spectra is set to only support portrait mode,
-                // so we can rely on the device's orientation when capturing photos.
                 let rotation = UIDevice.current.orientation.cameraAngle
 
                 if photoOutputConnection.isVideoRotationAngleSupported(rotation) {

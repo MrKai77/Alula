@@ -37,7 +37,7 @@ struct CatalogView: View {
                 }
                 .scrollContentBackground(.hidden)
                 .background { BackgroundView() }
-                .navigationTitle("Catalog")
+                .navigationTitle("Catalogue")
             }
         }
     }
