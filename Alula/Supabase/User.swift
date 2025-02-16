@@ -12,7 +12,7 @@ struct User: Codable, Identifiable {
     let last_bird_name: String?
     let last_bird_id: Int?
     let last_bird_time: Date?
-    let total_birds_caught: Int?
+    var total_birds_caught: Int?
     var user_profilepic: Int?
     let achievement_count: Int?
     let achievement_unlocked: String?

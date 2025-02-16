@@ -10,49 +10,42 @@ import SwiftUI
 struct ProfileView: View {
     @ObservedObject var model: AlulaModel = .shared
 
-    @State private var user: User?
-    @State private var allAchievements: [Achievement]?
-
-    @State private var isEditingProfilePic = false
-
     var body: some View {
         VStack {
-            if let user {
-                userView(user)
+            if let user = model.user {
+                UserView(
+                    user: Binding(
+                        get: {
+                            user
+                        },
+                        set: { newValue in
+                            model.user = newValue
+                        }
+                    )
+                )
             } else {
                 ProgressView("Loading...")
             }
         }
-        .sheet(isPresented: $isEditingProfilePic) {
-            ProfilePictureCustomizationView(
-                profilePic: Binding(
-                    get: {
-                        user?.user_profilepic ?? 0
-                    },
-                    set: { newValue in
-                        isEditingProfilePic = false
-                        user?.user_profilepic = newValue
+    }
+}
 
-                        guard let id = user?.user_id else { return }
-                        SupabaseBridge.shared.updateProfilePicture(
-                            for: id,
-                            with: newValue
-                        )
-                    }
-                )
-            )
-        }
-        .task {
-            do {
-                user = try await SupabaseBridge.shared.loadUsers().first { $0.user_id == "adly42" }
-                allAchievements = try await SupabaseBridge.shared.loadAchievements()
-            } catch {
-                print("Failed to fetch users: \(error)")
-            }
-        }
+struct UserView: View {
+    @ObservedObject var model: AlulaModel = .shared
+
+    @Binding var user: User
+    let disableEditing: Bool
+    let hideLocked: Bool
+
+    @State private var isEditingProfilePic = false
+
+    init(user: Binding<User>, disableEditing: Bool = false, hideLocked: Bool = false) {
+        self._user = user
+        self.disableEditing = disableEditing
+        self.hideLocked = hideLocked
     }
 
-    func userView(_ user: User) -> some View {
+    var body: some View {
         VStack {
             VStack {
                 user.image
@@ -61,7 +54,9 @@ struct ProfileView: View {
                     .frame(width: 250, height: 250)
                     .clipShape(.circle)
                     .onTapGesture {
-                        isEditingProfilePic = true
+                        if !disableEditing {
+                            isEditingProfilePic = true
+                        }
                     }
 
                 Text(user.user_id)
@@ -75,19 +70,29 @@ struct ProfileView: View {
                         LabeledContent("Last bird identified", value: formatDate(lastBirdTime))
                     }
 
-                    LabeledContent("Total birds caught", value: "\(model.takenImages.count)")
+                    LabeledContent("Total birds caught", value: "\(user.total_birds_caught ?? 0)")
                 }
 
-                if let allAchievements {
-                    let achievements = user.getUnlockedAchievements(allAchievements: allAchievements)
-
-                    Section("Achievements") {
-                        List(achievements) { achievement in
-                            AchievementView(achievement: achievement)
-                        }
-                    }
-                }
+                AllAchievementsView(user: user, hideLocked: hideLocked)
             }
+        }
+        .sheet(isPresented: $isEditingProfilePic) {
+            ProfilePictureCustomizationView(
+                profilePic: Binding(
+                    get: {
+                        user.user_profilepic ?? 0
+                    },
+                    set: { newValue in
+                        isEditingProfilePic = false
+                        user.user_profilepic = newValue
+
+                        SupabaseBridge.shared.updateProfilePicture(
+                            for: user.user_id,
+                            with: newValue
+                        )
+                    }
+                )
+            )
         }
     }
 
@@ -96,6 +101,46 @@ struct ProfileView: View {
         formatter.dateStyle = .short
         formatter.timeStyle = .short
         return formatter.string(from: date)
+    }
+}
+
+struct AllAchievementsView: View {
+    let user: User
+    let hideLocked: Bool
+    @State private var allAchievements: [Achievement]?
+
+    var unlockedAchievements: [Achievement] {
+        user.getUnlockedAchievements(allAchievements: allAchievements ?? [])
+    }
+
+    var lockedAchievements: [Achievement] {
+        allAchievements?.filter { achievement in
+            !unlockedAchievements.contains {
+                $0.achievement_id == achievement.achievement_id
+            }
+        } ?? []
+    }
+
+    var body: some View {
+        Section("Achievements") {
+            List(unlockedAchievements) { achievement in
+                AchievementView(achievement: achievement)
+            }
+
+            if !hideLocked, !lockedAchievements.isEmpty {
+                List(lockedAchievements) { achievement in
+                    AchievementView(achievement: achievement)
+                }
+                .opacity(0.25)
+            }
+        }
+        .task {
+            do {
+                allAchievements = try await SupabaseBridge.shared.loadAchievements()
+            } catch {
+                print("Failed to fetch users: \(error)")
+            }
+        }
     }
 }
 

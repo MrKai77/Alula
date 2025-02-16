@@ -9,7 +9,6 @@ import SwiftUI
 
 struct GBIF_IUCN_Data: Codable {
     let bird_id: Int
-//    let name: String?
     let scientific_name: String?
     let gbif_id: Int?
     let iucn_status: IUCN_Status?
@@ -38,7 +37,7 @@ struct GBIF_IUCN_Data: Codable {
             case .extinctInTheWild:
                 return "Extinct in the Wild"
             case .unknown:
-                return "Not Available"
+                return "IUCN Data Not Available"
             }
         }
 

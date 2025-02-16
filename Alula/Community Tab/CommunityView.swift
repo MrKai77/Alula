@@ -16,7 +16,7 @@ struct CommunityView: View {
             Form {
                 Section("Leaderboard") {
                     List(users.sorted(by: { $0.total_birds_caught ?? 0 > $1.total_birds_caught ?? 0 })) { user in
-                        UserView(user: user, allAchievements: achievements)
+                        LeaderboardUserView(user: user, allAchievements: achievements)
                     }
                 }
                 .listRowBackground(Color.primary.opacity(0.125))
@@ -37,7 +37,7 @@ struct CommunityView: View {
     }
 }
 
-struct UserView: View {
+struct LeaderboardUserView: View {
     let user: User
     let allAchievements: [Achievement]
 
@@ -60,50 +60,66 @@ struct UserView: View {
             .reversed()
     }
 
+    @State private var isShowingAchievementsSheet: Bool = false
+
     var body: some View {
-        VStack {
-            HStack {
-                user.image
-                    .resizable()
-                    .scaledToFit()
-                    .frame(height: 48)
-                    .clipShape(.circle)
+        Button {
+            isShowingAchievementsSheet = true
+        } label: {
+            VStack {
+                HStack {
+                    user.image
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 48)
+                        .clipShape(.circle)
 
-                VStack(alignment: .leading) {
-                    Text(user.user_id)
-                        .fontWeight(.semibold)
+                    VStack(alignment: .leading) {
+                        Text(user.user_id)
+                            .fontWeight(.semibold)
 
-                    Text("Identified a \(birdName) at \(date)")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
+                        Text("Identified a \(birdName) at \(date)")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
 
-                    Text("\(user.total_birds_caught ?? 0) birds identified")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-            }
-            .frame(maxWidth: .infinity, alignment: .leading)
-
-            ZStack {
-                if achievements.isEmpty {
-                    Text("No Achievements Unlocked")
-                        .foregroundStyle(.secondary)
-                        .frame(maxWidth: .infinity, alignment: .center)
-                } else {
-                    ZStack {
-                        ForEach(Array(achievements.enumerated()), id: \.element.id) { index, achievement in
-                            achievement.image
-                                .resizable()
-                                .scaledToFit()
-                                .randomRotation(minRange: -10, maxRange: 10)
-                                .offset(x: CGFloat(index) * -20)
-                                .zIndex(Double(-index))
-                        }
+                        Text("\(user.total_birds_caught ?? 0) birds identified")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
                     }
-                    .frame(maxWidth: .infinity, alignment: .trailing)
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+                ZStack {
+                    if achievements.isEmpty {
+                        Text("No Achievements Unlocked")
+                            .foregroundStyle(.secondary)
+                            .frame(maxWidth: .infinity, alignment: .center)
+                    } else {
+                        ZStack {
+                            ForEach(Array(achievements.enumerated()), id: \.element.id) { index, achievement in
+                                achievement.image
+                                    .resizable()
+                                    .scaledToFit()
+                                    .randomRotation(minRange: -10, maxRange: 10)
+                                    .offset(x: CGFloat(index) * -20)
+                                    .zIndex(Double(-index))
+                            }
+                        }
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                    }
+                }
+                .frame(height: 50)
             }
-            .frame(height: 50)
+            .contentShape(.rect)
+        }
+        .buttonStyle(.plain)
+        .sheet(isPresented: $isShowingAchievementsSheet) {
+            UserView(user: .constant(user), disableEditing: true, hideLocked: true)
+                .padding(.top, 48)
+                .presentationDragIndicator(.visible)
+                .presentationBackground {
+                    BackgroundView()
+                }
         }
     }
 }

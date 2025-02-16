@@ -45,10 +45,27 @@ class AlulaModel: ObservableObject {
     private(set) var data: BirdDescription?
     private(set) var iucnData: GBIF_IUCN_Data?
 
+    @Published var user: User?
     @Published var infoSheetSelectedAsset: CaptureAsset?
     @Published var isShowingInfoSheet: Bool = false
     @Published private(set) var viewfinderImage: Image?
-    @Published private(set) var takenImages: [CaptureAsset] = []
+    @Published private(set) var takenImages: [CaptureAsset] = [] {
+        didSet {
+            guard let user else {
+                return
+            }
+
+            SupabaseBridge.shared.updateBirdsCaught(
+                for: user.user_id,
+                with: takenImages.count,
+                birdId: takenImages.last?.bird_id ?? 0
+            )
+
+            self.user?.total_birds_caught = takenImages.count
+
+            print("User \(user.user_id) has caught \(takenImages.count) birds.")
+        }
+    }
 
     private let skeleton = AlulaSkeleton()
     private let camera: Camera = .init()
@@ -62,6 +79,12 @@ class AlulaModel: ObservableObject {
 //            print(try? await SupabaseBridge.shared.loadUsers())
 //            print(try? await SupabaseBridge.shared.loadDescription(birdId: 1))
 //            print(try? await SupabaseBridge.shared.loadGbifIucnRedListData(birdId: 0))
+
+            do {
+                user = try await SupabaseBridge.shared.loadUsers().first { $0.user_id == "adly42" }
+            } catch {
+                print("Failed to fetch users: \(error)")
+            }
         }
     }
 

@@ -68,6 +68,31 @@ class SupabaseBridge {
         }
     }
 
+    func updateBirdsCaught(for userId: String, with amount: Int, birdId: Int) {
+        Task {
+            do {
+                try await client
+                    .from("users")
+                    .update([
+                        "total_birds_caught": 5 + amount,
+                        "last_bird_id": birdId
+                    ])
+                    .eq("user_id", value: userId)
+                    .execute()
+
+                try await client
+                    .from("users")
+                    .update([
+                        "last_bird_time": Date.now  // Separate data type
+                    ])
+                    .eq("user_id", value: userId)
+                    .execute()
+            } catch {
+                print("Failed to update total birds caught: \(error)")
+            }
+        }
+    }
+
     func loadDescription(birdId bird: Int) async throws -> BirdDescription? {
         do {
             let birdDescription: [BirdDescription] = try await client
