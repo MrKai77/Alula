@@ -34,4 +34,4 @@ We learned how to use Core ML, Supabase, and the Wikipedia and GBIF APIs over th
 
 ## What's next for alula
 
-We'd love to access larger datasets to further improve our model's accuracy, and implement more community-building features such as group birdwatching and bird identification events.
+We'd love to access larger datasets to further improve our model's accuracy, and implement more community-building features such as group birdwatching and bird identification events. We also would like to add Android support.
