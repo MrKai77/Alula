@@ -1,9 +1,9 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Vision extension that adds a `confidencePercentageString` property to VNClassificationObservation instances.
-*/
+//
+//  VNClassificationObservation+confidenceString.swift
+//  Alula
+//
+//  Created by Kai Azim on 2025-02-15.
+//
 
 import Vision
 

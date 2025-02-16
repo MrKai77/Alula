@@ -9,11 +9,21 @@ import SwiftUI
 
 @main
 struct AlulaApp: App {
-    @ObservedObject var model: AlulaModel = .shared
-
     var body: some Scene {
         WindowGroup {
             ContentView()
+        }
+    }
+}
+
+struct ContentView: View {
+    @ObservedObject var model: AlulaModel = .shared
+
+    var body: some View {
+        TabView(selection: $model.tab) {
+            Tab("Identify", systemImage: "camera", value: AlulaTab.identify) {
+                IdentifyView()
+            }
         }
     }
 }

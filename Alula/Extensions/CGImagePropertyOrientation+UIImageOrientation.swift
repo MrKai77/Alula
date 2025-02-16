@@ -1,9 +1,9 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Core Graphics utility extension that creates CGImagePropertyOrientation from a UIImage Orientation.
-*/
+//
+//  CGImagePropertyOrientation+UIImageOrientation.swift
+//  Alula
+//
+//  Created by Kai Azim on 2025-02-15.
+//
 
 import UIKit
 import ImageIO
