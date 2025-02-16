@@ -12,7 +12,7 @@ This spurred us to create *alula* - an AI-powered tool to help bring awareness o
 
 ## How we built it
 
-*alula*'s image classification model was trained using the NABirds V1 dataset from the Cornell Lab of Ornithology, which features over 48,000 pictures of over 1,000 bird species. The model was trained with Create ML over 25 iterations with noise, blur, crop, expose, flip, and rotate augmentations, then used in Xcode using both the CoreML and Vision frameworks.
+*alula*'s image classification model was trained using the NABirds V1 dataset from the Cornell Lab of Ornithology, which features over 48,000 pictures of over 1,000 bird species. The model was trained with Create ML over 25 iterations with noise, blur, crop, expose, flip, and rotate augmentations, then used in Xcode using both the Core ML and Vision frameworks.
 
 Friends and achievements were both created as separate tables in a relational database hosted on Supabase, which is accessed by the frontend.
 
