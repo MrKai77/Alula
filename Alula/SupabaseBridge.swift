@@ -74,11 +74,27 @@ class SupabaseBridge {
 struct Achievement: Codable, Identifiable {
     let achievement_id: Int
     let achievement_desc: String?
-    let icon: Int?
     let achievement_name: String?
 
     var id: Int {
         achievement_id
+    }
+
+    var image: Image {
+        switch achievement_id {
+        case 1:
+            Image(.achievement1)
+        case 2:
+            Image(.achievement2)
+        case 3:
+            Image(.achievement3)
+        case 4:
+            Image(.achievement4)
+        case 5:
+            Image(.achievement5)
+        default:
+            Image(.achievement1)
+        }
     }
 }
 
@@ -96,14 +112,14 @@ struct User: Codable, Identifiable {
         user_id
     }
 
-    func getUnlockedAchievements() -> [Int] {
+    func getUnlockedAchievements(allAchievements: [Achievement]) -> [Achievement] {
         guard let unlockedAchievements = achievement_unlocked else {
             return []
         }
 
-        return unlockedAchievements
-            .split(separator: ",")
-            .compactMap { Int($0) }
+        return allAchievements.filter { achievement in
+            unlockedAchievements.contains(String(achievement.achievement_id))
+        } ?? []
     }
 
     var image: Image {
