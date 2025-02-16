@@ -24,6 +24,10 @@ struct ContentView: View {
             Tab("Identify", systemImage: "camera", value: AlulaTab.identify) {
                 IdentifyView()
             }
+
+            Tab("Catalog", systemImage: "book", value: AlulaTab.catalog) {
+                CatalogView()
+            }
         }
     }
 }

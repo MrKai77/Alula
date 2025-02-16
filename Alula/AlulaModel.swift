@@ -11,6 +11,17 @@ enum AlulaTab: String, Codable {
     case identify, catalog
 }
 
+struct TakenPhoto: Identifiable {
+    let id = UUID()
+    let image: Image
+    let bird: AlulaSkeleton.Prediction
+
+    init(image: Image, bird: AlulaSkeleton.Prediction) {
+        self.image = image
+        self.bird = bird
+    }
+}
+
 @MainActor
 class AlulaModel: ObservableObject {
     static let shared: AlulaModel = .init()
@@ -22,10 +33,11 @@ class AlulaModel: ObservableObject {
     }
 
     private var lastPredictionUpdate: Date = .distantPast
-    private(set) var prediction: String?
+    private(set) var prediction: AlulaSkeleton.Prediction?
+    private(set) var lastPrediction: AlulaSkeleton.Prediction?
 
     @Published private(set) var viewfinderImage: Image?
-    @Published private(set) var takenImages: [Image] = []
+    @Published private(set) var takenImages: [TakenPhoto] = []
 
     private let skeleton = AlulaSkeleton()
     private let camera: Camera = .init()
@@ -47,34 +59,33 @@ class AlulaModel: ObservableObject {
 // MARK: - Image Classification
 
 extension AlulaModel {
-    private func classifyImage(_ image: UIImage) -> String? {
+    private func classifyImage(_ image: UIImage) -> AlulaSkeleton.Prediction? {
         guard Date.now.timeIntervalSince(lastPredictionUpdate) > 1 else {
             return prediction
         }
 
-        var name: String? = nil
+        var prediction: AlulaSkeleton.Prediction? = nil
 
         do {
-            guard let prediction = try skeleton.makePredictions(for: image).first else {
+            guard let bird = try skeleton.makePredictions(for: image).first else {
                 print("Vision was unable to make a prediction")
                 return nil
             }
 
-            guard Double(prediction.confidencePercentage) ?? 100.0 >= 75.0 else {
-                print("Confidence was too low to make a prediction")
+            guard Double(bird.confidencePercentage) ?? 100.0 >= 60.0 else {
                 return nil
             }
 
-            print("Prediction: \(prediction.classification) - \(prediction.confidencePercentage)")
+            print("Prediction: \(bird.classification) - \(bird.confidencePercentage)")
 
-            name = PredictionConverter.convert(from: Int(prediction.classification) ?? 0)
+            prediction = bird
         } catch {
             print("Vision was unable to make a prediction...\n\n\(error.localizedDescription)")
         }
 
         lastPredictionUpdate = Date.now
 
-        return name
+        return prediction
     }
 }
 
@@ -94,6 +105,7 @@ extension AlulaModel {
     }
 
     func capturePhoto() {
+        lastPrediction = prediction
         camera.takePhoto()
     }
 
@@ -125,7 +137,14 @@ extension AlulaModel {
 
         for await photo in unpackedPhotoStream {
             Task { @MainActor in
-                takenImages.append(photo)
+                if let lastPrediction {
+                    let takenPhoto = TakenPhoto(
+                        image: photo,
+                        bird: lastPrediction
+                    )
+
+                    takenImages.append(takenPhoto)
+                }
             }
         }
     }

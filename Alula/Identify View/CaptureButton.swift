@@ -25,5 +25,7 @@ struct CaptureButton: View {
             .foregroundStyle(.white)
             .frame(width: 72, height: 72)
         }
+        .disabled(model.prediction == nil)
+        .opacity(model.prediction == nil ? 0.5 : 1)
     }
 }

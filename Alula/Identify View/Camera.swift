@@ -204,13 +204,6 @@ final class Camera: NSObject {
         }
     }
 
-    // MARK: Camera Position
-
-    func setCameraPosition(to position: AVCaptureDevice.Position) {
-        guard let captureDevice = AVCaptureDevice.bestCaptureDevice(for: position) else { return }
-        self.captureDevice = captureDevice
-    }
-
     // MARK: Configuration
 
     private func checkAuthorization() async -> Bool {

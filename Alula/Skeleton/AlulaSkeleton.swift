@@ -68,6 +68,10 @@ extension AlulaSkeleton {
     struct Prediction {
         let classification: String
         let confidencePercentage: String
+
+        var birdName: String? {
+            PredictionConverter.convert(from: Int(classification) ?? 0)
+        }
     }
 
     enum PredictionError: Error {
