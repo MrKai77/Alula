@@ -45,11 +45,16 @@ class AlulaModel: ObservableObject {
     private init() {
         prepareForCameraOutput()
         handleTabChange()
+
+        Task {
+            print(try? await SupabaseBridge.shared.loadAchievements())
+            print(try? await SupabaseBridge.shared.loadUsers())
+        }
     }
 
     func handleTabChange() {
         if tab == .identify {
-            startCamera()
+//            startCamera()
         } else {
             stopCamera()
         }

@@ -39,7 +39,7 @@ class SupabaseBridge {
         }
     }
 
-    func loadFriends() async throws -> [User] {
+    func loadUsers() async throws -> [User] {
         do {
             let users: [User] = try await client
                 .from("users")
@@ -55,14 +55,18 @@ class SupabaseBridge {
     }
 }
 
-struct Achievement: Codable {
+struct Achievement: Codable, Identifiable {
     let achievement_id: Int
     let achievement_desc: String?
     let icon: Int?
     let achievement_name: String?
+
+    var id: Int {
+        achievement_id
+    }
 }
 
-struct User: Codable {
+struct User: Codable, Identifiable {
     let user_id: String
     let last_bird_name: String?
     let last_bird_id: Int?
@@ -72,6 +76,10 @@ struct User: Codable {
     let achievement_count: Int?
     let achievement_unlocked: String?
 
+    var id: String {
+        user_id
+    }
+
     func getUnlockedAchievements() -> [Int] {
         guard let unlockedAchievements = achievement_unlocked else {
             return []
@@ -80,5 +88,24 @@ struct User: Codable {
         return unlockedAchievements
             .split(separator: ",")
             .compactMap { Int($0) }
+    }
+
+    var image: Image {
+        switch user_profilepic {
+        case 1:
+            Image(.profile1)
+        case 2:
+            Image(.profile2)
+        case 3:
+            Image(.profile3)
+        case 4:
+            Image(.profile4)
+        case 5:
+            Image(.profile5)
+        case 6:
+            Image(.profile6)
+        default:
+            Image(.profile1)
+        }
     }
 }
