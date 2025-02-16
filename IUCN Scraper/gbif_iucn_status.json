@@ -1,0 +1,5792 @@
+{
+    "0": {
+        "name": "Birds",
+        "scientific_name": "Stenogobius marinus Watson, 1991",
+        "gbif_id": 2377252,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "15": {
+        "name": "Parrots",
+        "scientific_name": "Chlorurus microrhinos (Bleeker, 1854)",
+        "gbif_id": 5211130,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "23": {
+        "name": "Black-bellied Plover",
+        "scientific_name": "Pluvialis squatarola (Linnaeus, 1758)",
+        "gbif_id": 2480327,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "24": {
+        "name": "Black-bellied Whistling-Duck",
+        "scientific_name": "Dendrocygna autumnalis (Linnaeus, 1758)",
+        "gbif_id": 2498393,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "26": {
+        "name": "Semipalmated Plover",
+        "scientific_name": "Charadrius semipalmatus Bonaparte, 1825",
+        "gbif_id": 2480295,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "27": {
+        "name": "Greater White-fronted Goose",
+        "scientific_name": "Anser albifrons x caerulescens",
+        "gbif_id": 10556333,
+        "iucn_status": "Not Available"
+    },
+    "28": {
+        "name": "Black Vulture",
+        "scientific_name": "Coragyps atratus (Bechstein, 1793)",
+        "gbif_id": 2481942,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "29": {
+        "name": "American White Pelican",
+        "scientific_name": "Pelecanus erythrorhynchos Gmelin, 1789",
+        "gbif_id": 5229155,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "30": {
+        "name": "Killdeer",
+        "scientific_name": "Charadrius vociferus Linnaeus, 1758",
+        "gbif_id": 2480320,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "31": {
+        "name": "Red-headed Woodpecker",
+        "scientific_name": "Melanerpes erythrocephalus (Linnaeus, 1758)",
+        "gbif_id": 2478130,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "33": {
+        "name": "Snow Goose",
+        "scientific_name": "Anser caerulescens x canagicus",
+        "gbif_id": 10498423,
+        "iucn_status": "Not Available"
+    },
+    "34": {
+        "name": "Chimney Swift",
+        "scientific_name": "Chaetura pelagica (Linnaeus, 1758)",
+        "gbif_id": 4409023,
+        "iucn_status": "VULNERABLE"
+    },
+    "35": {
+        "name": "American Oystercatcher",
+        "scientific_name": "Haematopus palliatus Temminck, 1820",
+        "gbif_id": 2480273,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "36": {
+        "name": "Ross's Goose",
+        "scientific_name": "Anser caerulescens x rossii",
+        "gbif_id": 9826714,
+        "iucn_status": "Not Available"
+    },
+    "37": {
+        "name": "Barn Owl",
+        "scientific_name": "Tyto furcata (Temminck, 1827)",
+        "gbif_id": 9568884,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "39": {
+        "name": "Black Oystercatcher",
+        "scientific_name": "Haematopus bachmani Audubon, 1838",
+        "gbif_id": 2480272,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "40": {
+        "name": "Turkey Vulture",
+        "scientific_name": "Cathartes aura (Linnaeus, 1758)",
+        "gbif_id": 2481930,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "41": {
+        "name": "Brown Pelican",
+        "scientific_name": "Pelecanus occidentalis Linnaeus, 1766",
+        "gbif_id": 5229158,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "42": {
+        "name": "Brant",
+        "scientific_name": "Parotomys brantsii (A.Smith, 1834)",
+        "gbif_id": 2438856,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "43": {
+        "name": "Scaled Quail",
+        "scientific_name": "Callipepla squamata (Vigors, 1830)",
+        "gbif_id": 5228075,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "44": {
+        "name": "Northern Gannet",
+        "scientific_name": "Morus bassanus (Linnaeus, 1758)",
+        "gbif_id": 2480964,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "45": {
+        "name": "Rock Pigeon",
+        "scientific_name": "Petrophassa rufipennis Collett, 1898",
+        "gbif_id": 2496038,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "46": {
+        "name": "Black-necked Stilt",
+        "scientific_name": "Himantopus mexicanus (P.L.S.M\u00fcller, 1776)",
+        "gbif_id": 5229128,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "47": {
+        "name": "Acorn Woodpecker",
+        "scientific_name": "Melanerpes formicivorus (Swainson, 1827)",
+        "gbif_id": 2478133,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "49": {
+        "name": "Pied-billed Grebe",
+        "scientific_name": "Podilymbus podiceps (Linnaeus, 1758)",
+        "gbif_id": 2482077,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "50": {
+        "name": "American Avocet",
+        "scientific_name": "Recurvirostra americana J.F.Gmelin, 1789",
+        "gbif_id": 2480258,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "51": {
+        "name": "Cackling Goose",
+        "scientific_name": "Branta hutchinsii (Richardson, 1832)",
+        "gbif_id": 5232452,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "52": {
+        "name": "Vaux's Swift",
+        "scientific_name": "Chaetura vauxi (J.K.Townsend, 1839)",
+        "gbif_id": 5228612,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "53": {
+        "name": "Osprey",
+        "scientific_name": "Pandion lovensis Becker, 1985",
+        "gbif_id": 8559107,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "54": {
+        "name": "Crested Caracara",
+        "scientific_name": "Caracara plancus (J.F.Miller, 1777)",
+        "gbif_id": 2480989,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "56": {
+        "name": "Spotted Sandpiper",
+        "scientific_name": "Actitis macularius (Linnaeus, 1766)",
+        "gbif_id": 2481798,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "57": {
+        "name": "Canada Goose",
+        "scientific_name": "Branta leucopsis x canadensis",
+        "gbif_id": 9952178,
+        "iucn_status": "Not Available"
+    },
+    "58": {
+        "name": "Great Blue Heron",
+        "scientific_name": "Ardea herodias Linnaeus, 1758",
+        "gbif_id": 9630752,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "59": {
+        "name": "Solitary Sandpiper",
+        "scientific_name": "Tringa solitaria A.Wilson, 1813",
+        "gbif_id": 2481710,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "60": {
+        "name": "Mute Swan",
+        "scientific_name": "Cygnus olor (J.F.Gmelin, 1789)",
+        "gbif_id": 2498343,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "61": {
+        "name": "Purple Gallinule",
+        "scientific_name": "Porphyrio martinica (Linnaeus, 1766)",
+        "gbif_id": 5228136,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "62": {
+        "name": "Western Screech-Owl",
+        "scientific_name": "Megascops kennicottii (D.G.Elliot, 1867)",
+        "gbif_id": 2497341,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "63": {
+        "name": "Gila Woodpecker",
+        "scientific_name": "Melanerpes uropygialis (S.F.Baird, 1854)",
+        "gbif_id": 2478112,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "64": {
+        "name": "Swallows",
+        "scientific_name": "Cecropis abyssinica (Guerin-Meneville, 1843)",
+        "gbif_id": 6095032,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "65": {
+        "name": "Greater Yellowlegs",
+        "scientific_name": "Tringa melanoleuca (J.F.Gmelin, 1789)",
+        "gbif_id": 2481720,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "66": {
+        "name": "Swallow-tailed Kite",
+        "scientific_name": "Elanoides forficatus (Linnaeus, 1758)",
+        "gbif_id": 2480461,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "67": {
+        "name": "Trumpeter Swan",
+        "scientific_name": "Cygnus buccinator Richardson, 1831",
+        "gbif_id": 2498345,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "68": {
+        "name": "White-throated Swift",
+        "scientific_name": "Aeronautes saxatalis (Woodhouse, 1853)",
+        "gbif_id": 2477108,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "70": {
+        "name": "Willet",
+        "scientific_name": "Tringa semipalmata (J.F.Gmelin, 1789)",
+        "gbif_id": 5789298,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "71": {
+        "name": "Great Egret",
+        "scientific_name": "Ardea modesta J.E.Gray, 1831",
+        "gbif_id": 6066379,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "72": {
+        "name": "Tundra Swan",
+        "scientific_name": "Cygnus columbianus (Ord, 1815)",
+        "gbif_id": 2498338,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "73": {
+        "name": "California Quail",
+        "scientific_name": "Callipepla californica (Shaw, 1798)",
+        "gbif_id": 5228080,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "74": {
+        "name": "Red-throated Loon",
+        "scientific_name": "Gavia stellata (Pontoppidan, 1763)",
+        "gbif_id": 2481958,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "75": {
+        "name": "Brandt's Cormorant",
+        "scientific_name": "Urile penicillatus (J.F.Brandt, 1837)",
+        "gbif_id": 10682451,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "76": {
+        "name": "Band-tailed Pigeon",
+        "scientific_name": "Patagioenas fasciata (Say, 1822)",
+        "gbif_id": 2495266,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "77": {
+        "name": "Yellow-billed Cuckoo",
+        "scientific_name": "Coccyzus americanus (Linnaeus, 1758)",
+        "gbif_id": 2496287,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "78": {
+        "name": "Lesser Yellowlegs",
+        "scientific_name": "Tringa flavipes (J.F.Gmelin, 1789)",
+        "gbif_id": 2481721,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "79": {
+        "name": "Golden-fronted Woodpecker",
+        "scientific_name": "Melanerpes aurifrons (Wagler, 1829)",
+        "gbif_id": 2478081,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "80": {
+        "name": "Verdin",
+        "scientific_name": "Auriparus flaviceps (Sundevall, 1850)",
+        "gbif_id": 2487397,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "81": {
+        "name": "Wood Duck",
+        "scientific_name": "Aix sponsa (Linnaeus, 1758)",
+        "gbif_id": 2498387,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "82": {
+        "name": "Whimbrel",
+        "scientific_name": "Numenius phaeopus (Linnaeus, 1758)",
+        "gbif_id": 2481784,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "83": {
+        "name": "White-tailed Kite",
+        "scientific_name": "Elanus leucurus (Vieillot, 1818)",
+        "gbif_id": 2480367,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "84": {
+        "name": "Horned Grebe",
+        "scientific_name": "Podiceps auritus (Linnaeus, 1758)",
+        "gbif_id": 2482059,
+        "iucn_status": "VULNERABLE"
+    },
+    "85": {
+        "name": "Snowy Egret",
+        "scientific_name": "Egretta thula (Molina, 1782)",
+        "gbif_id": 2480873,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "86": {
+        "name": "Long-billed Curlew",
+        "scientific_name": "Numenius americanus Bechstein, 1812",
+        "gbif_id": 2481794,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "87": {
+        "name": "Gadwall",
+        "scientific_name": "Mareca strepera (Linnaeus, 1758)",
+        "gbif_id": 9362027,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "88": {
+        "name": "Eastern Screech-Owl",
+        "scientific_name": "Megascops asio (Linnaeus, 1758)",
+        "gbif_id": 2497415,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "90": {
+        "name": "Broad-billed Hummingbird",
+        "scientific_name": "Cynanthus latirostris Swainson, 1827",
+        "gbif_id": 5228542,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "91": {
+        "name": "Marbled Godwit",
+        "scientific_name": "Limosa fedoa (Linnaeus, 1758)",
+        "gbif_id": 2481684,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "92": {
+        "name": "American Wigeon",
+        "scientific_name": "Mareca americana x penelope",
+        "gbif_id": 10863734,
+        "iucn_status": "Not Available"
+    },
+    "93": {
+        "name": "Mississippi Kite",
+        "scientific_name": "Ictinia mississippiensis (A.Wilson, 1811)",
+        "gbif_id": 2480719,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "94": {
+        "name": "American Kestrel",
+        "scientific_name": "Falco sparverius Linnaeus, 1758",
+        "gbif_id": 9685907,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "95": {
+        "name": "Red-bellied Woodpecker",
+        "scientific_name": "Melanerpes carolinus (Linnaeus, 1758)",
+        "gbif_id": 2478106,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "97": {
+        "name": "Ruddy Turnstone",
+        "scientific_name": "Arenaria interpres (Linnaeus, 1758)",
+        "gbif_id": 2481776,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "98": {
+        "name": "American Black Duck",
+        "scientific_name": "Anas rubripes x platyrhynchos",
+        "gbif_id": 10324773,
+        "iucn_status": "Not Available"
+    },
+    "99": {
+        "name": "Little Blue Heron",
+        "scientific_name": "Egretta caerulea (Linnaeus, 1758)",
+        "gbif_id": 2480894,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "100": {
+        "name": "Black Turnstone",
+        "scientific_name": "Arenaria melanocephala (Vigors, 1829)",
+        "gbif_id": 5229406,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "102": {
+        "name": "Mallard",
+        "scientific_name": "Mareca strepera x Anas platyrhynchos",
+        "gbif_id": 10853972,
+        "iucn_status": "Not Available"
+    },
+    "103": {
+        "name": "Gambel's Quail",
+        "scientific_name": "Callipepla gambelii (Gambel, 1843)",
+        "gbif_id": 5228072,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "104": {
+        "name": "Neotropic Cormorant",
+        "scientific_name": "Phalacrocorax brasilianus (Gmelin, 1789)",
+        "gbif_id": 9399113,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "105": {
+        "name": "Eurasian Collared-Dove",
+        "scientific_name": "Streptopelia decaocto (Frivaldszky, 1838)",
+        "gbif_id": 2495696,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "106": {
+        "name": "Surfbird",
+        "scientific_name": "Calidris virgata (J.F.Gmelin, 1789)",
+        "gbif_id": 7964835,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "107": {
+        "name": "Ruby-throated Hummingbird",
+        "scientific_name": "Archilochus colubris (Linnaeus, 1758)",
+        "gbif_id": 5228514,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "108": {
+        "name": "Bald Eagle",
+        "scientific_name": "Haliaeetus leucocephalus (Linnaeus, 1766)",
+        "gbif_id": 2480446,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "109": {
+        "name": "Mottled Duck",
+        "scientific_name": "Anas fulvigula Ridgway, 1874",
+        "gbif_id": 2498080,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "110": {
+        "name": "Common Gallinule",
+        "scientific_name": "Gallinula chloropus (Linnaeus, 1758)",
+        "gbif_id": 5228199,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "111": {
+        "name": "Great Horned Owl",
+        "scientific_name": "Bubo virginianus (J.F.Gmelin, 1788)",
+        "gbif_id": 5959118,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "112": {
+        "name": "Yellow-bellied Sapsucker",
+        "scientific_name": "Sphyrapicus varius (Linnaeus, 1766)",
+        "gbif_id": 2478605,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "114": {
+        "name": "Sanderling",
+        "scientific_name": "Calidris alba (Pallas, 1764)",
+        "gbif_id": 2481748,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "115": {
+        "name": "Tricolored Heron",
+        "scientific_name": "Egretta tricolor (Statius Muller, 1776)",
+        "gbif_id": 2480881,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "116": {
+        "name": "Blue-winged Teal",
+        "scientific_name": "Spatula discors (Linnaeus, 1766)",
+        "gbif_id": 9422220,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "117": {
+        "name": "Semipalmated Sandpiper",
+        "scientific_name": "Calidris pusilla (Linnaeus, 1766)",
+        "gbif_id": 2481764,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "118": {
+        "name": "Red-necked Grebe",
+        "scientific_name": "Podiceps grisegena (Boddaert, 1783)",
+        "gbif_id": 2482051,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "120": {
+        "name": "Northern Harrier",
+        "scientific_name": "Circus cyaneus (Linnaeus, 1766)",
+        "gbif_id": 2480487,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "121": {
+        "name": "Western Sandpiper",
+        "scientific_name": "Calidris mauri (Cabanis, 1857)",
+        "gbif_id": 2481742,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "122": {
+        "name": "Cinnamon Teal",
+        "scientific_name": "Spatula cyanoptera (Vieillot, 1816)",
+        "gbif_id": 9345027,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "123": {
+        "name": "Black-chinned Hummingbird",
+        "scientific_name": "Archilochus alexandri (Bourcier & Mulsant, 1846)",
+        "gbif_id": 5228513,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "124": {
+        "name": "Red-naped Sapsucker",
+        "scientific_name": "Sphyrapicus nuchalis S.F.Baird, 1858",
+        "gbif_id": 9406038,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "126": {
+        "name": "Least Sandpiper",
+        "scientific_name": "Calidris minutilla (Vieillot, 1819)",
+        "gbif_id": 2481745,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "127": {
+        "name": "Reddish Egret",
+        "scientific_name": "Egretta rufescens (Gmelin, 1789)",
+        "gbif_id": 2480888,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "128": {
+        "name": "Northern Shoveler",
+        "scientific_name": "Spatula clypeata (Linnaeus, 1758)",
+        "gbif_id": 8332393,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "129": {
+        "name": "Dunlin",
+        "scientific_name": "Calidris alpina (Linnaeus, 1758)",
+        "gbif_id": 2481759,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "130": {
+        "name": "Northern Pintail",
+        "scientific_name": "Mareca penelope x Anas acuta",
+        "gbif_id": 10838105,
+        "iucn_status": "Not Available"
+    },
+    "131": {
+        "name": "Northern Bobwhite",
+        "scientific_name": "Colinus virginianus (Linnaeus, 1758)",
+        "gbif_id": 9791464,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "132": {
+        "name": "Pacific Loon",
+        "scientific_name": "Gavia pacifica (Lawrence, 1858)",
+        "gbif_id": 2481955,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "133": {
+        "name": "Wood Stork",
+        "scientific_name": "Mycteria americana Linnaeus, 1758",
+        "gbif_id": 2481937,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "134": {
+        "name": "Double-crested Cormorant",
+        "scientific_name": "Phalacrocorax auritus (Lesson, 1831)",
+        "gbif_id": 2481875,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "135": {
+        "name": "Sharp-shinned Hawk",
+        "scientific_name": "Accipiter striatus Vieillot, 1808",
+        "gbif_id": 9740253,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "136": {
+        "name": "Merlin",
+        "scientific_name": "Falco columbarius Linnaeus, 1758",
+        "gbif_id": 9813242,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "137": {
+        "name": "White-winged Dove",
+        "scientific_name": "Zenaida asiatica (Linnaeus, 1758)",
+        "gbif_id": 2495370,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "138": {
+        "name": "Monk Parakeet",
+        "scientific_name": "Myiopsitta monachus (Boddaert, 1783)",
+        "gbif_id": 2479407,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "139": {
+        "name": "Black-billed Cuckoo",
+        "scientific_name": "Coccyzus erythropthalmus (A.Wilson, 1811)",
+        "gbif_id": 2496286,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "140": {
+        "name": "Snowy Owl",
+        "scientific_name": "Bubo scandiacus (Linnaeus, 1758)",
+        "gbif_id": 5959143,
+        "iucn_status": "VULNERABLE"
+    },
+    "141": {
+        "name": "Common Nighthawk",
+        "scientific_name": "Chordeiles minor (J.R.Forster, 1771)",
+        "gbif_id": 2497035,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "142": {
+        "name": "Belted Kingfisher",
+        "scientific_name": "Megaceryle alcyon (Linnaeus, 1758)",
+        "gbif_id": 2475472,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "144": {
+        "name": "Black Guillemot",
+        "scientific_name": "Cepphus grylle (Linnaeus, 1758)",
+        "gbif_id": 2481312,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "145": {
+        "name": "Black-legged Kittiwake",
+        "scientific_name": "Rissa tridactyla (Linnaeus, 1758)",
+        "gbif_id": 2481205,
+        "iucn_status": "VULNERABLE"
+    },
+    "146": {
+        "name": "Short-billed Dowitcher",
+        "scientific_name": "Limnodromus griseus (J.F.Gmelin, 1789)",
+        "gbif_id": 2481672,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "147": {
+        "name": "Green-winged Teal",
+        "scientific_name": "Anas crecca x carolinensis",
+        "gbif_id": 9870452,
+        "iucn_status": "Not Available"
+    },
+    "148": {
+        "name": "Cattle Egret",
+        "scientific_name": "Bubulcus coromandus (Boddaert, 1783)",
+        "gbif_id": 6066393,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "149": {
+        "name": "Wilson's Snipe",
+        "scientific_name": "Gallinago delicata (Ord, 1825)",
+        "gbif_id": 2481817,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "150": {
+        "name": "Red-breasted Sapsucker",
+        "scientific_name": "Sphyrapicus ruber (J.F.Gmelin, 1788)",
+        "gbif_id": 2478597,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "152": {
+        "name": "Anna's Hummingbird",
+        "scientific_name": "Calypte anna (R.Lesson, 1829)",
+        "gbif_id": 2476674,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "153": {
+        "name": "Canvasback",
+        "scientific_name": "Aythya valisineria (A.Wilson, 1814)",
+        "gbif_id": 2498256,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "154": {
+        "name": "American Woodcock",
+        "scientific_name": "Scolopax minor J.F.Gmelin, 1789",
+        "gbif_id": 2481695,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "155": {
+        "name": "Cooper's Hawk",
+        "scientific_name": "Accipiter cooperii (Bonaparte, 1828)",
+        "gbif_id": 2480621,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "157": {
+        "name": "Eared Grebe",
+        "scientific_name": "Podiceps nigricollis C.L.Brehm, 1831",
+        "gbif_id": 2482065,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "158": {
+        "name": "Wilson's Phalarope",
+        "scientific_name": "Phalaropus tricolor (Vieillot, 1819)",
+        "gbif_id": 5229389,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "159": {
+        "name": "Redhead",
+        "scientific_name": "Paragobiodon echinocephalus (R\u00fcppell, 1830)",
+        "gbif_id": 2378093,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "160": {
+        "name": "Green Heron",
+        "scientific_name": "Butorides virescens (Linnaeus, 1758)",
+        "gbif_id": 9539567,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "161": {
+        "name": "Ring-necked Duck",
+        "scientific_name": "Aythya fuligula x collaris",
+        "gbif_id": 10545600,
+        "iucn_status": "Not Available"
+    },
+    "162": {
+        "name": "American Coot",
+        "scientific_name": "Fulica americana Gmelin, 1789",
+        "gbif_id": 2474393,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "163": {
+        "name": "Northern Pygmy-Owl",
+        "scientific_name": "Glaucidium californicum P.L.Sclater, 1857",
+        "gbif_id": 5232157,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "164": {
+        "name": "Ladder-backed Woodpecker",
+        "scientific_name": "Dryobates scalaris (Wagler, 1829)",
+        "gbif_id": 8959883,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "166": {
+        "name": "Harris's Hawk",
+        "scientific_name": "Parabuteo unicinctus (Temminck, 1824)",
+        "gbif_id": 2480410,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "167": {
+        "name": "Costa's Hummingbird",
+        "scientific_name": "Calypte costae (Bourcier, 1839)",
+        "gbif_id": 2476675,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "168": {
+        "name": "Greater Scaup",
+        "scientific_name": "Aythya fuligula x marila",
+        "gbif_id": 10382597,
+        "iucn_status": "Not Available"
+    },
+    "169": {
+        "name": "Ring-necked Pheasant",
+        "scientific_name": "Phasianus colchicus Linnaeus, 1758",
+        "gbif_id": 9752149,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "170": {
+        "name": "Great Cormorant",
+        "scientific_name": "Phalacrocorax carbo (Linnaeus, 1758)",
+        "gbif_id": 2481890,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "171": {
+        "name": "Mourning Dove",
+        "scientific_name": "Zenaida macroura (Linnaeus, 1758)",
+        "gbif_id": 2495347,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "173": {
+        "name": "Black-crowned Night-Heron",
+        "scientific_name": "Nycticorax nycticorax (Linnaeus, 1758)",
+        "gbif_id": 2480863,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "174": {
+        "name": "Lesser Scaup",
+        "scientific_name": "Aythya affinis (Eyton, 1838)",
+        "gbif_id": 2498257,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "175": {
+        "name": "Red-shouldered Hawk",
+        "scientific_name": "Buteo lineatus (Gmelin, 1788)",
+        "gbif_id": 2480529,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "176": {
+        "name": "Peregrine Falcon",
+        "scientific_name": "Falco peregrinus Tunstall, 1771",
+        "gbif_id": 2481047,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "177": {
+        "name": "Nuttall's Woodpecker",
+        "scientific_name": "Dryobates nuttallii (Gambel, 1843)",
+        "gbif_id": 9088491,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "179": {
+        "name": "Common Eider",
+        "scientific_name": "Somateria mollissima (Linnaeus, 1758)",
+        "gbif_id": 2498352,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "180": {
+        "name": "Calliope Hummingbird",
+        "scientific_name": "Selasphorus calliope (Gould, 1847)",
+        "gbif_id": 7597244,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "181": {
+        "name": "Harlequin Duck",
+        "scientific_name": "Histrionicus histrionicus (Linnaeus, 1758)",
+        "gbif_id": 2498224,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "182": {
+        "name": "Burrowing Owl",
+        "scientific_name": "Athene cunicularia (Molina, 1782)",
+        "gbif_id": 2497240,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "184": {
+        "name": "Yellow-crowned Night-Heron",
+        "scientific_name": "Nyctanassa violacea (Linnaeus, 1758)",
+        "gbif_id": 2480953,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "185": {
+        "name": "Western Grebe",
+        "scientific_name": "Aechmophorus occidentalis (Lawrence, 1858)",
+        "gbif_id": 2482033,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "186": {
+        "name": "Broad-winged Hawk",
+        "scientific_name": "Buteo platypterus (Vieillot, 1823)",
+        "gbif_id": 2480538,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "187": {
+        "name": "Surf Scoter",
+        "scientific_name": "Melanitta perspicillata (Linnaeus, 1758)",
+        "gbif_id": 2498246,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "188": {
+        "name": "Downy Woodpecker",
+        "scientific_name": "Dryobates pubescens (Linnaeus, 1766)",
+        "gbif_id": 9149595,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "189": {
+        "name": "Silky-Flycatchers",
+        "scientific_name": "Phalanger sericeus Thomas, 1907",
+        "gbif_id": 2440262,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "190": {
+        "name": "Pigeon Guillemot",
+        "scientific_name": "Cepphus columba Pallas, 1811",
+        "gbif_id": 9315520,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "191": {
+        "name": "Bonaparte's Gull",
+        "scientific_name": "Chroicocephalus philadelphia (Ord, 1815)",
+        "gbif_id": 6065818,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "192": {
+        "name": "White-winged Scoter",
+        "scientific_name": "Melanitta deglandi (Bonaparte, 1850)",
+        "gbif_id": 2498243,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "193": {
+        "name": "Ruffed Grouse",
+        "scientific_name": "Bonasa umbellus (Linnaeus, 1766)",
+        "gbif_id": 2473702,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "194": {
+        "name": "Common Loon",
+        "scientific_name": "Gavia immer (Brunnich, 1764)",
+        "gbif_id": 2481962,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "195": {
+        "name": "Pelagic Cormorant",
+        "scientific_name": "Phalacrocorax pelagicus Pallas, 1811",
+        "gbif_id": 2481870,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "196": {
+        "name": "Inca Dove",
+        "scientific_name": "Columbina inca (R.Lesson, 1847)",
+        "gbif_id": 2495863,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "197": {
+        "name": "Greater Roadrunner",
+        "scientific_name": "Geococcyx californianus (Lesson, 1829)",
+        "gbif_id": 2496459,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "198": {
+        "name": "White Ibis",
+        "scientific_name": "Threskiornis molucca (Cuvier, 1829)",
+        "gbif_id": 2480765,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "200": {
+        "name": "Broad-tailed Hummingbird",
+        "scientific_name": "Selasphorus platycercus (Swainson, 1827)",
+        "gbif_id": 2476844,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "201": {
+        "name": "Black Scoter",
+        "scientific_name": "Melanitta nigra (Linnaeus, 1758)",
+        "gbif_id": 2498247,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "202": {
+        "name": "Swainson's Hawk",
+        "scientific_name": "Buteo swainsoni Bonaparte, 1838",
+        "gbif_id": 2480562,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "203": {
+        "name": "Long-tailed Duck",
+        "scientific_name": "Clangula hyemalis (Linnaeus, 1758)",
+        "gbif_id": 2498273,
+        "iucn_status": "VULNERABLE"
+    },
+    "204": {
+        "name": "Sandhill Crane",
+        "scientific_name": "Grus canadensis (Linnaeus, 1758)",
+        "gbif_id": 2474953,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "205": {
+        "name": "Barred Owl",
+        "scientific_name": "Strix varia Barton, 1799",
+        "gbif_id": 2497541,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "206": {
+        "name": "Hairy Woodpecker",
+        "scientific_name": "Leuconotopicus villosus (Linnaeus, 1766)",
+        "gbif_id": 9192501,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "207": {
+        "name": "Wood-Warblers",
+        "scientific_name": "Lithobates sylvaticus (LeConte, 1825)",
+        "gbif_id": 2427072,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "208": {
+        "name": "Glossy Ibis",
+        "scientific_name": "Plegadis falcinellus (Linnaeus, 1766)",
+        "gbif_id": 2480773,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "209": {
+        "name": "Bufflehead",
+        "scientific_name": "Osmia bucephala Cresson, 1864",
+        "gbif_id": 5039079,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "210": {
+        "name": "Red-tailed Hawk",
+        "scientific_name": "Buteo jamaicensis (Gmelin, 1788)",
+        "gbif_id": 2480542,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "211": {
+        "name": "Prairie Falcon",
+        "scientific_name": "Falco mexicanus Schlegel, 1850",
+        "gbif_id": 2481000,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "213": {
+        "name": "Rufous Hummingbird",
+        "scientific_name": "Selasphorus rufus (J.F.Gmelin, 1788)",
+        "gbif_id": 2476855,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "214": {
+        "name": "Common Goldeneye",
+        "scientific_name": "Bucephala clangula (Linnaeus, 1758)",
+        "gbif_id": 2498326,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "215": {
+        "name": "Clark's Grebe",
+        "scientific_name": "Aechmophorus clarkii (Lawrence, 1858)",
+        "gbif_id": 2482032,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "216": {
+        "name": "Northern Flicker",
+        "scientific_name": "Colaptes auratus (Linnaeus, 1758)",
+        "gbif_id": 2478259,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "218": {
+        "name": "Laughing Gull",
+        "scientific_name": "Leucophaeus atricilla (Linnaeus, 1758)",
+        "gbif_id": 6065844,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "219": {
+        "name": "Barrow's Goldeneye",
+        "scientific_name": "Bucephala islandica (J.F.Gmelin, 1789)",
+        "gbif_id": 2498325,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "220": {
+        "name": "Wild Turkey",
+        "scientific_name": "Meleagris gallopavo Linnaeus, 1758",
+        "gbif_id": 9606290,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "221": {
+        "name": "Anhinga",
+        "scientific_name": "Anhinga anhinga (Linnaeus, 1766)",
+        "gbif_id": 2482082,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "222": {
+        "name": "Common Ground-Dove",
+        "scientific_name": "Columbina passerina (Linnaeus, 1758)",
+        "gbif_id": 2495869,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "223": {
+        "name": "White-faced Ibis",
+        "scientific_name": "Plegadis chihi (Vieillot, 1817)",
+        "gbif_id": 9375033,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "224": {
+        "name": "Rough-legged Hawk",
+        "scientific_name": "Buteo lagopus (Pontoppidan, 1763)",
+        "gbif_id": 2480524,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "225": {
+        "name": "Hooded Merganser",
+        "scientific_name": "Lophodytes cucullatus (Linnaeus, 1758)",
+        "gbif_id": 2498408,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "226": {
+        "name": "Northern Saw-whet Owl",
+        "scientific_name": "Aegolius acadicus (J.F.Gmelin, 1788)",
+        "gbif_id": 5232207,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "228": {
+        "name": "Allen's Hummingbird",
+        "scientific_name": "Selasphorus sasin (R.Lesson, 1829)",
+        "gbif_id": 2476852,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "229": {
+        "name": "Common Merganser",
+        "scientific_name": "Mergus merganser Linnaeus, 1758",
+        "gbif_id": 9537647,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "230": {
+        "name": "Pileated Woodpecker",
+        "scientific_name": "Dryocopus pileatus (Linnaeus, 1758)",
+        "gbif_id": 5228824,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "232": {
+        "name": "Heermann's Gull",
+        "scientific_name": "Larus heermanni Cassin, 1852",
+        "gbif_id": 2481130,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "233": {
+        "name": "Roseate Spoonbill",
+        "scientific_name": "Platalea ajaja Linnaeus, 1758",
+        "gbif_id": 2480803,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "234": {
+        "name": "Golden Eagle",
+        "scientific_name": "Aquila bivia Emslie & Czaplewski, 1999",
+        "gbif_id": 8482549,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "235": {
+        "name": "Red-breasted Merganser",
+        "scientific_name": "Mergus serrator Linnaeus, 1758",
+        "gbif_id": 2498375,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "237": {
+        "name": "Mew Gull",
+        "scientific_name": "Ichthyaetus melanocephalus x Larus canus",
+        "gbif_id": 10528985,
+        "iucn_status": "Not Available"
+    },
+    "238": {
+        "name": "Ruddy Duck",
+        "scientific_name": "Oxyura jamaicensis (J.F.Gmelin, 1789)",
+        "gbif_id": 2498305,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "239": {
+        "name": "Western Gull",
+        "scientific_name": "Larus occidentalis Audubon, 1839",
+        "gbif_id": 9656686,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "240": {
+        "name": "Ring-billed Gull",
+        "scientific_name": "Larus delawarensis Ord, 1815",
+        "gbif_id": 2481134,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "241": {
+        "name": "California Gull",
+        "scientific_name": "Larus californicus Lawrence, 1854",
+        "gbif_id": 2481146,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "242": {
+        "name": "Herring Gull",
+        "scientific_name": "Larus smithsonianus Coues, 1862",
+        "gbif_id": 4848480,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "243": {
+        "name": "Glaucous-winged Gull",
+        "scientific_name": "Larus glaucescens J.F.Naumann, 1840",
+        "gbif_id": 2481196,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "244": {
+        "name": "Great Black-backed Gull",
+        "scientific_name": "Larus argentatus x marinus",
+        "gbif_id": 10305684,
+        "iucn_status": "Not Available"
+    },
+    "245": {
+        "name": "Caspian Tern",
+        "scientific_name": "Hydroprogne caspia (Pallas, 1770)",
+        "gbif_id": 2481236,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "246": {
+        "name": "Black Tern",
+        "scientific_name": "Chlidonias niger (Linnaeus, 1758)",
+        "gbif_id": 2481119,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "247": {
+        "name": "Common Tern",
+        "scientific_name": "Sterna hirundo Linnaeus, 1758",
+        "gbif_id": 9367409,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "248": {
+        "name": "Forster's Tern",
+        "scientific_name": "Sterna forsteri Nuttall, 1834",
+        "gbif_id": 5229247,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "249": {
+        "name": "Royal Tern",
+        "scientific_name": "Thalasseus maximus (Boddaert, 1783)",
+        "gbif_id": 5789281,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "250": {
+        "name": "Black Skimmer",
+        "scientific_name": "Rynchops niger Linnaeus, 1758",
+        "gbif_id": 2481209,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "251": {
+        "name": "Ovenbird",
+        "scientific_name": "Seiurus aurocapilla (Linnaeus, 1766)",
+        "gbif_id": 2489590,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "252": {
+        "name": "Green-tailed Towhee",
+        "scientific_name": "Pipilo chlorurus (Audubon, 1839)",
+        "gbif_id": 2491276,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "253": {
+        "name": "Louisiana Waterthrush",
+        "scientific_name": "Parkesia motacilla (Vieillot, 1809)",
+        "gbif_id": 6093862,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "254": {
+        "name": "Bobolink",
+        "scientific_name": "Dolichonyx oryzivorus (Linnaeus, 1758)",
+        "gbif_id": 2484417,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "255": {
+        "name": "Gray-crowned Rosy-Finch",
+        "scientific_name": "Leucosticte tephrocotis (Swainson, 1832)",
+        "gbif_id": 2494360,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "256": {
+        "name": "Western Wood-Pewee",
+        "scientific_name": "Contopus sordidulus P.L.Sclater, 1859",
+        "gbif_id": 5229754,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "257": {
+        "name": "Gray Jay",
+        "scientific_name": "Perisoreus canadensis (Linnaeus, 1766)",
+        "gbif_id": 2482436,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "258": {
+        "name": "Spotted Towhee",
+        "scientific_name": "Pipilo maculatus Swainson, 1827",
+        "gbif_id": 9709230,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "259": {
+        "name": "Summer Tanager",
+        "scientific_name": "Piranga rubra (Linnaeus, 1758)",
+        "gbif_id": 2488485,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "260": {
+        "name": "Northern Waterthrush",
+        "scientific_name": "Parkesia noveboracensis (J.F.Gmelin, 1789)",
+        "gbif_id": 6093856,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "261": {
+        "name": "Carolina Chickadee",
+        "scientific_name": "Poecile carolinensis (Audubon, 1834)",
+        "gbif_id": 2487844,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "262": {
+        "name": "Eastern Bluebird",
+        "scientific_name": "Sialia sialis (Linnaeus, 1758)",
+        "gbif_id": 2490941,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "263": {
+        "name": "White-eyed Vireo",
+        "scientific_name": "Vireo griseus (Boddaert, 1783)",
+        "gbif_id": 2487413,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "264": {
+        "name": "Purple Martin",
+        "scientific_name": "Progne subis (Linnaeus, 1758)",
+        "gbif_id": 2489129,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "265": {
+        "name": "Cactus Wren",
+        "scientific_name": "Campylorhynchus brunneicapillus (Lafresnaye, 1835)",
+        "gbif_id": 5231474,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "266": {
+        "name": "Blue-winged Warbler",
+        "scientific_name": "Vermivora cyanoptera Olson & Reveal, 2009",
+        "gbif_id": 6093846,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "267": {
+        "name": "Eastern Towhee",
+        "scientific_name": "Pipilo erythrophthalmus (Linnaeus, 1758)",
+        "gbif_id": 2491205,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "268": {
+        "name": "Red-winged Blackbird",
+        "scientific_name": "Agelaius phoeniceus (Linnaeus, 1766)",
+        "gbif_id": 9409198,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "269": {
+        "name": "Black Rosy-Finch",
+        "scientific_name": "Leucosticte atrata Ridgway, 1874",
+        "gbif_id": 2494372,
+        "iucn_status": "ENDANGERED"
+    },
+    "270": {
+        "name": "Eastern Wood-Pewee",
+        "scientific_name": "Contopus virens (Linnaeus, 1766)",
+        "gbif_id": 5229734,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "271": {
+        "name": "Steller's Jay",
+        "scientific_name": "Cyanocitta stelleri (Gmelin, 1788)",
+        "gbif_id": 2482598,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "272": {
+        "name": "Black-and-white Warbler",
+        "scientific_name": "Mniotilta varia (Linnaeus, 1766)",
+        "gbif_id": 2489613,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "273": {
+        "name": "Rufous-crowned Sparrow",
+        "scientific_name": "Aimophila ruficeps (Cassin, 1852)",
+        "gbif_id": 2491961,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "274": {
+        "name": "Scarlet Tanager",
+        "scientific_name": "Piranga olivacea (J.F.Gmelin, 1789)",
+        "gbif_id": 2488517,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "275": {
+        "name": "Gray Catbird",
+        "scientific_name": "Dumetella carolinensis (Linnaeus, 1766)",
+        "gbif_id": 2494936,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "276": {
+        "name": "Prothonotary Warbler",
+        "scientific_name": "Protonotaria citrea (Boddaert, 1783)",
+        "gbif_id": 2489871,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "277": {
+        "name": "Eastern Meadowlark",
+        "scientific_name": "Sturnella magna (Linnaeus, 1758)",
+        "gbif_id": 2484254,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "278": {
+        "name": "Black-capped Chickadee",
+        "scientific_name": "Poecile atricapillus (Linnaeus, 1766)",
+        "gbif_id": 2487805,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "279": {
+        "name": "Western Bluebird",
+        "scientific_name": "Sialia mexicana Swainson, 1832",
+        "gbif_id": 2490936,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "280": {
+        "name": "Brown-capped Rosy-Finch",
+        "scientific_name": "Leucosticte australis Ridgway, 1874",
+        "gbif_id": 2494359,
+        "iucn_status": "ENDANGERED"
+    },
+    "281": {
+        "name": "Least Flycatcher",
+        "scientific_name": "Empidonax minimus (W.M.Baird & S.F.Baird, 1843)",
+        "gbif_id": 2482791,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "282": {
+        "name": "Canyon Towhee",
+        "scientific_name": "Melozone fusca (Swainson, 1827)",
+        "gbif_id": 7341622,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "283": {
+        "name": "Tennessee Warbler",
+        "scientific_name": "Leiothlypis peregrina (A.Wilson, 1811)",
+        "gbif_id": 7415507,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "284": {
+        "name": "Red-breasted Nuthatch",
+        "scientific_name": "Sitta canadensis Linnaeus, 1766",
+        "gbif_id": 2484879,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "285": {
+        "name": "Bell's Vireo",
+        "scientific_name": "Vireo bellii Audubon, 1844",
+        "gbif_id": 2487441,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "286": {
+        "name": "Blue Jay",
+        "scientific_name": "Cyanocitta cristata (Linnaeus, 1758)",
+        "gbif_id": 2482593,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "287": {
+        "name": "Tree Swallow",
+        "scientific_name": "Tachycineta speleodytes Brodkorb, 1957",
+        "gbif_id": 8694402,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "288": {
+        "name": "Canyon Wren",
+        "scientific_name": "Catherpes mexicanus (Swainson, 1829)",
+        "gbif_id": 5231430,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "289": {
+        "name": "Orange-crowned Warbler",
+        "scientific_name": "Leiothlypis celata (Say, 1822)",
+        "gbif_id": 8169649,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "290": {
+        "name": "California Towhee",
+        "scientific_name": "Melozone crissalis (Vigors, 1839)",
+        "gbif_id": 7341600,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "291": {
+        "name": "Western Tanager",
+        "scientific_name": "Piranga ludoviciana (A.Wilson, 1811)",
+        "gbif_id": 2488484,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "292": {
+        "name": "Western Meadowlark",
+        "scientific_name": "Sturnella neglecta Audubon, 1844",
+        "gbif_id": 9596413,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "293": {
+        "name": "Nashville Warbler",
+        "scientific_name": "Leiothlypis ruficapilla (A.Wilson, 1811)",
+        "gbif_id": 7531611,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "294": {
+        "name": "Pine Grosbeak",
+        "scientific_name": "Pinicola enucleator (Linnaeus, 1758)",
+        "gbif_id": 2494771,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "295": {
+        "name": "Common Eider",
+        "scientific_name": "Somateria mollissima (Linnaeus, 1758)",
+        "gbif_id": 2498352,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "296": {
+        "name": "Long-tailed Duck",
+        "scientific_name": "Clangula hyemalis (Linnaeus, 1758)",
+        "gbif_id": 2498273,
+        "iucn_status": "VULNERABLE"
+    },
+    "297": {
+        "name": "Ruddy Duck",
+        "scientific_name": "Oxyura jamaicensis (J.F.Gmelin, 1789)",
+        "gbif_id": 2498305,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "298": {
+        "name": "Swainson's Hawk",
+        "scientific_name": "Buteo swainsoni Bonaparte, 1838",
+        "gbif_id": 2480562,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "299": {
+        "name": "Red-tailed Hawk",
+        "scientific_name": "Buteo jamaicensis (Gmelin, 1788)",
+        "gbif_id": 2480542,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "300": {
+        "name": "Pacific-slope Flycatcher",
+        "scientific_name": "Empidonax difficilis S.F.Baird, 1858",
+        "gbif_id": 9568685,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "301": {
+        "name": "Florida Scrub-Jay",
+        "scientific_name": "Aphelocoma coerulescens (Bosc, 1795)",
+        "gbif_id": 2482400,
+        "iucn_status": "VULNERABLE"
+    },
+    "302": {
+        "name": "Abert's Towhee",
+        "scientific_name": "Melozone aberti (S.F.Baird, 1852)",
+        "gbif_id": 7341587,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "303": {
+        "name": "Mountain Chickadee",
+        "scientific_name": "Poecile gambeli (Ridgway, 1886)",
+        "gbif_id": 2487825,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "304": {
+        "name": "Mountain Bluebird",
+        "scientific_name": "Sialia currucoides (Bechstein, 1798)",
+        "gbif_id": 2490935,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "305": {
+        "name": "MacGillivray's Warbler",
+        "scientific_name": "Geothlypis tolmiei (J.K.Townsend, 1839)",
+        "gbif_id": 5789146,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "306": {
+        "name": "Yellow-headed Blackbird",
+        "scientific_name": "Xanthocephalus xanthocephalus (Bonaparte, 1826)",
+        "gbif_id": 2484195,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "307": {
+        "name": "Yellow-throated Vireo",
+        "scientific_name": "Vireo flavifrons Vieillot, 1808",
+        "gbif_id": 2487453,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "308": {
+        "name": "Mourning Warbler",
+        "scientific_name": "Geothlypis philadelphia (A.Wilson, 1810)",
+        "gbif_id": 5789148,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "309": {
+        "name": "American Tree Sparrow",
+        "scientific_name": "Spizelloides arborea (A.Wilson, 1810)",
+        "gbif_id": 7357320,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "310": {
+        "name": "Northern Cardinal",
+        "scientific_name": "Cardinalis cardinalis (Linnaeus, 1758)",
+        "gbif_id": 2490384,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "311": {
+        "name": "Purple Finch",
+        "scientific_name": "Haemorhous purpureus (J.F.Gmelin, 1789)",
+        "gbif_id": 7804446,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "312": {
+        "name": "Cordilleran Flycatcher",
+        "scientific_name": "Empidonax occidentalis Nelson, 1897",
+        "gbif_id": 2482805,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "313": {
+        "name": "Snow Goose",
+        "scientific_name": "Anser caerulescens x canagicus",
+        "gbif_id": 10498423,
+        "iucn_status": "Not Available"
+    },
+    "314": {
+        "name": "Wood Duck",
+        "scientific_name": "Aix sponsa (Linnaeus, 1758)",
+        "gbif_id": 2498387,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "315": {
+        "name": "Gadwall",
+        "scientific_name": "Mareca strepera (Linnaeus, 1758)",
+        "gbif_id": 9362027,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "316": {
+        "name": "American Wigeon",
+        "scientific_name": "Mareca americana x penelope",
+        "gbif_id": 10863734,
+        "iucn_status": "Not Available"
+    },
+    "317": {
+        "name": "Mallard",
+        "scientific_name": "Mareca strepera x Anas platyrhynchos",
+        "gbif_id": 10853972,
+        "iucn_status": "Not Available"
+    },
+    "318": {
+        "name": "Blue-winged Teal",
+        "scientific_name": "Spatula discors (Linnaeus, 1766)",
+        "gbif_id": 9422220,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "319": {
+        "name": "Cinnamon Teal",
+        "scientific_name": "Spatula cyanoptera (Vieillot, 1816)",
+        "gbif_id": 9345027,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "320": {
+        "name": "Northern Shoveler",
+        "scientific_name": "Spatula clypeata (Linnaeus, 1758)",
+        "gbif_id": 8332393,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "321": {
+        "name": "Northern Pintail",
+        "scientific_name": "Mareca penelope x Anas acuta",
+        "gbif_id": 10838105,
+        "iucn_status": "Not Available"
+    },
+    "322": {
+        "name": "Green-winged Teal",
+        "scientific_name": "Anas crecca x carolinensis",
+        "gbif_id": 9870452,
+        "iucn_status": "Not Available"
+    },
+    "323": {
+        "name": "Canvasback",
+        "scientific_name": "Aythya valisineria (A.Wilson, 1814)",
+        "gbif_id": 2498256,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "324": {
+        "name": "Redhead",
+        "scientific_name": "Paragobiodon echinocephalus (R\u00fcppell, 1830)",
+        "gbif_id": 2378093,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "325": {
+        "name": "Ring-necked Duck",
+        "scientific_name": "Aythya fuligula x collaris",
+        "gbif_id": 10545600,
+        "iucn_status": "Not Available"
+    },
+    "326": {
+        "name": "Greater Scaup",
+        "scientific_name": "Aythya fuligula x marila",
+        "gbif_id": 10382597,
+        "iucn_status": "Not Available"
+    },
+    "327": {
+        "name": "Lesser Scaup",
+        "scientific_name": "Aythya affinis (Eyton, 1838)",
+        "gbif_id": 2498257,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "328": {
+        "name": "Harlequin Duck",
+        "scientific_name": "Histrionicus histrionicus (Linnaeus, 1758)",
+        "gbif_id": 2498224,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "329": {
+        "name": "Surf Scoter",
+        "scientific_name": "Melanitta perspicillata (Linnaeus, 1758)",
+        "gbif_id": 2498246,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "330": {
+        "name": "White-winged Scoter",
+        "scientific_name": "Melanitta deglandi (Bonaparte, 1850)",
+        "gbif_id": 2498243,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "331": {
+        "name": "Black Scoter",
+        "scientific_name": "Melanitta nigra (Linnaeus, 1758)",
+        "gbif_id": 2498247,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "332": {
+        "name": "Bufflehead",
+        "scientific_name": "Osmia bucephala Cresson, 1864",
+        "gbif_id": 5039079,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "333": {
+        "name": "Common Goldeneye",
+        "scientific_name": "Bucephala clangula (Linnaeus, 1758)",
+        "gbif_id": 2498326,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "334": {
+        "name": "Barrow's Goldeneye",
+        "scientific_name": "Bucephala islandica (J.F.Gmelin, 1789)",
+        "gbif_id": 2498325,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "335": {
+        "name": "Hooded Merganser",
+        "scientific_name": "Lophodytes cucullatus (Linnaeus, 1758)",
+        "gbif_id": 2498408,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "336": {
+        "name": "Common Merganser",
+        "scientific_name": "Mergus merganser Linnaeus, 1758",
+        "gbif_id": 9537647,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "337": {
+        "name": "Red-breasted Merganser",
+        "scientific_name": "Mergus serrator Linnaeus, 1758",
+        "gbif_id": 2498375,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "338": {
+        "name": "California Quail",
+        "scientific_name": "Callipepla californica (Shaw, 1798)",
+        "gbif_id": 5228080,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "339": {
+        "name": "Gambel's Quail",
+        "scientific_name": "Callipepla gambelii (Gambel, 1843)",
+        "gbif_id": 5228072,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "340": {
+        "name": "Ring-necked Pheasant",
+        "scientific_name": "Phasianus colchicus Linnaeus, 1758",
+        "gbif_id": 9752149,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "341": {
+        "name": "Red-throated Loon",
+        "scientific_name": "Gavia stellata (Pontoppidan, 1763)",
+        "gbif_id": 2481958,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "342": {
+        "name": "Pacific Loon",
+        "scientific_name": "Gavia pacifica (Lawrence, 1858)",
+        "gbif_id": 2481955,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "343": {
+        "name": "Common Loon",
+        "scientific_name": "Gavia immer (Brunnich, 1764)",
+        "gbif_id": 2481962,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "344": {
+        "name": "Horned Grebe",
+        "scientific_name": "Podiceps auritus (Linnaeus, 1758)",
+        "gbif_id": 2482059,
+        "iucn_status": "VULNERABLE"
+    },
+    "345": {
+        "name": "Red-necked Grebe",
+        "scientific_name": "Podiceps grisegena (Boddaert, 1783)",
+        "gbif_id": 2482051,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "346": {
+        "name": "Eared Grebe",
+        "scientific_name": "Podiceps nigricollis C.L.Brehm, 1831",
+        "gbif_id": 2482065,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "347": {
+        "name": "Northern Gannet",
+        "scientific_name": "Morus bassanus (Linnaeus, 1758)",
+        "gbif_id": 2480964,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "348": {
+        "name": "Double-crested Cormorant",
+        "scientific_name": "Phalacrocorax auritus (Lesson, 1831)",
+        "gbif_id": 2481875,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "349": {
+        "name": "Great Cormorant",
+        "scientific_name": "Phalacrocorax carbo (Linnaeus, 1758)",
+        "gbif_id": 2481890,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "350": {
+        "name": "Little Blue Heron",
+        "scientific_name": "Egretta caerulea (Linnaeus, 1758)",
+        "gbif_id": 2480894,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "351": {
+        "name": "Reddish Egret",
+        "scientific_name": "Egretta rufescens (Gmelin, 1789)",
+        "gbif_id": 2480888,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "352": {
+        "name": "Black-crowned Night-Heron",
+        "scientific_name": "Nycticorax nycticorax (Linnaeus, 1758)",
+        "gbif_id": 2480863,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "353": {
+        "name": "Yellow-crowned Night-Heron",
+        "scientific_name": "Nyctanassa violacea (Linnaeus, 1758)",
+        "gbif_id": 2480953,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "354": {
+        "name": "White Ibis",
+        "scientific_name": "Threskiornis molucca (Cuvier, 1829)",
+        "gbif_id": 2480765,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "355": {
+        "name": "Bald Eagle",
+        "scientific_name": "Haliaeetus leucocephalus (Linnaeus, 1766)",
+        "gbif_id": 2480446,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "356": {
+        "name": "Northern Harrier",
+        "scientific_name": "Circus cyaneus (Linnaeus, 1766)",
+        "gbif_id": 2480487,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "357": {
+        "name": "Sharp-shinned Hawk",
+        "scientific_name": "Accipiter striatus Vieillot, 1808",
+        "gbif_id": 9740253,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "358": {
+        "name": "Cooper's Hawk",
+        "scientific_name": "Accipiter cooperii (Bonaparte, 1828)",
+        "gbif_id": 2480621,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "359": {
+        "name": "Red-shouldered Hawk",
+        "scientific_name": "Buteo lineatus (Gmelin, 1788)",
+        "gbif_id": 2480529,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "360": {
+        "name": "Broad-winged Hawk",
+        "scientific_name": "Buteo platypterus (Vieillot, 1823)",
+        "gbif_id": 2480538,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "361": {
+        "name": "Rough-legged Hawk",
+        "scientific_name": "Buteo lagopus (Pontoppidan, 1763)",
+        "gbif_id": 2480524,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "362": {
+        "name": "Golden Eagle",
+        "scientific_name": "Aquila bivia Emslie & Czaplewski, 1999",
+        "gbif_id": 8482549,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "363": {
+        "name": "American Kestrel",
+        "scientific_name": "Falco sparverius Linnaeus, 1758",
+        "gbif_id": 9685907,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "364": {
+        "name": "Peregrine Falcon",
+        "scientific_name": "Falco peregrinus Tunstall, 1771",
+        "gbif_id": 2481047,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "365": {
+        "name": "Purple Gallinule",
+        "scientific_name": "Porphyrio martinica (Linnaeus, 1766)",
+        "gbif_id": 5228136,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "366": {
+        "name": "Common Gallinule",
+        "scientific_name": "Gallinula chloropus (Linnaeus, 1758)",
+        "gbif_id": 5228199,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "367": {
+        "name": "Black-bellied Plover",
+        "scientific_name": "Pluvialis squatarola (Linnaeus, 1758)",
+        "gbif_id": 2480327,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "368": {
+        "name": "Spotted Sandpiper",
+        "scientific_name": "Actitis macularius (Linnaeus, 1766)",
+        "gbif_id": 2481798,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "369": {
+        "name": "Sanderling",
+        "scientific_name": "Calidris alba (Pallas, 1764)",
+        "gbif_id": 2481748,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "370": {
+        "name": "Dunlin",
+        "scientific_name": "Calidris alpina (Linnaeus, 1758)",
+        "gbif_id": 2481759,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "371": {
+        "name": "Wilson's Phalarope",
+        "scientific_name": "Phalaropus tricolor (Vieillot, 1819)",
+        "gbif_id": 5229389,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "372": {
+        "name": "Broad-billed Hummingbird",
+        "scientific_name": "Cynanthus latirostris Swainson, 1827",
+        "gbif_id": 5228542,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "373": {
+        "name": "Ruby-throated Hummingbird",
+        "scientific_name": "Archilochus colubris (Linnaeus, 1758)",
+        "gbif_id": 5228514,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "374": {
+        "name": "Black-chinned Hummingbird",
+        "scientific_name": "Archilochus alexandri (Bourcier & Mulsant, 1846)",
+        "gbif_id": 5228513,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "375": {
+        "name": "Anna's Hummingbird",
+        "scientific_name": "Calypte anna (R.Lesson, 1829)",
+        "gbif_id": 2476674,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "376": {
+        "name": "Costa's Hummingbird",
+        "scientific_name": "Calypte costae (Bourcier, 1839)",
+        "gbif_id": 2476675,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "377": {
+        "name": "Calliope Hummingbird",
+        "scientific_name": "Selasphorus calliope (Gould, 1847)",
+        "gbif_id": 7597244,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "378": {
+        "name": "Broad-tailed Hummingbird",
+        "scientific_name": "Selasphorus platycercus (Swainson, 1827)",
+        "gbif_id": 2476844,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "379": {
+        "name": "Rufous Hummingbird",
+        "scientific_name": "Selasphorus rufus (J.F.Gmelin, 1788)",
+        "gbif_id": 2476855,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "380": {
+        "name": "Allen's Hummingbird",
+        "scientific_name": "Selasphorus sasin (R.Lesson, 1829)",
+        "gbif_id": 2476852,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "381": {
+        "name": "Red-headed Woodpecker",
+        "scientific_name": "Melanerpes erythrocephalus (Linnaeus, 1758)",
+        "gbif_id": 2478130,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "382": {
+        "name": "Northern Flicker",
+        "scientific_name": "Colaptes auratus (Linnaeus, 1758)",
+        "gbif_id": 2478259,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "383": {
+        "name": "Loggerhead Shrike",
+        "scientific_name": "Lanius ludovicianus Linnaeus, 1766",
+        "gbif_id": 2492870,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "384": {
+        "name": "Western Scrub-Jay",
+        "scientific_name": "Aphelocoma californica (Vigors, 1839)",
+        "gbif_id": 2482414,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "385": {
+        "name": "Violet-green Swallow",
+        "scientific_name": "Tachycineta thalassina (Swainson, 1827)",
+        "gbif_id": 5230754,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "386": {
+        "name": "Carolina Wren",
+        "scientific_name": "Thryothorus ludovicianus (Latham, 1790)",
+        "gbif_id": 2493801,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "387": {
+        "name": "Blue-gray Gnatcatcher",
+        "scientific_name": "Polioptila caerulea (Linnaeus, 1766)",
+        "gbif_id": 2487596,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "388": {
+        "name": "Golden-crowned Kinglet",
+        "scientific_name": "Regulus satrapa Lichtenstein, 1823",
+        "gbif_id": 2484591,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "389": {
+        "name": "Northern Mockingbird",
+        "scientific_name": "Mimus polyglottos (Linnaeus, 1758)",
+        "gbif_id": 5231677,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "390": {
+        "name": "Bohemian Waxwing",
+        "scientific_name": "Bombycilla garrulus (Linnaeus, 1758)",
+        "gbif_id": 2484605,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "391": {
+        "name": "Common Yellowthroat",
+        "scientific_name": "Geothlypis trichas (Linnaeus, 1766)",
+        "gbif_id": 2489670,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "392": {
+        "name": "Black Guillemot",
+        "scientific_name": "Cepphus grylle (Linnaeus, 1758)",
+        "gbif_id": 2481312,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "393": {
+        "name": "Pigeon Guillemot",
+        "scientific_name": "Cepphus columba Pallas, 1811",
+        "gbif_id": 9315520,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "394": {
+        "name": "Black-legged Kittiwake",
+        "scientific_name": "Rissa tridactyla (Linnaeus, 1758)",
+        "gbif_id": 2481205,
+        "iucn_status": "VULNERABLE"
+    },
+    "395": {
+        "name": "Laughing Gull",
+        "scientific_name": "Leucophaeus atricilla (Linnaeus, 1758)",
+        "gbif_id": 6065844,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "396": {
+        "name": "Heermann's Gull",
+        "scientific_name": "Larus heermanni Cassin, 1852",
+        "gbif_id": 2481130,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "397": {
+        "name": "Ring-billed Gull",
+        "scientific_name": "Larus delawarensis Ord, 1815",
+        "gbif_id": 2481134,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "398": {
+        "name": "Western Gull",
+        "scientific_name": "Larus occidentalis Audubon, 1839",
+        "gbif_id": 9656686,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "399": {
+        "name": "California Gull",
+        "scientific_name": "Larus californicus Lawrence, 1854",
+        "gbif_id": 2481146,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "400": {
+        "name": "Herring Gull",
+        "scientific_name": "Larus smithsonianus Coues, 1862",
+        "gbif_id": 4848480,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "401": {
+        "name": "Glaucous-winged Gull",
+        "scientific_name": "Larus glaucescens J.F.Naumann, 1840",
+        "gbif_id": 2481196,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "402": {
+        "name": "Great Black-backed Gull",
+        "scientific_name": "Larus argentatus x marinus",
+        "gbif_id": 10305684,
+        "iucn_status": "Not Available"
+    },
+    "403": {
+        "name": "Chipping Sparrow",
+        "scientific_name": "Spizella passerina (Bechstein, 1798)",
+        "gbif_id": 2492109,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "404": {
+        "name": "Rusty Blackbird",
+        "scientific_name": "Euphagus carolinus (Statius Muller, 1776)",
+        "gbif_id": 2484184,
+        "iucn_status": "VULNERABLE"
+    },
+    "405": {
+        "name": "Hooded Warbler",
+        "scientific_name": "Setophaga citrina (Boddaert, 1783)",
+        "gbif_id": 6093374,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "406": {
+        "name": "Chestnut-backed Chickadee",
+        "scientific_name": "Poecile rufescens (J.K.Townsend, 1837)",
+        "gbif_id": 2487783,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "407": {
+        "name": "Townsend's Solitaire",
+        "scientific_name": "Myadestes townsendi (Audubon, 1838)",
+        "gbif_id": 2490849,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "408": {
+        "name": "Cassin's Finch",
+        "scientific_name": "Haemorhous cassinii (S.F.Baird, 1854)",
+        "gbif_id": 8255548,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "409": {
+        "name": "Black Phoebe",
+        "scientific_name": "Sayornis nigricans (Swainson, 1827)",
+        "gbif_id": 2483612,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "410": {
+        "name": "Clay-colored Sparrow",
+        "scientific_name": "Spizella pallida (Swainson, 1832)",
+        "gbif_id": 2492101,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "411": {
+        "name": "Pyrrhuloxia",
+        "scientific_name": "Cardinalis sinuatus Bonaparte, 1838",
+        "gbif_id": 2490405,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "412": {
+        "name": "American Redstart",
+        "scientific_name": "Setophaga ruticilla (Linnaeus, 1758)",
+        "gbif_id": 2489985,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "413": {
+        "name": "White-breasted Nuthatch",
+        "scientific_name": "Sitta carolinensis Latham, 1790",
+        "gbif_id": 2484892,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "414": {
+        "name": "Plumbeous Vireo",
+        "scientific_name": "Vireo plumbeus Coues, 1866",
+        "gbif_id": 9353154,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "415": {
+        "name": "Mexican Jay",
+        "scientific_name": "Aphelocoma wollweberi Kaup, 1855",
+        "gbif_id": 9441907,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "416": {
+        "name": "Brewer's Blackbird",
+        "scientific_name": "Euphagus cyanocephalus (Wagler, 1829)",
+        "gbif_id": 2484183,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "417": {
+        "name": "Cape May Warbler",
+        "scientific_name": "Setophaga tigrina (J.F.Gmelin, 1789)",
+        "gbif_id": 6093357,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "418": {
+        "name": "Brewer's Sparrow",
+        "scientific_name": "Spizella breweri Cassin, 1856",
+        "gbif_id": 2492099,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "419": {
+        "name": "House Finch",
+        "scientific_name": "Haemorhous mexicanus (P.L.Statius M\u00fcller, 1776)",
+        "gbif_id": 8323485,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "420": {
+        "name": "Eastern Phoebe",
+        "scientific_name": "Sayornis phoebe (Latham, 1790)",
+        "gbif_id": 2483606,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "421": {
+        "name": "Northern Rough-winged Swallow",
+        "scientific_name": "Stelgidopteryx serripennis (Audubon, 1838)",
+        "gbif_id": 2489202,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "422": {
+        "name": "Bewick's Wren",
+        "scientific_name": "Thryomanes bewickii (Audubon, 1827)",
+        "gbif_id": 2493843,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "423": {
+        "name": "Northern Parula",
+        "scientific_name": "Setophaga americana (Linnaeus, 1758)",
+        "gbif_id": 6093345,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "424": {
+        "name": "Boreal Chickadee",
+        "scientific_name": "Poecile hudsonicus (J.R.Forster, 1772)",
+        "gbif_id": 2487793,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "425": {
+        "name": "Veery",
+        "scientific_name": "Catharus fuscescens (Stephens, 1817)",
+        "gbif_id": 2490804,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "426": {
+        "name": "Field Sparrow",
+        "scientific_name": "Spizella pusilla (A.Wilson, 1810)",
+        "gbif_id": 2492096,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "427": {
+        "name": "Rose-breasted Grosbeak",
+        "scientific_name": "Pheucticus ludovicianus (Linnaeus, 1766)",
+        "gbif_id": 2490494,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "428": {
+        "name": "Clark's Nutcracker",
+        "scientific_name": "Nucifraga columbiana (A.Wilson, 1811)",
+        "gbif_id": 2482614,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "429": {
+        "name": "Common Grackle",
+        "scientific_name": "Quiscalus quiscula (Linnaeus, 1758)",
+        "gbif_id": 2484155,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "430": {
+        "name": "Magnolia Warbler",
+        "scientific_name": "Setophaga magnolia (A.Wilson, 1811)",
+        "gbif_id": 6093209,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "431": {
+        "name": "Vesper Sparrow",
+        "scientific_name": "Pooecetes gramineus (J.F.Gmelin, 1789)",
+        "gbif_id": 2491728,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "432": {
+        "name": "Horned Lark",
+        "scientific_name": "Eremophila alpestris (Linnaeus, 1758)",
+        "gbif_id": 9415596,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "433": {
+        "name": "Verdin",
+        "scientific_name": "Auriparus flaviceps (Sundevall, 1850)",
+        "gbif_id": 2487397,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "434": {
+        "name": "Bushtit",
+        "scientific_name": "Psaltriparus minimus (J.K.Townsend, 1837)",
+        "gbif_id": 2494988,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "435": {
+        "name": "Brown Creeper",
+        "scientific_name": "Certhia americana Bonaparte, 1838",
+        "gbif_id": 9581157,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "436": {
+        "name": "American Dipper",
+        "scientific_name": "Cinclus mexicanus Swainson, 1827",
+        "gbif_id": 9606873,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "437": {
+        "name": "Wrentit",
+        "scientific_name": "Chamaea fasciata (Gambel, 1845)",
+        "gbif_id": 2493558,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "438": {
+        "name": "Brown Thrasher",
+        "scientific_name": "Toxostoma rufum (Linnaeus, 1758)",
+        "gbif_id": 9479809,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "439": {
+        "name": "European Starling",
+        "scientific_name": "Sturnus vulgaris Linnaeus, 1758",
+        "gbif_id": 9809229,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "440": {
+        "name": "American Pipit",
+        "scientific_name": "Anthus rubescens (Tunstall, 1771)",
+        "gbif_id": 2490263,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "441": {
+        "name": "Phainopepla",
+        "scientific_name": "Phainopepla nitens (Swainson, 1838)",
+        "gbif_id": 2492885,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "442": {
+        "name": "Snow Bunting",
+        "scientific_name": "Plectrophenax nivalis (Linnaeus, 1758)",
+        "gbif_id": 2491719,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "443": {
+        "name": "Bay-breasted Warbler",
+        "scientific_name": "Setophaga castanea (A.Wilson, 1810)",
+        "gbif_id": 6093202,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "444": {
+        "name": "Red Crossbill",
+        "scientific_name": "Loxia curvirostra Linnaeus, 1758",
+        "gbif_id": 9629160,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "445": {
+        "name": "House Sparrow",
+        "scientific_name": "Ceratophyllus fringillae (Walker, 1856)",
+        "gbif_id": 1417235,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "446": {
+        "name": "Bonaparte's Gull",
+        "scientific_name": "Chroicocephalus philadelphia (Ord, 1815)",
+        "gbif_id": 6065818,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "447": {
+        "name": "Mew Gull",
+        "scientific_name": "Ichthyaetus melanocephalus x Larus canus",
+        "gbif_id": 10528985,
+        "iucn_status": "Not Available"
+    },
+    "448": {
+        "name": "Caspian Tern",
+        "scientific_name": "Hydroprogne caspia (Pallas, 1770)",
+        "gbif_id": 2481236,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "449": {
+        "name": "Black Tern",
+        "scientific_name": "Chlidonias niger (Linnaeus, 1758)",
+        "gbif_id": 2481119,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "450": {
+        "name": "Common Tern",
+        "scientific_name": "Sterna hirundo Linnaeus, 1758",
+        "gbif_id": 9367409,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "451": {
+        "name": "Forster's Tern",
+        "scientific_name": "Sterna forsteri Nuttall, 1834",
+        "gbif_id": 5229247,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "452": {
+        "name": "Royal Tern",
+        "scientific_name": "Thalasseus maximus (Boddaert, 1783)",
+        "gbif_id": 5789281,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "453": {
+        "name": "Black Skimmer",
+        "scientific_name": "Rynchops niger Linnaeus, 1758",
+        "gbif_id": 2481209,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "454": {
+        "name": "Greater White-fronted Goose",
+        "scientific_name": "Anser albifrons x caerulescens",
+        "gbif_id": 10556333,
+        "iucn_status": "Not Available"
+    },
+    "455": {
+        "name": "Brant",
+        "scientific_name": "Parotomys brantsii (A.Smith, 1834)",
+        "gbif_id": 2438856,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "456": {
+        "name": "Cackling Goose",
+        "scientific_name": "Branta hutchinsii (Richardson, 1832)",
+        "gbif_id": 5232452,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "457": {
+        "name": "Canada Goose",
+        "scientific_name": "Branta leucopsis x canadensis",
+        "gbif_id": 9952178,
+        "iucn_status": "Not Available"
+    },
+    "458": {
+        "name": "Mute Swan",
+        "scientific_name": "Cygnus olor (J.F.Gmelin, 1789)",
+        "gbif_id": 2498343,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "459": {
+        "name": "Trumpeter Swan",
+        "scientific_name": "Cygnus buccinator Richardson, 1831",
+        "gbif_id": 2498345,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "460": {
+        "name": "Tundra Swan",
+        "scientific_name": "Cygnus columbianus (Ord, 1815)",
+        "gbif_id": 2498338,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "461": {
+        "name": "American Black Duck",
+        "scientific_name": "Anas rubripes x platyrhynchos",
+        "gbif_id": 10324773,
+        "iucn_status": "Not Available"
+    },
+    "462": {
+        "name": "Mottled Duck",
+        "scientific_name": "Anas fulvigula Ridgway, 1874",
+        "gbif_id": 2498080,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "463": {
+        "name": "Common Eider",
+        "scientific_name": "Somateria mollissima (Linnaeus, 1758)",
+        "gbif_id": 2498352,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "464": {
+        "name": "Long-tailed Duck",
+        "scientific_name": "Clangula hyemalis (Linnaeus, 1758)",
+        "gbif_id": 2498273,
+        "iucn_status": "VULNERABLE"
+    },
+    "465": {
+        "name": "Ruddy Duck",
+        "scientific_name": "Oxyura jamaicensis (J.F.Gmelin, 1789)",
+        "gbif_id": 2498305,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "466": {
+        "name": "Scaled Quail",
+        "scientific_name": "Callipepla squamata (Vigors, 1830)",
+        "gbif_id": 5228075,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "467": {
+        "name": "Northern Bobwhite",
+        "scientific_name": "Colinus virginianus (Linnaeus, 1758)",
+        "gbif_id": 9791464,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "468": {
+        "name": "Ruffed Grouse",
+        "scientific_name": "Bonasa umbellus (Linnaeus, 1766)",
+        "gbif_id": 2473702,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "469": {
+        "name": "Wild Turkey",
+        "scientific_name": "Meleagris gallopavo Linnaeus, 1758",
+        "gbif_id": 9606290,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "470": {
+        "name": "Pied-billed Grebe",
+        "scientific_name": "Podilymbus podiceps (Linnaeus, 1758)",
+        "gbif_id": 2482077,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "471": {
+        "name": "Western Grebe",
+        "scientific_name": "Aechmophorus occidentalis (Lawrence, 1858)",
+        "gbif_id": 2482033,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "472": {
+        "name": "Clark's Grebe",
+        "scientific_name": "Aechmophorus clarkii (Lawrence, 1858)",
+        "gbif_id": 2482032,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "473": {
+        "name": "Wood Stork",
+        "scientific_name": "Mycteria americana Linnaeus, 1758",
+        "gbif_id": 2481937,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "474": {
+        "name": "Brandt's Cormorant",
+        "scientific_name": "Urile penicillatus (J.F.Brandt, 1837)",
+        "gbif_id": 10682451,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "475": {
+        "name": "Neotropic Cormorant",
+        "scientific_name": "Phalacrocorax brasilianus (Gmelin, 1789)",
+        "gbif_id": 9399113,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "476": {
+        "name": "Pelagic Cormorant",
+        "scientific_name": "Phalacrocorax pelagicus Pallas, 1811",
+        "gbif_id": 2481870,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "477": {
+        "name": "Anhinga",
+        "scientific_name": "Anhinga anhinga (Linnaeus, 1766)",
+        "gbif_id": 2482082,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "478": {
+        "name": "American White Pelican",
+        "scientific_name": "Pelecanus erythrorhynchos Gmelin, 1789",
+        "gbif_id": 5229155,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "479": {
+        "name": "Brown Pelican",
+        "scientific_name": "Pelecanus occidentalis Linnaeus, 1766",
+        "gbif_id": 5229158,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "480": {
+        "name": "Great Blue Heron",
+        "scientific_name": "Ardea herodias Linnaeus, 1758",
+        "gbif_id": 9630752,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "481": {
+        "name": "Great Egret",
+        "scientific_name": "Ardea modesta J.E.Gray, 1831",
+        "gbif_id": 6066379,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "482": {
+        "name": "Snowy Egret",
+        "scientific_name": "Egretta thula (Molina, 1782)",
+        "gbif_id": 2480873,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "483": {
+        "name": "Tricolored Heron",
+        "scientific_name": "Egretta tricolor (Statius Muller, 1776)",
+        "gbif_id": 2480881,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "484": {
+        "name": "Cattle Egret",
+        "scientific_name": "Bubulcus coromandus (Boddaert, 1783)",
+        "gbif_id": 6066393,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "485": {
+        "name": "Green Heron",
+        "scientific_name": "Butorides virescens (Linnaeus, 1758)",
+        "gbif_id": 9539567,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "486": {
+        "name": "Glossy Ibis",
+        "scientific_name": "Plegadis falcinellus (Linnaeus, 1766)",
+        "gbif_id": 2480773,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "487": {
+        "name": "White-faced Ibis",
+        "scientific_name": "Plegadis chihi (Vieillot, 1817)",
+        "gbif_id": 9375033,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "488": {
+        "name": "Roseate Spoonbill",
+        "scientific_name": "Platalea ajaja Linnaeus, 1758",
+        "gbif_id": 2480803,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "489": {
+        "name": "Black Vulture",
+        "scientific_name": "Coragyps atratus (Bechstein, 1793)",
+        "gbif_id": 2481942,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "490": {
+        "name": "Turkey Vulture",
+        "scientific_name": "Cathartes aura (Linnaeus, 1758)",
+        "gbif_id": 2481930,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "491": {
+        "name": "Osprey",
+        "scientific_name": "Pandion lovensis Becker, 1985",
+        "gbif_id": 8559107,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "492": {
+        "name": "Swallow-tailed Kite",
+        "scientific_name": "Elanoides forficatus (Linnaeus, 1758)",
+        "gbif_id": 2480461,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "493": {
+        "name": "White-tailed Kite",
+        "scientific_name": "Elanus leucurus (Vieillot, 1818)",
+        "gbif_id": 2480367,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "494": {
+        "name": "Mississippi Kite",
+        "scientific_name": "Ictinia mississippiensis (A.Wilson, 1811)",
+        "gbif_id": 2480719,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "495": {
+        "name": "Harris's Hawk",
+        "scientific_name": "Parabuteo unicinctus (Temminck, 1824)",
+        "gbif_id": 2480410,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "496": {
+        "name": "Swainson's Hawk",
+        "scientific_name": "Buteo swainsoni Bonaparte, 1838",
+        "gbif_id": 2480562,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "497": {
+        "name": "Red-tailed Hawk",
+        "scientific_name": "Buteo jamaicensis (Gmelin, 1788)",
+        "gbif_id": 2480542,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "498": {
+        "name": "Crested Caracara",
+        "scientific_name": "Caracara plancus (J.F.Miller, 1777)",
+        "gbif_id": 2480989,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "499": {
+        "name": "Merlin",
+        "scientific_name": "Falco columbarius Linnaeus, 1758",
+        "gbif_id": 9813242,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "500": {
+        "name": "Prairie Falcon",
+        "scientific_name": "Falco mexicanus Schlegel, 1850",
+        "gbif_id": 2481000,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "501": {
+        "name": "American Coot",
+        "scientific_name": "Fulica americana Gmelin, 1789",
+        "gbif_id": 2474393,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "502": {
+        "name": "Sandhill Crane",
+        "scientific_name": "Grus canadensis (Linnaeus, 1758)",
+        "gbif_id": 2474953,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "503": {
+        "name": "Semipalmated Plover",
+        "scientific_name": "Charadrius semipalmatus Bonaparte, 1825",
+        "gbif_id": 2480295,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "504": {
+        "name": "Killdeer",
+        "scientific_name": "Charadrius vociferus Linnaeus, 1758",
+        "gbif_id": 2480320,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "505": {
+        "name": "American Oystercatcher",
+        "scientific_name": "Haematopus palliatus Temminck, 1820",
+        "gbif_id": 2480273,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "506": {
+        "name": "Black Oystercatcher",
+        "scientific_name": "Haematopus bachmani Audubon, 1838",
+        "gbif_id": 2480272,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "507": {
+        "name": "Black-necked Stilt",
+        "scientific_name": "Himantopus mexicanus (P.L.S.M\u00fcller, 1776)",
+        "gbif_id": 5229128,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "508": {
+        "name": "American Avocet",
+        "scientific_name": "Recurvirostra americana J.F.Gmelin, 1789",
+        "gbif_id": 2480258,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "509": {
+        "name": "Solitary Sandpiper",
+        "scientific_name": "Tringa solitaria A.Wilson, 1813",
+        "gbif_id": 2481710,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "510": {
+        "name": "Greater Yellowlegs",
+        "scientific_name": "Tringa melanoleuca (J.F.Gmelin, 1789)",
+        "gbif_id": 2481720,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "511": {
+        "name": "Willet",
+        "scientific_name": "Tringa semipalmata (J.F.Gmelin, 1789)",
+        "gbif_id": 5789298,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "512": {
+        "name": "Lesser Yellowlegs",
+        "scientific_name": "Tringa flavipes (J.F.Gmelin, 1789)",
+        "gbif_id": 2481721,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "513": {
+        "name": "Whimbrel",
+        "scientific_name": "Numenius phaeopus (Linnaeus, 1758)",
+        "gbif_id": 2481784,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "514": {
+        "name": "Long-billed Curlew",
+        "scientific_name": "Numenius americanus Bechstein, 1812",
+        "gbif_id": 2481794,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "515": {
+        "name": "Marbled Godwit",
+        "scientific_name": "Limosa fedoa (Linnaeus, 1758)",
+        "gbif_id": 2481684,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "516": {
+        "name": "Ruddy Turnstone",
+        "scientific_name": "Arenaria interpres (Linnaeus, 1758)",
+        "gbif_id": 2481776,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "517": {
+        "name": "Black Turnstone",
+        "scientific_name": "Arenaria melanocephala (Vigors, 1829)",
+        "gbif_id": 5229406,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "518": {
+        "name": "Surfbird",
+        "scientific_name": "Calidris virgata (J.F.Gmelin, 1789)",
+        "gbif_id": 7964835,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "519": {
+        "name": "Semipalmated Sandpiper",
+        "scientific_name": "Calidris pusilla (Linnaeus, 1766)",
+        "gbif_id": 2481764,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "520": {
+        "name": "Western Sandpiper",
+        "scientific_name": "Calidris mauri (Cabanis, 1857)",
+        "gbif_id": 2481742,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "521": {
+        "name": "Least Sandpiper",
+        "scientific_name": "Calidris minutilla (Vieillot, 1819)",
+        "gbif_id": 2481745,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "522": {
+        "name": "Short-billed Dowitcher",
+        "scientific_name": "Limnodromus griseus (J.F.Gmelin, 1789)",
+        "gbif_id": 2481672,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "523": {
+        "name": "Wilson's Snipe",
+        "scientific_name": "Gallinago delicata (Ord, 1825)",
+        "gbif_id": 2481817,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "524": {
+        "name": "American Woodcock",
+        "scientific_name": "Scolopax minor J.F.Gmelin, 1789",
+        "gbif_id": 2481695,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "525": {
+        "name": "Rock Pigeon",
+        "scientific_name": "Petrophassa rufipennis Collett, 1898",
+        "gbif_id": 2496038,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "526": {
+        "name": "Band-tailed Pigeon",
+        "scientific_name": "Patagioenas fasciata (Say, 1822)",
+        "gbif_id": 2495266,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "527": {
+        "name": "Eurasian Collared-Dove",
+        "scientific_name": "Streptopelia decaocto (Frivaldszky, 1838)",
+        "gbif_id": 2495696,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "528": {
+        "name": "White-winged Dove",
+        "scientific_name": "Zenaida asiatica (Linnaeus, 1758)",
+        "gbif_id": 2495370,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "529": {
+        "name": "Mourning Dove",
+        "scientific_name": "Zenaida macroura (Linnaeus, 1758)",
+        "gbif_id": 2495347,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "530": {
+        "name": "Inca Dove",
+        "scientific_name": "Columbina inca (R.Lesson, 1847)",
+        "gbif_id": 2495863,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "531": {
+        "name": "Common Ground-Dove",
+        "scientific_name": "Columbina passerina (Linnaeus, 1758)",
+        "gbif_id": 2495869,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "532": {
+        "name": "Monk Parakeet",
+        "scientific_name": "Myiopsitta monachus (Boddaert, 1783)",
+        "gbif_id": 2479407,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "533": {
+        "name": "Yellow-billed Cuckoo",
+        "scientific_name": "Coccyzus americanus (Linnaeus, 1758)",
+        "gbif_id": 2496287,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "534": {
+        "name": "Black-billed Cuckoo",
+        "scientific_name": "Coccyzus erythropthalmus (A.Wilson, 1811)",
+        "gbif_id": 2496286,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "535": {
+        "name": "Greater Roadrunner",
+        "scientific_name": "Geococcyx californianus (Lesson, 1829)",
+        "gbif_id": 2496459,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "536": {
+        "name": "Barn Owl",
+        "scientific_name": "Tyto furcata (Temminck, 1827)",
+        "gbif_id": 9568884,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "537": {
+        "name": "Western Screech-Owl",
+        "scientific_name": "Megascops kennicottii (D.G.Elliot, 1867)",
+        "gbif_id": 2497341,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "538": {
+        "name": "Eastern Screech-Owl",
+        "scientific_name": "Megascops asio (Linnaeus, 1758)",
+        "gbif_id": 2497415,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "539": {
+        "name": "Great Horned Owl",
+        "scientific_name": "Bubo virginianus (J.F.Gmelin, 1788)",
+        "gbif_id": 5959118,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "540": {
+        "name": "Snowy Owl",
+        "scientific_name": "Bubo scandiacus (Linnaeus, 1758)",
+        "gbif_id": 5959143,
+        "iucn_status": "VULNERABLE"
+    },
+    "541": {
+        "name": "Northern Pygmy-Owl",
+        "scientific_name": "Glaucidium californicum P.L.Sclater, 1857",
+        "gbif_id": 5232157,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "542": {
+        "name": "Burrowing Owl",
+        "scientific_name": "Athene cunicularia (Molina, 1782)",
+        "gbif_id": 2497240,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "543": {
+        "name": "Barred Owl",
+        "scientific_name": "Strix varia Barton, 1799",
+        "gbif_id": 2497541,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "544": {
+        "name": "Northern Saw-whet Owl",
+        "scientific_name": "Aegolius acadicus (J.F.Gmelin, 1788)",
+        "gbif_id": 5232207,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "545": {
+        "name": "Common Nighthawk",
+        "scientific_name": "Chordeiles minor (J.R.Forster, 1771)",
+        "gbif_id": 2497035,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "546": {
+        "name": "Chimney Swift",
+        "scientific_name": "Chaetura pelagica (Linnaeus, 1758)",
+        "gbif_id": 4409023,
+        "iucn_status": "VULNERABLE"
+    },
+    "547": {
+        "name": "Vaux's Swift",
+        "scientific_name": "Chaetura vauxi (J.K.Townsend, 1839)",
+        "gbif_id": 5228612,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "548": {
+        "name": "White-throated Swift",
+        "scientific_name": "Aeronautes saxatalis (Woodhouse, 1853)",
+        "gbif_id": 2477108,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "549": {
+        "name": "Belted Kingfisher",
+        "scientific_name": "Megaceryle alcyon (Linnaeus, 1758)",
+        "gbif_id": 2475472,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "550": {
+        "name": "Acorn Woodpecker",
+        "scientific_name": "Melanerpes formicivorus (Swainson, 1827)",
+        "gbif_id": 2478133,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "551": {
+        "name": "Gila Woodpecker",
+        "scientific_name": "Melanerpes uropygialis (S.F.Baird, 1854)",
+        "gbif_id": 2478112,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "552": {
+        "name": "Golden-fronted Woodpecker",
+        "scientific_name": "Melanerpes aurifrons (Wagler, 1829)",
+        "gbif_id": 2478081,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "553": {
+        "name": "Red-bellied Woodpecker",
+        "scientific_name": "Melanerpes carolinus (Linnaeus, 1758)",
+        "gbif_id": 2478106,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "554": {
+        "name": "Yellow-bellied Sapsucker",
+        "scientific_name": "Sphyrapicus varius (Linnaeus, 1766)",
+        "gbif_id": 2478605,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "555": {
+        "name": "Red-naped Sapsucker",
+        "scientific_name": "Sphyrapicus nuchalis S.F.Baird, 1858",
+        "gbif_id": 9406038,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "556": {
+        "name": "Red-breasted Sapsucker",
+        "scientific_name": "Sphyrapicus ruber (J.F.Gmelin, 1788)",
+        "gbif_id": 2478597,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "557": {
+        "name": "Ladder-backed Woodpecker",
+        "scientific_name": "Dryobates scalaris (Wagler, 1829)",
+        "gbif_id": 8959883,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "558": {
+        "name": "Nuttall's Woodpecker",
+        "scientific_name": "Dryobates nuttallii (Gambel, 1843)",
+        "gbif_id": 9088491,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "559": {
+        "name": "Downy Woodpecker",
+        "scientific_name": "Dryobates pubescens (Linnaeus, 1766)",
+        "gbif_id": 9149595,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "560": {
+        "name": "Hairy Woodpecker",
+        "scientific_name": "Leuconotopicus villosus (Linnaeus, 1766)",
+        "gbif_id": 9192501,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "561": {
+        "name": "Pileated Woodpecker",
+        "scientific_name": "Dryocopus pileatus (Linnaeus, 1758)",
+        "gbif_id": 5228824,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "562": {
+        "name": "Say's Phoebe",
+        "scientific_name": "Sayornis saya (Bonaparte, 1825)",
+        "gbif_id": 2483607,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "563": {
+        "name": "Cassin's Vireo",
+        "scientific_name": "Vireo cassinii Xantus de Vesey, 1858",
+        "gbif_id": 9552291,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "564": {
+        "name": "Blackburnian Warbler",
+        "scientific_name": "Setophaga fusca (Statius M\u00fcller, 1776)",
+        "gbif_id": 6093199,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "565": {
+        "name": "Boat-tailed Grackle",
+        "scientific_name": "Quiscalus major Vieillot, 1819",
+        "gbif_id": 2484133,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "566": {
+        "name": "Black-billed Magpie",
+        "scientific_name": "Pica pica (Linnaeus, 1758)",
+        "gbif_id": 5229490,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "567": {
+        "name": "Lark Sparrow",
+        "scientific_name": "Chondestes grammacus (Say, 1822)",
+        "gbif_id": 2491651,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "568": {
+        "name": "Black-headed Grosbeak",
+        "scientific_name": "Pheucticus melanocephalus (Swainson, 1827)",
+        "gbif_id": 2490487,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "569": {
+        "name": "Bridled Titmouse",
+        "scientific_name": "Baeolophus wollweberi (Bonaparte, 1850)",
+        "gbif_id": 2487892,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "570": {
+        "name": "Swainson's Thrush",
+        "scientific_name": "Catharus ustulatus (Nuttall, 1840)",
+        "gbif_id": 2490821,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "571": {
+        "name": "Bank Swallow",
+        "scientific_name": "Riparia riparia (Linnaeus, 1758)",
+        "gbif_id": 2489160,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "572": {
+        "name": "House Wren",
+        "scientific_name": "Troglodytes aedon Vieillot, 1809",
+        "gbif_id": 5231459,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "573": {
+        "name": "Yellow Warbler",
+        "scientific_name": "Setophaga petechia (Linnaeus, 1766)",
+        "gbif_id": 7341834,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "574": {
+        "name": "White-winged Crossbill",
+        "scientific_name": "Loxia leucoptera J.F.Gmelin, 1789",
+        "gbif_id": 8144830,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "575": {
+        "name": "Vermilion Flycatcher",
+        "scientific_name": "Pyrocephalus rubinus (Boddaert, 1783)",
+        "gbif_id": 2483647,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "576": {
+        "name": "Lark Bunting",
+        "scientific_name": "Calamospiza melanocorys Stejneger, 1885",
+        "gbif_id": 2491893,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "577": {
+        "name": "Chestnut-sided Warbler",
+        "scientific_name": "Setophaga pensylvanica (Linnaeus, 1766)",
+        "gbif_id": 6092942,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "578": {
+        "name": "Great-tailed Grackle",
+        "scientific_name": "Quiscalus mexicanus (Gmelin, 1788)",
+        "gbif_id": 9476062,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "579": {
+        "name": "Pygmy Nuthatch",
+        "scientific_name": "Sitta pygmaea Vigors, 1839",
+        "gbif_id": 2484907,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "580": {
+        "name": "Blue-headed Vireo",
+        "scientific_name": "Vireo solitarius (A.Wilson, 1810)",
+        "gbif_id": 2487456,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "581": {
+        "name": "Yellow-billed Magpie",
+        "scientific_name": "Pica nuttalli (Audubon, 1837)",
+        "gbif_id": 5229489,
+        "iucn_status": "VULNERABLE"
+    },
+    "582": {
+        "name": "Blackpoll Warbler",
+        "scientific_name": "Setophaga striata (J.R.Forster, 1772)",
+        "gbif_id": 6092935,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "583": {
+        "name": "Savannah Sparrow",
+        "scientific_name": "Passerculus sandwichensis (J.F.Gmelin, 1789)",
+        "gbif_id": 5231142,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "584": {
+        "name": "Blue Grosbeak",
+        "scientific_name": "Passerina caerulea (Linnaeus, 1758)",
+        "gbif_id": 5230862,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "585": {
+        "name": "Common Redpoll",
+        "scientific_name": "Acanthis flammea (Linnaeus, 1758)",
+        "gbif_id": 5231630,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "586": {
+        "name": "Ash-throated Flycatcher",
+        "scientific_name": "Myiarchus cinerascens (Lawrence, 1851)",
+        "gbif_id": 2483600,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "587": {
+        "name": "Oak Titmouse",
+        "scientific_name": "Baeolophus inornatus (Gambel, 1845)",
+        "gbif_id": 2487905,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "588": {
+        "name": "Hermit Thrush",
+        "scientific_name": "Catharus guttatus (Pallas, 1811)",
+        "gbif_id": 2490810,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "589": {
+        "name": "Black-throated Blue Warbler",
+        "scientific_name": "Setophaga caerulescens (J.F.Gmelin, 1789)",
+        "gbif_id": 7341828,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "590": {
+        "name": "Bronzed Cowbird",
+        "scientific_name": "Molothrus aeneus (Wagler, 1829)",
+        "gbif_id": 2484404,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "591": {
+        "name": "Fox Sparrow",
+        "scientific_name": "Passerella iliaca (Merrem, 1786)",
+        "gbif_id": 2491872,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "592": {
+        "name": "Cliff Swallow",
+        "scientific_name": "Argas cooleyi Kohls & Hoogstraal, 1960",
+        "gbif_id": 7793745,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "593": {
+        "name": "Pacific Wren",
+        "scientific_name": "Troglodytes pacificus S.F.Baird, 1864",
+        "gbif_id": 9533566,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "594": {
+        "name": "Black-tailed Gnatcatcher",
+        "scientific_name": "Polioptila melanura Lawrence, 1857",
+        "gbif_id": 2487586,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "595": {
+        "name": "Ruby-crowned Kinglet",
+        "scientific_name": "Regulus calendula (Linnaeus, 1766)",
+        "gbif_id": 2484597,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "596": {
+        "name": "Curve-billed Thrasher",
+        "scientific_name": "Toxostoma curvirostre (Swainson, 1827)",
+        "gbif_id": 5231688,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "597": {
+        "name": "Cedar Waxwing",
+        "scientific_name": "Bombycilla cedrorum Vieillot, 1808",
+        "gbif_id": 2484609,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "598": {
+        "name": "Palm Warbler",
+        "scientific_name": "Setophaga palmarum (J.F.Gmelin, 1789)",
+        "gbif_id": 7341822,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "599": {
+        "name": "Black Guillemot",
+        "scientific_name": "Cepphus grylle (Linnaeus, 1758)",
+        "gbif_id": 2481312,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "600": {
+        "name": "Pigeon Guillemot",
+        "scientific_name": "Cepphus columba Pallas, 1811",
+        "gbif_id": 9315520,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "601": {
+        "name": "Black-legged Kittiwake",
+        "scientific_name": "Rissa tridactyla (Linnaeus, 1758)",
+        "gbif_id": 2481205,
+        "iucn_status": "VULNERABLE"
+    },
+    "602": {
+        "name": "Laughing Gull",
+        "scientific_name": "Leucophaeus atricilla (Linnaeus, 1758)",
+        "gbif_id": 6065844,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "603": {
+        "name": "Heermann's Gull",
+        "scientific_name": "Larus heermanni Cassin, 1852",
+        "gbif_id": 2481130,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "604": {
+        "name": "Ring-billed Gull",
+        "scientific_name": "Larus delawarensis Ord, 1815",
+        "gbif_id": 2481134,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "605": {
+        "name": "Western Gull",
+        "scientific_name": "Larus occidentalis Audubon, 1839",
+        "gbif_id": 9656686,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "606": {
+        "name": "California Gull",
+        "scientific_name": "Larus californicus Lawrence, 1854",
+        "gbif_id": 2481146,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "607": {
+        "name": "Herring Gull",
+        "scientific_name": "Larus smithsonianus Coues, 1862",
+        "gbif_id": 4848480,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "608": {
+        "name": "Glaucous-winged Gull",
+        "scientific_name": "Larus glaucescens J.F.Naumann, 1840",
+        "gbif_id": 2481196,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "609": {
+        "name": "Great Black-backed Gull",
+        "scientific_name": "Larus argentatus x marinus",
+        "gbif_id": 10305684,
+        "iucn_status": "Not Available"
+    },
+    "610": {
+        "name": "Black-bellied Whistling-Duck",
+        "scientific_name": "Dendrocygna autumnalis (Linnaeus, 1758)",
+        "gbif_id": 2498393,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "611": {
+        "name": "Snow Goose",
+        "scientific_name": "Anser caerulescens x canagicus",
+        "gbif_id": 10498423,
+        "iucn_status": "Not Available"
+    },
+    "612": {
+        "name": "Ross's Goose",
+        "scientific_name": "Anser caerulescens x rossii",
+        "gbif_id": 9826714,
+        "iucn_status": "Not Available"
+    },
+    "613": {
+        "name": "Wood Duck",
+        "scientific_name": "Aix sponsa (Linnaeus, 1758)",
+        "gbif_id": 2498387,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "614": {
+        "name": "Gadwall",
+        "scientific_name": "Mareca strepera (Linnaeus, 1758)",
+        "gbif_id": 9362027,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "615": {
+        "name": "American Wigeon",
+        "scientific_name": "Mareca americana x penelope",
+        "gbif_id": 10863734,
+        "iucn_status": "Not Available"
+    },
+    "616": {
+        "name": "Mallard",
+        "scientific_name": "Mareca strepera x Anas platyrhynchos",
+        "gbif_id": 10853972,
+        "iucn_status": "Not Available"
+    },
+    "617": {
+        "name": "Blue-winged Teal",
+        "scientific_name": "Spatula discors (Linnaeus, 1766)",
+        "gbif_id": 9422220,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "618": {
+        "name": "Cinnamon Teal",
+        "scientific_name": "Spatula cyanoptera (Vieillot, 1816)",
+        "gbif_id": 9345027,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "619": {
+        "name": "Northern Shoveler",
+        "scientific_name": "Spatula clypeata (Linnaeus, 1758)",
+        "gbif_id": 8332393,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "620": {
+        "name": "Northern Pintail",
+        "scientific_name": "Mareca penelope x Anas acuta",
+        "gbif_id": 10838105,
+        "iucn_status": "Not Available"
+    },
+    "621": {
+        "name": "Green-winged Teal",
+        "scientific_name": "Anas crecca x carolinensis",
+        "gbif_id": 9870452,
+        "iucn_status": "Not Available"
+    },
+    "622": {
+        "name": "Canvasback",
+        "scientific_name": "Aythya valisineria (A.Wilson, 1814)",
+        "gbif_id": 2498256,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "623": {
+        "name": "Redhead",
+        "scientific_name": "Paragobiodon echinocephalus (R\u00fcppell, 1830)",
+        "gbif_id": 2378093,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "624": {
+        "name": "Ring-necked Duck",
+        "scientific_name": "Aythya fuligula x collaris",
+        "gbif_id": 10545600,
+        "iucn_status": "Not Available"
+    },
+    "625": {
+        "name": "Greater Scaup",
+        "scientific_name": "Aythya fuligula x marila",
+        "gbif_id": 10382597,
+        "iucn_status": "Not Available"
+    },
+    "626": {
+        "name": "Lesser Scaup",
+        "scientific_name": "Aythya affinis (Eyton, 1838)",
+        "gbif_id": 2498257,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "627": {
+        "name": "Harlequin Duck",
+        "scientific_name": "Histrionicus histrionicus (Linnaeus, 1758)",
+        "gbif_id": 2498224,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "628": {
+        "name": "Surf Scoter",
+        "scientific_name": "Melanitta perspicillata (Linnaeus, 1758)",
+        "gbif_id": 2498246,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "629": {
+        "name": "White-winged Scoter",
+        "scientific_name": "Melanitta deglandi (Bonaparte, 1850)",
+        "gbif_id": 2498243,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "630": {
+        "name": "Black Scoter",
+        "scientific_name": "Melanitta nigra (Linnaeus, 1758)",
+        "gbif_id": 2498247,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "631": {
+        "name": "Bufflehead",
+        "scientific_name": "Osmia bucephala Cresson, 1864",
+        "gbif_id": 5039079,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "632": {
+        "name": "Common Goldeneye",
+        "scientific_name": "Bucephala clangula (Linnaeus, 1758)",
+        "gbif_id": 2498326,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "633": {
+        "name": "Barrow's Goldeneye",
+        "scientific_name": "Bucephala islandica (J.F.Gmelin, 1789)",
+        "gbif_id": 2498325,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "634": {
+        "name": "Hooded Merganser",
+        "scientific_name": "Lophodytes cucullatus (Linnaeus, 1758)",
+        "gbif_id": 2498408,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "635": {
+        "name": "Common Merganser",
+        "scientific_name": "Mergus merganser Linnaeus, 1758",
+        "gbif_id": 9537647,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "636": {
+        "name": "Red-breasted Merganser",
+        "scientific_name": "Mergus serrator Linnaeus, 1758",
+        "gbif_id": 2498375,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "637": {
+        "name": "California Quail",
+        "scientific_name": "Callipepla californica (Shaw, 1798)",
+        "gbif_id": 5228080,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "638": {
+        "name": "Gambel's Quail",
+        "scientific_name": "Callipepla gambelii (Gambel, 1843)",
+        "gbif_id": 5228072,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "639": {
+        "name": "Ring-necked Pheasant",
+        "scientific_name": "Phasianus colchicus Linnaeus, 1758",
+        "gbif_id": 9752149,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "640": {
+        "name": "Red-throated Loon",
+        "scientific_name": "Gavia stellata (Pontoppidan, 1763)",
+        "gbif_id": 2481958,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "641": {
+        "name": "Pacific Loon",
+        "scientific_name": "Gavia pacifica (Lawrence, 1858)",
+        "gbif_id": 2481955,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "642": {
+        "name": "Common Loon",
+        "scientific_name": "Gavia immer (Brunnich, 1764)",
+        "gbif_id": 2481962,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "643": {
+        "name": "Horned Grebe",
+        "scientific_name": "Podiceps auritus (Linnaeus, 1758)",
+        "gbif_id": 2482059,
+        "iucn_status": "VULNERABLE"
+    },
+    "644": {
+        "name": "Red-necked Grebe",
+        "scientific_name": "Podiceps grisegena (Boddaert, 1783)",
+        "gbif_id": 2482051,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "645": {
+        "name": "Eared Grebe",
+        "scientific_name": "Podiceps nigricollis C.L.Brehm, 1831",
+        "gbif_id": 2482065,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "646": {
+        "name": "Northern Gannet",
+        "scientific_name": "Morus bassanus (Linnaeus, 1758)",
+        "gbif_id": 2480964,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "647": {
+        "name": "Double-crested Cormorant",
+        "scientific_name": "Phalacrocorax auritus (Lesson, 1831)",
+        "gbif_id": 2481875,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "648": {
+        "name": "Great Cormorant",
+        "scientific_name": "Phalacrocorax carbo (Linnaeus, 1758)",
+        "gbif_id": 2481890,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "649": {
+        "name": "Little Blue Heron",
+        "scientific_name": "Egretta caerulea (Linnaeus, 1758)",
+        "gbif_id": 2480894,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "650": {
+        "name": "Reddish Egret",
+        "scientific_name": "Egretta rufescens (Gmelin, 1789)",
+        "gbif_id": 2480888,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "651": {
+        "name": "Black-crowned Night-Heron",
+        "scientific_name": "Nycticorax nycticorax (Linnaeus, 1758)",
+        "gbif_id": 2480863,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "652": {
+        "name": "Yellow-crowned Night-Heron",
+        "scientific_name": "Nyctanassa violacea (Linnaeus, 1758)",
+        "gbif_id": 2480953,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "653": {
+        "name": "White Ibis",
+        "scientific_name": "Threskiornis molucca (Cuvier, 1829)",
+        "gbif_id": 2480765,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "654": {
+        "name": "Bald Eagle",
+        "scientific_name": "Haliaeetus leucocephalus (Linnaeus, 1766)",
+        "gbif_id": 2480446,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "655": {
+        "name": "Northern Harrier",
+        "scientific_name": "Circus cyaneus (Linnaeus, 1766)",
+        "gbif_id": 2480487,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "656": {
+        "name": "Sharp-shinned Hawk",
+        "scientific_name": "Accipiter striatus Vieillot, 1808",
+        "gbif_id": 9740253,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "657": {
+        "name": "Cooper's Hawk",
+        "scientific_name": "Accipiter cooperii (Bonaparte, 1828)",
+        "gbif_id": 2480621,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "658": {
+        "name": "Red-shouldered Hawk",
+        "scientific_name": "Buteo lineatus (Gmelin, 1788)",
+        "gbif_id": 2480529,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "659": {
+        "name": "Broad-winged Hawk",
+        "scientific_name": "Buteo platypterus (Vieillot, 1823)",
+        "gbif_id": 2480538,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "660": {
+        "name": "Rough-legged Hawk",
+        "scientific_name": "Buteo lagopus (Pontoppidan, 1763)",
+        "gbif_id": 2480524,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "661": {
+        "name": "Golden Eagle",
+        "scientific_name": "Aquila bivia Emslie & Czaplewski, 1999",
+        "gbif_id": 8482549,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "662": {
+        "name": "American Kestrel",
+        "scientific_name": "Falco sparverius Linnaeus, 1758",
+        "gbif_id": 9685907,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "663": {
+        "name": "Peregrine Falcon",
+        "scientific_name": "Falco peregrinus Tunstall, 1771",
+        "gbif_id": 2481047,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "664": {
+        "name": "Purple Gallinule",
+        "scientific_name": "Porphyrio martinica (Linnaeus, 1766)",
+        "gbif_id": 5228136,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "665": {
+        "name": "Common Gallinule",
+        "scientific_name": "Gallinula chloropus (Linnaeus, 1758)",
+        "gbif_id": 5228199,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "666": {
+        "name": "Black-bellied Plover",
+        "scientific_name": "Pluvialis squatarola (Linnaeus, 1758)",
+        "gbif_id": 2480327,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "667": {
+        "name": "Spotted Sandpiper",
+        "scientific_name": "Actitis macularius (Linnaeus, 1766)",
+        "gbif_id": 2481798,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "668": {
+        "name": "Sanderling",
+        "scientific_name": "Calidris alba (Pallas, 1764)",
+        "gbif_id": 2481748,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "669": {
+        "name": "Dunlin",
+        "scientific_name": "Calidris alpina (Linnaeus, 1758)",
+        "gbif_id": 2481759,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "670": {
+        "name": "Wilson's Phalarope",
+        "scientific_name": "Phalaropus tricolor (Vieillot, 1819)",
+        "gbif_id": 5229389,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "671": {
+        "name": "Broad-billed Hummingbird",
+        "scientific_name": "Cynanthus latirostris Swainson, 1827",
+        "gbif_id": 5228542,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "672": {
+        "name": "Ruby-throated Hummingbird",
+        "scientific_name": "Archilochus colubris (Linnaeus, 1758)",
+        "gbif_id": 5228514,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "673": {
+        "name": "Black-chinned Hummingbird",
+        "scientific_name": "Archilochus alexandri (Bourcier & Mulsant, 1846)",
+        "gbif_id": 5228513,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "674": {
+        "name": "Anna's Hummingbird",
+        "scientific_name": "Calypte anna (R.Lesson, 1829)",
+        "gbif_id": 2476674,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "675": {
+        "name": "Costa's Hummingbird",
+        "scientific_name": "Calypte costae (Bourcier, 1839)",
+        "gbif_id": 2476675,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "676": {
+        "name": "Calliope Hummingbird",
+        "scientific_name": "Selasphorus calliope (Gould, 1847)",
+        "gbif_id": 7597244,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "677": {
+        "name": "Broad-tailed Hummingbird",
+        "scientific_name": "Selasphorus platycercus (Swainson, 1827)",
+        "gbif_id": 2476844,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "678": {
+        "name": "Rufous Hummingbird",
+        "scientific_name": "Selasphorus rufus (J.F.Gmelin, 1788)",
+        "gbif_id": 2476855,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "679": {
+        "name": "Allen's Hummingbird",
+        "scientific_name": "Selasphorus sasin (R.Lesson, 1829)",
+        "gbif_id": 2476852,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "680": {
+        "name": "Red-headed Woodpecker",
+        "scientific_name": "Melanerpes erythrocephalus (Linnaeus, 1758)",
+        "gbif_id": 2478130,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "681": {
+        "name": "Northern Flicker",
+        "scientific_name": "Colaptes auratus (Linnaeus, 1758)",
+        "gbif_id": 2478259,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "682": {
+        "name": "Northern Shrike",
+        "scientific_name": "Falcunculus whitei A.J.Campbell, 1910",
+        "gbif_id": 4846563,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "683": {
+        "name": "American Crow",
+        "scientific_name": "Corvus brachyrhynchos C.L.Brehm, 1822",
+        "gbif_id": 2482507,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "684": {
+        "name": "Great Crested Flycatcher",
+        "scientific_name": "Myiarchus crinitus (Linnaeus, 1758)",
+        "gbif_id": 2483597,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "685": {
+        "name": "Hoary Redpoll",
+        "scientific_name": "Acanthis hornemanni (Holb\u00f6ll, 1843)",
+        "gbif_id": 5231646,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "686": {
+        "name": "Song Sparrow",
+        "scientific_name": "Melospiza melodia (A.Wilson, 1810)",
+        "gbif_id": 2492196,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "687": {
+        "name": "Lazuli Bunting",
+        "scientific_name": "Passerina amoena (Say, 1822)",
+        "gbif_id": 5230861,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "688": {
+        "name": "Pine Warbler",
+        "scientific_name": "Setophaga pinus (Linnaeus, 1766)",
+        "gbif_id": 7341816,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "689": {
+        "name": "Hutton's Vireo",
+        "scientific_name": "Vireo huttoni Cassin, 1851",
+        "gbif_id": 9722986,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "690": {
+        "name": "Brown-headed Cowbird",
+        "scientific_name": "Molothrus ater (Boddaert, 1783)",
+        "gbif_id": 2484391,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "691": {
+        "name": "Yellow-rumped Warbler",
+        "scientific_name": "Setophaga coronata (Linnaeus, 1766)",
+        "gbif_id": 7341805,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "692": {
+        "name": "Juniper Titmouse",
+        "scientific_name": "Baeolophus ridgwayi (Richmond, 1902)",
+        "gbif_id": 2487898,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "693": {
+        "name": "Wood Thrush",
+        "scientific_name": "Hylocichla mustelina (Gmelin, 1789)",
+        "gbif_id": 2490872,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "694": {
+        "name": "Lincoln's Sparrow",
+        "scientific_name": "Melospiza lincolnii (Audubon, 1834)",
+        "gbif_id": 2492192,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "695": {
+        "name": "Northwestern Crow",
+        "scientific_name": "Corvus caurinus S.F.Baird, 1858",
+        "gbif_id": 2482523,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "696": {
+        "name": "Common Eider",
+        "scientific_name": "Somateria mollissima (Linnaeus, 1758)",
+        "gbif_id": 2498352,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "697": {
+        "name": "Long-tailed Duck",
+        "scientific_name": "Clangula hyemalis (Linnaeus, 1758)",
+        "gbif_id": 2498273,
+        "iucn_status": "VULNERABLE"
+    },
+    "698": {
+        "name": "Ruddy Duck",
+        "scientific_name": "Oxyura jamaicensis (J.F.Gmelin, 1789)",
+        "gbif_id": 2498305,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "699": {
+        "name": "Swainson's Hawk",
+        "scientific_name": "Buteo swainsoni Bonaparte, 1838",
+        "gbif_id": 2480562,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "700": {
+        "name": "Red-tailed Hawk",
+        "scientific_name": "Buteo jamaicensis (Gmelin, 1788)",
+        "gbif_id": 2480542,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "701": {
+        "name": "Cassin's Kingbird",
+        "scientific_name": "Tyrannus vociferans Swainson, 1826",
+        "gbif_id": 5229681,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "702": {
+        "name": "Yellow-throated Warbler",
+        "scientific_name": "Setophaga dominica (Linnaeus, 1766)",
+        "gbif_id": 7341800,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "703": {
+        "name": "Pine Siskin",
+        "scientific_name": "Spinus pinus (A.Wilson, 1810)",
+        "gbif_id": 5231635,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "704": {
+        "name": "Orchard Oriole",
+        "scientific_name": "Icterus spurius (Linnaeus, 1766)",
+        "gbif_id": 5229935,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "705": {
+        "name": "Swamp Sparrow",
+        "scientific_name": "Melospiza georgiana (Latham, 1790)",
+        "gbif_id": 2492235,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "706": {
+        "name": "Indigo Bunting",
+        "scientific_name": "Passerina cyanea (Linnaeus, 1766)",
+        "gbif_id": 2490327,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "707": {
+        "name": "Cave Swallow",
+        "scientific_name": "Petrochelidon fulva (Vieillot, 1808)",
+        "gbif_id": 2489166,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "708": {
+        "name": "Winter Wren",
+        "scientific_name": "Troglodytes hiemalis Vieillot, 1819",
+        "gbif_id": 7340825,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "709": {
+        "name": "Prairie Warbler",
+        "scientific_name": "Setophaga discolor (Vieillot, 1809)",
+        "gbif_id": 7341789,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "710": {
+        "name": "Fish Crow",
+        "scientific_name": "Corvus ossifragus A.Wilson, 1812",
+        "gbif_id": 2482481,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "711": {
+        "name": "Brown-headed Nuthatch",
+        "scientific_name": "Sitta pusilla Latham, 1790",
+        "gbif_id": 2484904,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "712": {
+        "name": "Warbling Vireo",
+        "scientific_name": "Vireo gilvus (Vieillot, 1808)",
+        "gbif_id": 2487446,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "713": {
+        "name": "Black-throated Gray Warbler",
+        "scientific_name": "Setophaga nigrescens (J.K.Townsend, 1837)",
+        "gbif_id": 7341770,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "714": {
+        "name": "White-throated Sparrow",
+        "scientific_name": "Zonotrichia albicollis (J.F.Gmelin, 1789)",
+        "gbif_id": 5231140,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "715": {
+        "name": "Lesser Goldfinch",
+        "scientific_name": "Spinus psaltria (Say, 1822)",
+        "gbif_id": 5231647,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "716": {
+        "name": "Western Kingbird",
+        "scientific_name": "Tyrannus verticalis Say, 1823",
+        "gbif_id": 5229675,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "717": {
+        "name": "Tufted Titmouse",
+        "scientific_name": "Baeolophus bicolor (Linnaeus, 1766)",
+        "gbif_id": 2487887,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "718": {
+        "name": "American Robin",
+        "scientific_name": "Turdus migratorius Linnaeus, 1766",
+        "gbif_id": 9510564,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "719": {
+        "name": "Hooded Oriole",
+        "scientific_name": "Icterus cucullatus Swainson, 1827",
+        "gbif_id": 5229882,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "720": {
+        "name": "California Thrasher",
+        "scientific_name": "Toxostoma redivivum (Gambel, 1845)",
+        "gbif_id": 5231713,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "721": {
+        "name": "Townsend's Warbler",
+        "scientific_name": "Setophaga townsendi (J.K.Townsend, 1837)",
+        "gbif_id": 6092651,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "722": {
+        "name": "Harris's Sparrow",
+        "scientific_name": "Zonotrichia querula (Nuttall, 1840)",
+        "gbif_id": 5231139,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "723": {
+        "name": "Painted Bunting",
+        "scientific_name": "Passerina ciris (Linnaeus, 1758)",
+        "gbif_id": 5230852,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "724": {
+        "name": "Hermit Warbler",
+        "scientific_name": "Setophaga occidentalis (J.K.Townsend, 1837)",
+        "gbif_id": 6092644,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "725": {
+        "name": "Chihuahuan Raven",
+        "scientific_name": "Corvus cryptoleucus Couch, 1854",
+        "gbif_id": 2482500,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "726": {
+        "name": "American Goldfinch",
+        "scientific_name": "Spinus tristis (Linnaeus, 1758)",
+        "gbif_id": 5231640,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "727": {
+        "name": "Eastern Kingbird",
+        "scientific_name": "Tyrannus tyrannus (Linnaeus, 1758)",
+        "gbif_id": 5229688,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "728": {
+        "name": "Bullock's Oriole",
+        "scientific_name": "Icterus bullockiorum (Swainson, 1827)",
+        "gbif_id": 10716565,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "729": {
+        "name": "White-crowned Sparrow",
+        "scientific_name": "Zonotrichia leucophrys (J.R.Forster, 1772)",
+        "gbif_id": 5231132,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "730": {
+        "name": "Barn Swallow",
+        "scientific_name": "Delichon urbicum x Hirundo rustica",
+        "gbif_id": 10042909,
+        "iucn_status": "Not Available"
+    },
+    "731": {
+        "name": "Marsh Wren",
+        "scientific_name": "Cistothorus palustris (A.Wilson, 1810)",
+        "gbif_id": 2493863,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "732": {
+        "name": "Black-throated Green Warbler",
+        "scientific_name": "Setophaga virens (J.F.Gmelin, 1789)",
+        "gbif_id": 6092631,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "733": {
+        "name": "Red-eyed Vireo",
+        "scientific_name": "Vireo olivaceus (Linnaeus, 1766)",
+        "gbif_id": 2487430,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "734": {
+        "name": "Black-crested Titmouse",
+        "scientific_name": "Baeolophus atricristatus (Cassin, 1850)",
+        "gbif_id": 2487919,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "735": {
+        "name": "Varied Thrush",
+        "scientific_name": "Ixoreus naevius (Gmelin, 1789)",
+        "gbif_id": 2490926,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "736": {
+        "name": "Canada Warbler",
+        "scientific_name": "Cardellina canadensis (Linnaeus, 1766)",
+        "gbif_id": 6091946,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "737": {
+        "name": "Golden-crowned Sparrow",
+        "scientific_name": "Zonotrichia atricapilla (J.F.Gmelin, 1789)",
+        "gbif_id": 5231138,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "738": {
+        "name": "Dickcissel",
+        "scientific_name": "Spiza americana (J.F.Gmelin, 1789)",
+        "gbif_id": 2490363,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "739": {
+        "name": "Common Raven",
+        "scientific_name": "Papilio castor Westwood, 1842",
+        "gbif_id": 1937707,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "740": {
+        "name": "Evening Grosbeak",
+        "scientific_name": "Hesperiphona vespertina (W.Cooper, 1825)",
+        "gbif_id": 2494324,
+        "iucn_status": "VULNERABLE"
+    },
+    "741": {
+        "name": "Scissor-tailed Flycatcher",
+        "scientific_name": "Tyrannus forficatus (Gmelin, 1789)",
+        "gbif_id": 5229687,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "742": {
+        "name": "Baltimore Oriole",
+        "scientific_name": "Icterus galbula (Linnaeus, 1758)",
+        "gbif_id": 2484340,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "743": {
+        "name": "Wilson's Warbler",
+        "scientific_name": "Cardellina pusilla (A.Wilson, 1811)",
+        "gbif_id": 7341606,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "744": {
+        "name": "Dark-eyed Junco",
+        "scientific_name": "Junco hyemalis (Linnaeus, 1758)",
+        "gbif_id": 9362842,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "745": {
+        "name": "Yellow-breasted Chat",
+        "scientific_name": "Icteria virens (Linnaeus, 1758)",
+        "gbif_id": 2489989,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "746": {
+        "name": "Dark-eyed Junco",
+        "scientific_name": "Junco hyemalis (Linnaeus, 1758)",
+        "gbif_id": 9362842,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "747": {
+        "name": "Yellow-rumped Warbler",
+        "scientific_name": "Setophaga coronata (Linnaeus, 1766)",
+        "gbif_id": 7341805,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "748": {
+        "name": "European Starling",
+        "scientific_name": "Sturnus vulgaris Linnaeus, 1758",
+        "gbif_id": 9809229,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "749": {
+        "name": "Fox Sparrow",
+        "scientific_name": "Passerella iliaca (Merrem, 1786)",
+        "gbif_id": 2491872,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "750": {
+        "name": "Summer Tanager",
+        "scientific_name": "Piranga rubra (Linnaeus, 1758)",
+        "gbif_id": 2488485,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "751": {
+        "name": "Orchard Oriole",
+        "scientific_name": "Icterus spurius (Linnaeus, 1766)",
+        "gbif_id": 5229935,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "752": {
+        "name": "Purple Martin",
+        "scientific_name": "Progne subis (Linnaeus, 1758)",
+        "gbif_id": 2489129,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "753": {
+        "name": "American Robin",
+        "scientific_name": "Turdus migratorius Linnaeus, 1766",
+        "gbif_id": 9510564,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "754": {
+        "name": "Phainopepla",
+        "scientific_name": "Phainopepla nitens (Swainson, 1838)",
+        "gbif_id": 2492885,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "755": {
+        "name": "Snow Bunting",
+        "scientific_name": "Plectrophenax nivalis (Linnaeus, 1758)",
+        "gbif_id": 2491719,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "756": {
+        "name": "Common Yellowthroat",
+        "scientific_name": "Geothlypis trichas (Linnaeus, 1766)",
+        "gbif_id": 2489670,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "757": {
+        "name": "American Redstart",
+        "scientific_name": "Setophaga ruticilla (Linnaeus, 1758)",
+        "gbif_id": 2489985,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "758": {
+        "name": "Magnolia Warbler",
+        "scientific_name": "Setophaga magnolia (A.Wilson, 1811)",
+        "gbif_id": 6093209,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "759": {
+        "name": "Bay-breasted Warbler",
+        "scientific_name": "Setophaga castanea (A.Wilson, 1810)",
+        "gbif_id": 6093202,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "760": {
+        "name": "Chestnut-sided Warbler",
+        "scientific_name": "Setophaga pensylvanica (Linnaeus, 1766)",
+        "gbif_id": 6092942,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "761": {
+        "name": "Blackpoll Warbler",
+        "scientific_name": "Setophaga striata (J.R.Forster, 1772)",
+        "gbif_id": 6092935,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "762": {
+        "name": "Black-throated Blue Warbler",
+        "scientific_name": "Setophaga caerulescens (J.F.Gmelin, 1789)",
+        "gbif_id": 7341828,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "763": {
+        "name": "Lark Bunting",
+        "scientific_name": "Calamospiza melanocorys Stejneger, 1885",
+        "gbif_id": 2491893,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "764": {
+        "name": "White-throated Sparrow",
+        "scientific_name": "Zonotrichia albicollis (J.F.Gmelin, 1789)",
+        "gbif_id": 5231140,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "765": {
+        "name": "Harris's Sparrow",
+        "scientific_name": "Zonotrichia querula (Nuttall, 1840)",
+        "gbif_id": 5231139,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "766": {
+        "name": "White-crowned Sparrow",
+        "scientific_name": "Zonotrichia leucophrys (J.R.Forster, 1772)",
+        "gbif_id": 5231132,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "767": {
+        "name": "Golden-crowned Sparrow",
+        "scientific_name": "Zonotrichia atricapilla (J.F.Gmelin, 1789)",
+        "gbif_id": 5231138,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "768": {
+        "name": "Dark-eyed Junco",
+        "scientific_name": "Junco hyemalis (Linnaeus, 1758)",
+        "gbif_id": 9362842,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "769": {
+        "name": "Chipping Sparrow",
+        "scientific_name": "Spizella passerina (Bechstein, 1798)",
+        "gbif_id": 2492109,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "770": {
+        "name": "Scarlet Tanager",
+        "scientific_name": "Piranga olivacea (J.F.Gmelin, 1789)",
+        "gbif_id": 2488517,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "771": {
+        "name": "Western Tanager",
+        "scientific_name": "Piranga ludoviciana (A.Wilson, 1811)",
+        "gbif_id": 2488484,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "772": {
+        "name": "Northern Cardinal",
+        "scientific_name": "Cardinalis cardinalis (Linnaeus, 1758)",
+        "gbif_id": 2490384,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "773": {
+        "name": "Rose-breasted Grosbeak",
+        "scientific_name": "Pheucticus ludovicianus (Linnaeus, 1766)",
+        "gbif_id": 2490494,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "774": {
+        "name": "Black-headed Grosbeak",
+        "scientific_name": "Pheucticus melanocephalus (Swainson, 1827)",
+        "gbif_id": 2490487,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "775": {
+        "name": "Blue Grosbeak",
+        "scientific_name": "Passerina caerulea (Linnaeus, 1758)",
+        "gbif_id": 5230862,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "776": {
+        "name": "Lazuli Bunting",
+        "scientific_name": "Passerina amoena (Say, 1822)",
+        "gbif_id": 5230861,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "777": {
+        "name": "Indigo Bunting",
+        "scientific_name": "Passerina cyanea (Linnaeus, 1766)",
+        "gbif_id": 2490327,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "778": {
+        "name": "Painted Bunting",
+        "scientific_name": "Passerina ciris (Linnaeus, 1758)",
+        "gbif_id": 5230852,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "779": {
+        "name": "Bobolink",
+        "scientific_name": "Dolichonyx oryzivorus (Linnaeus, 1758)",
+        "gbif_id": 2484417,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "780": {
+        "name": "Red-winged Blackbird",
+        "scientific_name": "Agelaius phoeniceus (Linnaeus, 1766)",
+        "gbif_id": 9409198,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "781": {
+        "name": "Yellow-headed Blackbird",
+        "scientific_name": "Xanthocephalus xanthocephalus (Bonaparte, 1826)",
+        "gbif_id": 2484195,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "782": {
+        "name": "Brewer's Blackbird",
+        "scientific_name": "Euphagus cyanocephalus (Wagler, 1829)",
+        "gbif_id": 2484183,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "783": {
+        "name": "Brown-headed Cowbird",
+        "scientific_name": "Molothrus ater (Boddaert, 1783)",
+        "gbif_id": 2484391,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "784": {
+        "name": "Hooded Oriole",
+        "scientific_name": "Icterus cucullatus Swainson, 1827",
+        "gbif_id": 5229882,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "785": {
+        "name": "Bullock's Oriole",
+        "scientific_name": "Icterus bullockiorum (Swainson, 1827)",
+        "gbif_id": 10716565,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "786": {
+        "name": "Baltimore Oriole",
+        "scientific_name": "Icterus galbula (Linnaeus, 1758)",
+        "gbif_id": 2484340,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "787": {
+        "name": "Pine Grosbeak",
+        "scientific_name": "Pinicola enucleator (Linnaeus, 1758)",
+        "gbif_id": 2494771,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "788": {
+        "name": "Purple Finch",
+        "scientific_name": "Haemorhous purpureus (J.F.Gmelin, 1789)",
+        "gbif_id": 7804446,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "789": {
+        "name": "Cassin's Finch",
+        "scientific_name": "Haemorhous cassinii (S.F.Baird, 1854)",
+        "gbif_id": 8255548,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "790": {
+        "name": "House Finch",
+        "scientific_name": "Haemorhous mexicanus (P.L.Statius M\u00fcller, 1776)",
+        "gbif_id": 8323485,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "791": {
+        "name": "Red Crossbill",
+        "scientific_name": "Loxia curvirostra Linnaeus, 1758",
+        "gbif_id": 9629160,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "792": {
+        "name": "White-winged Crossbill",
+        "scientific_name": "Loxia leucoptera J.F.Gmelin, 1789",
+        "gbif_id": 8144830,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "793": {
+        "name": "Lesser Goldfinch",
+        "scientific_name": "Spinus psaltria (Say, 1822)",
+        "gbif_id": 5231647,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "794": {
+        "name": "American Goldfinch",
+        "scientific_name": "Spinus tristis (Linnaeus, 1758)",
+        "gbif_id": 5231640,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "795": {
+        "name": "Evening Grosbeak",
+        "scientific_name": "Hesperiphona vespertina (W.Cooper, 1825)",
+        "gbif_id": 2494324,
+        "iucn_status": "VULNERABLE"
+    },
+    "796": {
+        "name": "House Sparrow",
+        "scientific_name": "Ceratophyllus fringillae (Walker, 1856)",
+        "gbif_id": 1417235,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "797": {
+        "name": "Vermilion Flycatcher",
+        "scientific_name": "Pyrocephalus rubinus (Boddaert, 1783)",
+        "gbif_id": 2483647,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "798": {
+        "name": "Yellow-rumped Warbler",
+        "scientific_name": "Setophaga coronata (Linnaeus, 1766)",
+        "gbif_id": 7341805,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "799": {
+        "name": "Northwestern Crow",
+        "scientific_name": "Corvus caurinus S.F.Baird, 1858",
+        "gbif_id": 2482523,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "800": {
+        "name": "Fish Crow",
+        "scientific_name": "Corvus ossifragus A.Wilson, 1812",
+        "gbif_id": 2482481,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "801": {
+        "name": "Chihuahuan Raven",
+        "scientific_name": "Corvus cryptoleucus Couch, 1854",
+        "gbif_id": 2482500,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "802": {
+        "name": "Common Raven",
+        "scientific_name": "Papilio castor Westwood, 1842",
+        "gbif_id": 1937707,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "803": {
+        "name": "Horned Lark",
+        "scientific_name": "Eremophila alpestris (Linnaeus, 1758)",
+        "gbif_id": 9415596,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "804": {
+        "name": "Tree Swallow",
+        "scientific_name": "Tachycineta speleodytes Brodkorb, 1957",
+        "gbif_id": 8694402,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "805": {
+        "name": "Violet-green Swallow",
+        "scientific_name": "Tachycineta thalassina (Swainson, 1827)",
+        "gbif_id": 5230754,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "806": {
+        "name": "Northern Rough-winged Swallow",
+        "scientific_name": "Stelgidopteryx serripennis (Audubon, 1838)",
+        "gbif_id": 2489202,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "807": {
+        "name": "Bank Swallow",
+        "scientific_name": "Riparia riparia (Linnaeus, 1758)",
+        "gbif_id": 2489160,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "808": {
+        "name": "Cliff Swallow",
+        "scientific_name": "Argas cooleyi Kohls & Hoogstraal, 1960",
+        "gbif_id": 7793745,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "809": {
+        "name": "Cave Swallow",
+        "scientific_name": "Petrochelidon fulva (Vieillot, 1808)",
+        "gbif_id": 2489166,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "810": {
+        "name": "Barn Swallow",
+        "scientific_name": "Delichon urbicum x Hirundo rustica",
+        "gbif_id": 10042909,
+        "iucn_status": "Not Available"
+    },
+    "811": {
+        "name": "Carolina Chickadee",
+        "scientific_name": "Poecile carolinensis (Audubon, 1834)",
+        "gbif_id": 2487844,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "812": {
+        "name": "Black-capped Chickadee",
+        "scientific_name": "Poecile atricapillus (Linnaeus, 1766)",
+        "gbif_id": 2487805,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "813": {
+        "name": "Mountain Chickadee",
+        "scientific_name": "Poecile gambeli (Ridgway, 1886)",
+        "gbif_id": 2487825,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "814": {
+        "name": "Chestnut-backed Chickadee",
+        "scientific_name": "Poecile rufescens (J.K.Townsend, 1837)",
+        "gbif_id": 2487783,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "815": {
+        "name": "Boreal Chickadee",
+        "scientific_name": "Poecile hudsonicus (J.R.Forster, 1772)",
+        "gbif_id": 2487793,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "816": {
+        "name": "Bridled Titmouse",
+        "scientific_name": "Baeolophus wollweberi (Bonaparte, 1850)",
+        "gbif_id": 2487892,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "817": {
+        "name": "Oak Titmouse",
+        "scientific_name": "Baeolophus inornatus (Gambel, 1845)",
+        "gbif_id": 2487905,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "818": {
+        "name": "Juniper Titmouse",
+        "scientific_name": "Baeolophus ridgwayi (Richmond, 1902)",
+        "gbif_id": 2487898,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "819": {
+        "name": "Tufted Titmouse",
+        "scientific_name": "Baeolophus bicolor (Linnaeus, 1766)",
+        "gbif_id": 2487887,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "820": {
+        "name": "Black-crested Titmouse",
+        "scientific_name": "Baeolophus atricristatus (Cassin, 1850)",
+        "gbif_id": 2487919,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "821": {
+        "name": "Verdin",
+        "scientific_name": "Auriparus flaviceps (Sundevall, 1850)",
+        "gbif_id": 2487397,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "822": {
+        "name": "Bushtit",
+        "scientific_name": "Psaltriparus minimus (J.K.Townsend, 1837)",
+        "gbif_id": 2494988,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "823": {
+        "name": "Red-breasted Nuthatch",
+        "scientific_name": "Sitta canadensis Linnaeus, 1766",
+        "gbif_id": 2484879,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "824": {
+        "name": "White-breasted Nuthatch",
+        "scientific_name": "Sitta carolinensis Latham, 1790",
+        "gbif_id": 2484892,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "825": {
+        "name": "Pygmy Nuthatch",
+        "scientific_name": "Sitta pygmaea Vigors, 1839",
+        "gbif_id": 2484907,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "826": {
+        "name": "Brown-headed Nuthatch",
+        "scientific_name": "Sitta pusilla Latham, 1790",
+        "gbif_id": 2484904,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "827": {
+        "name": "Brown Creeper",
+        "scientific_name": "Certhia americana Bonaparte, 1838",
+        "gbif_id": 9581157,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "828": {
+        "name": "Cactus Wren",
+        "scientific_name": "Campylorhynchus brunneicapillus (Lafresnaye, 1835)",
+        "gbif_id": 5231474,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "829": {
+        "name": "Canyon Wren",
+        "scientific_name": "Catherpes mexicanus (Swainson, 1829)",
+        "gbif_id": 5231430,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "830": {
+        "name": "Carolina Wren",
+        "scientific_name": "Thryothorus ludovicianus (Latham, 1790)",
+        "gbif_id": 2493801,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "831": {
+        "name": "Bewick's Wren",
+        "scientific_name": "Thryomanes bewickii (Audubon, 1827)",
+        "gbif_id": 2493843,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "832": {
+        "name": "House Wren",
+        "scientific_name": "Troglodytes aedon Vieillot, 1809",
+        "gbif_id": 5231459,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "833": {
+        "name": "Pacific Wren",
+        "scientific_name": "Troglodytes pacificus S.F.Baird, 1864",
+        "gbif_id": 9533566,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "834": {
+        "name": "Winter Wren",
+        "scientific_name": "Troglodytes hiemalis Vieillot, 1819",
+        "gbif_id": 7340825,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "835": {
+        "name": "Marsh Wren",
+        "scientific_name": "Cistothorus palustris (A.Wilson, 1810)",
+        "gbif_id": 2493863,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "836": {
+        "name": "Blue-gray Gnatcatcher",
+        "scientific_name": "Polioptila caerulea (Linnaeus, 1766)",
+        "gbif_id": 2487596,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "837": {
+        "name": "Black-tailed Gnatcatcher",
+        "scientific_name": "Polioptila melanura Lawrence, 1857",
+        "gbif_id": 2487586,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "838": {
+        "name": "American Dipper",
+        "scientific_name": "Cinclus mexicanus Swainson, 1827",
+        "gbif_id": 9606873,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "839": {
+        "name": "Golden-crowned Kinglet",
+        "scientific_name": "Regulus satrapa Lichtenstein, 1823",
+        "gbif_id": 2484591,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "840": {
+        "name": "Ruby-crowned Kinglet",
+        "scientific_name": "Regulus calendula (Linnaeus, 1766)",
+        "gbif_id": 2484597,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "841": {
+        "name": "Wrentit",
+        "scientific_name": "Chamaea fasciata (Gambel, 1845)",
+        "gbif_id": 2493558,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "842": {
+        "name": "Eastern Bluebird",
+        "scientific_name": "Sialia sialis (Linnaeus, 1758)",
+        "gbif_id": 2490941,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "843": {
+        "name": "Western Bluebird",
+        "scientific_name": "Sialia mexicana Swainson, 1832",
+        "gbif_id": 2490936,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "844": {
+        "name": "Mountain Bluebird",
+        "scientific_name": "Sialia currucoides (Bechstein, 1798)",
+        "gbif_id": 2490935,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "845": {
+        "name": "Townsend's Solitaire",
+        "scientific_name": "Myadestes townsendi (Audubon, 1838)",
+        "gbif_id": 2490849,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "846": {
+        "name": "Veery",
+        "scientific_name": "Catharus fuscescens (Stephens, 1817)",
+        "gbif_id": 2490804,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "847": {
+        "name": "Swainson's Thrush",
+        "scientific_name": "Catharus ustulatus (Nuttall, 1840)",
+        "gbif_id": 2490821,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "848": {
+        "name": "Hermit Thrush",
+        "scientific_name": "Catharus guttatus (Pallas, 1811)",
+        "gbif_id": 2490810,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "849": {
+        "name": "Wood Thrush",
+        "scientific_name": "Hylocichla mustelina (Gmelin, 1789)",
+        "gbif_id": 2490872,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "850": {
+        "name": "Varied Thrush",
+        "scientific_name": "Ixoreus naevius (Gmelin, 1789)",
+        "gbif_id": 2490926,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "851": {
+        "name": "Gray Catbird",
+        "scientific_name": "Dumetella carolinensis (Linnaeus, 1766)",
+        "gbif_id": 2494936,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "852": {
+        "name": "Northern Mockingbird",
+        "scientific_name": "Mimus polyglottos (Linnaeus, 1758)",
+        "gbif_id": 5231677,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "853": {
+        "name": "Brown Thrasher",
+        "scientific_name": "Toxostoma rufum (Linnaeus, 1758)",
+        "gbif_id": 9479809,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "854": {
+        "name": "Curve-billed Thrasher",
+        "scientific_name": "Toxostoma curvirostre (Swainson, 1827)",
+        "gbif_id": 5231688,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "855": {
+        "name": "California Thrasher",
+        "scientific_name": "Toxostoma redivivum (Gambel, 1845)",
+        "gbif_id": 5231713,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "856": {
+        "name": "European Starling",
+        "scientific_name": "Sturnus vulgaris Linnaeus, 1758",
+        "gbif_id": 9809229,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "857": {
+        "name": "American Pipit",
+        "scientific_name": "Anthus rubescens (Tunstall, 1771)",
+        "gbif_id": 2490263,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "858": {
+        "name": "Bohemian Waxwing",
+        "scientific_name": "Bombycilla garrulus (Linnaeus, 1758)",
+        "gbif_id": 2484605,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "859": {
+        "name": "Cedar Waxwing",
+        "scientific_name": "Bombycilla cedrorum Vieillot, 1808",
+        "gbif_id": 2484609,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "860": {
+        "name": "Ovenbird",
+        "scientific_name": "Seiurus aurocapilla (Linnaeus, 1766)",
+        "gbif_id": 2489590,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "861": {
+        "name": "Louisiana Waterthrush",
+        "scientific_name": "Parkesia motacilla (Vieillot, 1809)",
+        "gbif_id": 6093862,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "862": {
+        "name": "Northern Waterthrush",
+        "scientific_name": "Parkesia noveboracensis (J.F.Gmelin, 1789)",
+        "gbif_id": 6093856,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "863": {
+        "name": "Blue-winged Warbler",
+        "scientific_name": "Vermivora cyanoptera Olson & Reveal, 2009",
+        "gbif_id": 6093846,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "864": {
+        "name": "Black-and-white Warbler",
+        "scientific_name": "Mniotilta varia (Linnaeus, 1766)",
+        "gbif_id": 2489613,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "865": {
+        "name": "Prothonotary Warbler",
+        "scientific_name": "Protonotaria citrea (Boddaert, 1783)",
+        "gbif_id": 2489871,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "866": {
+        "name": "Tennessee Warbler",
+        "scientific_name": "Leiothlypis peregrina (A.Wilson, 1811)",
+        "gbif_id": 7415507,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "867": {
+        "name": "Orange-crowned Warbler",
+        "scientific_name": "Leiothlypis celata (Say, 1822)",
+        "gbif_id": 8169649,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "868": {
+        "name": "Nashville Warbler",
+        "scientific_name": "Leiothlypis ruficapilla (A.Wilson, 1811)",
+        "gbif_id": 7531611,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "869": {
+        "name": "MacGillivray's Warbler",
+        "scientific_name": "Geothlypis tolmiei (J.K.Townsend, 1839)",
+        "gbif_id": 5789146,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "870": {
+        "name": "Mourning Warbler",
+        "scientific_name": "Geothlypis philadelphia (A.Wilson, 1810)",
+        "gbif_id": 5789148,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "871": {
+        "name": "Hooded Warbler",
+        "scientific_name": "Setophaga citrina (Boddaert, 1783)",
+        "gbif_id": 6093374,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "872": {
+        "name": "Cape May Warbler",
+        "scientific_name": "Setophaga tigrina (J.F.Gmelin, 1789)",
+        "gbif_id": 6093357,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "873": {
+        "name": "Northern Parula",
+        "scientific_name": "Setophaga americana (Linnaeus, 1758)",
+        "gbif_id": 6093345,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "874": {
+        "name": "Blackburnian Warbler",
+        "scientific_name": "Setophaga fusca (Statius M\u00fcller, 1776)",
+        "gbif_id": 6093199,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "875": {
+        "name": "Yellow Warbler",
+        "scientific_name": "Setophaga petechia (Linnaeus, 1766)",
+        "gbif_id": 7341834,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "876": {
+        "name": "Palm Warbler",
+        "scientific_name": "Setophaga palmarum (J.F.Gmelin, 1789)",
+        "gbif_id": 7341822,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "877": {
+        "name": "Pine Warbler",
+        "scientific_name": "Setophaga pinus (Linnaeus, 1766)",
+        "gbif_id": 7341816,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "878": {
+        "name": "Yellow-throated Warbler",
+        "scientific_name": "Setophaga dominica (Linnaeus, 1766)",
+        "gbif_id": 7341800,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "879": {
+        "name": "Prairie Warbler",
+        "scientific_name": "Setophaga discolor (Vieillot, 1809)",
+        "gbif_id": 7341789,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "880": {
+        "name": "Black-throated Gray Warbler",
+        "scientific_name": "Setophaga nigrescens (J.K.Townsend, 1837)",
+        "gbif_id": 7341770,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "881": {
+        "name": "Townsend's Warbler",
+        "scientific_name": "Setophaga townsendi (J.K.Townsend, 1837)",
+        "gbif_id": 6092651,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "882": {
+        "name": "Hermit Warbler",
+        "scientific_name": "Setophaga occidentalis (J.K.Townsend, 1837)",
+        "gbif_id": 6092644,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "883": {
+        "name": "Black-throated Green Warbler",
+        "scientific_name": "Setophaga virens (J.F.Gmelin, 1789)",
+        "gbif_id": 6092631,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "884": {
+        "name": "Canada Warbler",
+        "scientific_name": "Cardellina canadensis (Linnaeus, 1766)",
+        "gbif_id": 6091946,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "885": {
+        "name": "Wilson's Warbler",
+        "scientific_name": "Cardellina pusilla (A.Wilson, 1811)",
+        "gbif_id": 7341606,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "886": {
+        "name": "Yellow-breasted Chat",
+        "scientific_name": "Icteria virens (Linnaeus, 1758)",
+        "gbif_id": 2489989,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "887": {
+        "name": "Green-tailed Towhee",
+        "scientific_name": "Pipilo chlorurus (Audubon, 1839)",
+        "gbif_id": 2491276,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "888": {
+        "name": "Spotted Towhee",
+        "scientific_name": "Pipilo maculatus Swainson, 1827",
+        "gbif_id": 9709230,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "889": {
+        "name": "Eastern Towhee",
+        "scientific_name": "Pipilo erythrophthalmus (Linnaeus, 1758)",
+        "gbif_id": 2491205,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "890": {
+        "name": "Rufous-crowned Sparrow",
+        "scientific_name": "Aimophila ruficeps (Cassin, 1852)",
+        "gbif_id": 2491961,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "891": {
+        "name": "Canyon Towhee",
+        "scientific_name": "Melozone fusca (Swainson, 1827)",
+        "gbif_id": 7341622,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "892": {
+        "name": "California Towhee",
+        "scientific_name": "Melozone crissalis (Vigors, 1839)",
+        "gbif_id": 7341600,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "893": {
+        "name": "Abert's Towhee",
+        "scientific_name": "Melozone aberti (S.F.Baird, 1852)",
+        "gbif_id": 7341587,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "894": {
+        "name": "American Tree Sparrow",
+        "scientific_name": "Spizelloides arborea (A.Wilson, 1810)",
+        "gbif_id": 7357320,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "895": {
+        "name": "Clay-colored Sparrow",
+        "scientific_name": "Spizella pallida (Swainson, 1832)",
+        "gbif_id": 2492101,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "896": {
+        "name": "Brewer's Sparrow",
+        "scientific_name": "Spizella breweri Cassin, 1856",
+        "gbif_id": 2492099,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "897": {
+        "name": "Field Sparrow",
+        "scientific_name": "Spizella pusilla (A.Wilson, 1810)",
+        "gbif_id": 2492096,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "898": {
+        "name": "Vesper Sparrow",
+        "scientific_name": "Pooecetes gramineus (J.F.Gmelin, 1789)",
+        "gbif_id": 2491728,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "899": {
+        "name": "Lark Sparrow",
+        "scientific_name": "Chondestes grammacus (Say, 1822)",
+        "gbif_id": 2491651,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "900": {
+        "name": "Savannah Sparrow",
+        "scientific_name": "Passerculus sandwichensis (J.F.Gmelin, 1789)",
+        "gbif_id": 5231142,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "901": {
+        "name": "Fox Sparrow",
+        "scientific_name": "Passerella iliaca (Merrem, 1786)",
+        "gbif_id": 2491872,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "902": {
+        "name": "Song Sparrow",
+        "scientific_name": "Melospiza melodia (A.Wilson, 1810)",
+        "gbif_id": 2492196,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "903": {
+        "name": "Lincoln's Sparrow",
+        "scientific_name": "Melospiza lincolnii (Audubon, 1834)",
+        "gbif_id": 2492192,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "904": {
+        "name": "Swamp Sparrow",
+        "scientific_name": "Melospiza georgiana (Latham, 1790)",
+        "gbif_id": 2492235,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "905": {
+        "name": "Dark-eyed Junco",
+        "scientific_name": "Junco hyemalis (Linnaeus, 1758)",
+        "gbif_id": 9362842,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "906": {
+        "name": "Summer Tanager",
+        "scientific_name": "Piranga rubra (Linnaeus, 1758)",
+        "gbif_id": 2488485,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "907": {
+        "name": "Pyrrhuloxia",
+        "scientific_name": "Cardinalis sinuatus Bonaparte, 1838",
+        "gbif_id": 2490405,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "908": {
+        "name": "Dickcissel",
+        "scientific_name": "Spiza americana (J.F.Gmelin, 1789)",
+        "gbif_id": 2490363,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "909": {
+        "name": "Eastern Meadowlark",
+        "scientific_name": "Sturnella magna (Linnaeus, 1758)",
+        "gbif_id": 2484254,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "910": {
+        "name": "Western Meadowlark",
+        "scientific_name": "Sturnella neglecta Audubon, 1844",
+        "gbif_id": 9596413,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "911": {
+        "name": "Rusty Blackbird",
+        "scientific_name": "Euphagus carolinus (Statius Muller, 1776)",
+        "gbif_id": 2484184,
+        "iucn_status": "VULNERABLE"
+    },
+    "912": {
+        "name": "Common Grackle",
+        "scientific_name": "Quiscalus quiscula (Linnaeus, 1758)",
+        "gbif_id": 2484155,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "913": {
+        "name": "Boat-tailed Grackle",
+        "scientific_name": "Quiscalus major Vieillot, 1819",
+        "gbif_id": 2484133,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "914": {
+        "name": "Great-tailed Grackle",
+        "scientific_name": "Quiscalus mexicanus (Gmelin, 1788)",
+        "gbif_id": 9476062,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "915": {
+        "name": "Bronzed Cowbird",
+        "scientific_name": "Molothrus aeneus (Wagler, 1829)",
+        "gbif_id": 2484404,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "916": {
+        "name": "Orchard Oriole",
+        "scientific_name": "Icterus spurius (Linnaeus, 1766)",
+        "gbif_id": 5229935,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "917": {
+        "name": "Gray-crowned Rosy-Finch",
+        "scientific_name": "Leucosticte tephrocotis (Swainson, 1832)",
+        "gbif_id": 2494360,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "918": {
+        "name": "Black Rosy-Finch",
+        "scientific_name": "Leucosticte atrata Ridgway, 1874",
+        "gbif_id": 2494372,
+        "iucn_status": "ENDANGERED"
+    },
+    "919": {
+        "name": "Brown-capped Rosy-Finch",
+        "scientific_name": "Leucosticte australis Ridgway, 1874",
+        "gbif_id": 2494359,
+        "iucn_status": "ENDANGERED"
+    },
+    "920": {
+        "name": "Common Redpoll",
+        "scientific_name": "Acanthis flammea (Linnaeus, 1758)",
+        "gbif_id": 5231630,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "921": {
+        "name": "Hoary Redpoll",
+        "scientific_name": "Acanthis hornemanni (Holb\u00f6ll, 1843)",
+        "gbif_id": 5231646,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "922": {
+        "name": "Pine Siskin",
+        "scientific_name": "Spinus pinus (A.Wilson, 1810)",
+        "gbif_id": 5231635,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "923": {
+        "name": "Western Wood-Pewee",
+        "scientific_name": "Contopus sordidulus P.L.Sclater, 1859",
+        "gbif_id": 5229754,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "924": {
+        "name": "Eastern Wood-Pewee",
+        "scientific_name": "Contopus virens (Linnaeus, 1766)",
+        "gbif_id": 5229734,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "925": {
+        "name": "Least Flycatcher",
+        "scientific_name": "Empidonax minimus (W.M.Baird & S.F.Baird, 1843)",
+        "gbif_id": 2482791,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "926": {
+        "name": "Pacific-slope Flycatcher",
+        "scientific_name": "Empidonax difficilis S.F.Baird, 1858",
+        "gbif_id": 9568685,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "927": {
+        "name": "Cordilleran Flycatcher",
+        "scientific_name": "Empidonax occidentalis Nelson, 1897",
+        "gbif_id": 2482805,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "928": {
+        "name": "Black Phoebe",
+        "scientific_name": "Sayornis nigricans (Swainson, 1827)",
+        "gbif_id": 2483612,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "929": {
+        "name": "Eastern Phoebe",
+        "scientific_name": "Sayornis phoebe (Latham, 1790)",
+        "gbif_id": 2483606,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "930": {
+        "name": "Say's Phoebe",
+        "scientific_name": "Sayornis saya (Bonaparte, 1825)",
+        "gbif_id": 2483607,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "931": {
+        "name": "Ash-throated Flycatcher",
+        "scientific_name": "Myiarchus cinerascens (Lawrence, 1851)",
+        "gbif_id": 2483600,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "932": {
+        "name": "Great Crested Flycatcher",
+        "scientific_name": "Myiarchus crinitus (Linnaeus, 1758)",
+        "gbif_id": 2483597,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "933": {
+        "name": "Cassin's Kingbird",
+        "scientific_name": "Tyrannus vociferans Swainson, 1826",
+        "gbif_id": 5229681,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "934": {
+        "name": "Western Kingbird",
+        "scientific_name": "Tyrannus verticalis Say, 1823",
+        "gbif_id": 5229675,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "935": {
+        "name": "Eastern Kingbird",
+        "scientific_name": "Tyrannus tyrannus (Linnaeus, 1758)",
+        "gbif_id": 5229688,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "936": {
+        "name": "Scissor-tailed Flycatcher",
+        "scientific_name": "Tyrannus forficatus (Gmelin, 1789)",
+        "gbif_id": 5229687,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "937": {
+        "name": "Loggerhead Shrike",
+        "scientific_name": "Lanius ludovicianus Linnaeus, 1766",
+        "gbif_id": 2492870,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "938": {
+        "name": "Northern Shrike",
+        "scientific_name": "Falcunculus whitei A.J.Campbell, 1910",
+        "gbif_id": 4846563,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "939": {
+        "name": "White-eyed Vireo",
+        "scientific_name": "Vireo griseus (Boddaert, 1783)",
+        "gbif_id": 2487413,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "940": {
+        "name": "Bell's Vireo",
+        "scientific_name": "Vireo bellii Audubon, 1844",
+        "gbif_id": 2487441,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "941": {
+        "name": "Yellow-throated Vireo",
+        "scientific_name": "Vireo flavifrons Vieillot, 1808",
+        "gbif_id": 2487453,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "942": {
+        "name": "Plumbeous Vireo",
+        "scientific_name": "Vireo plumbeus Coues, 1866",
+        "gbif_id": 9353154,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "943": {
+        "name": "Cassin's Vireo",
+        "scientific_name": "Vireo cassinii Xantus de Vesey, 1858",
+        "gbif_id": 9552291,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "944": {
+        "name": "Blue-headed Vireo",
+        "scientific_name": "Vireo solitarius (A.Wilson, 1810)",
+        "gbif_id": 2487456,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "945": {
+        "name": "Hutton's Vireo",
+        "scientific_name": "Vireo huttoni Cassin, 1851",
+        "gbif_id": 9722986,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "946": {
+        "name": "Warbling Vireo",
+        "scientific_name": "Vireo gilvus (Vieillot, 1808)",
+        "gbif_id": 2487446,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "947": {
+        "name": "Red-eyed Vireo",
+        "scientific_name": "Vireo olivaceus (Linnaeus, 1766)",
+        "gbif_id": 2487430,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "948": {
+        "name": "Gray Jay",
+        "scientific_name": "Perisoreus canadensis (Linnaeus, 1766)",
+        "gbif_id": 2482436,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "949": {
+        "name": "Steller's Jay",
+        "scientific_name": "Cyanocitta stelleri (Gmelin, 1788)",
+        "gbif_id": 2482598,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "950": {
+        "name": "Blue Jay",
+        "scientific_name": "Cyanocitta cristata (Linnaeus, 1758)",
+        "gbif_id": 2482593,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "951": {
+        "name": "Florida Scrub-Jay",
+        "scientific_name": "Aphelocoma coerulescens (Bosc, 1795)",
+        "gbif_id": 2482400,
+        "iucn_status": "VULNERABLE"
+    },
+    "952": {
+        "name": "Western Scrub-Jay",
+        "scientific_name": "Aphelocoma californica (Vigors, 1839)",
+        "gbif_id": 2482414,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "953": {
+        "name": "Mexican Jay",
+        "scientific_name": "Aphelocoma wollweberi Kaup, 1855",
+        "gbif_id": 9441907,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "954": {
+        "name": "Clark's Nutcracker",
+        "scientific_name": "Nucifraga columbiana (A.Wilson, 1811)",
+        "gbif_id": 2482614,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "955": {
+        "name": "Black-billed Magpie",
+        "scientific_name": "Pica pica (Linnaeus, 1758)",
+        "gbif_id": 5229490,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "956": {
+        "name": "Yellow-billed Magpie",
+        "scientific_name": "Pica nuttalli (Audubon, 1837)",
+        "gbif_id": 5229489,
+        "iucn_status": "VULNERABLE"
+    },
+    "957": {
+        "name": "American Crow",
+        "scientific_name": "Corvus brachyrhynchos C.L.Brehm, 1822",
+        "gbif_id": 2482507,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "958": {
+        "name": "Yellow-rumped Warbler",
+        "scientific_name": "Setophaga coronata (Linnaeus, 1766)",
+        "gbif_id": 7341805,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "959": {
+        "name": "Purple Martin",
+        "scientific_name": "Progne subis (Linnaeus, 1758)",
+        "gbif_id": 2489129,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "960": {
+        "name": "American Robin",
+        "scientific_name": "Turdus migratorius Linnaeus, 1766",
+        "gbif_id": 9510564,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "961": {
+        "name": "Phainopepla",
+        "scientific_name": "Phainopepla nitens (Swainson, 1838)",
+        "gbif_id": 2492885,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "962": {
+        "name": "Snow Bunting",
+        "scientific_name": "Plectrophenax nivalis (Linnaeus, 1758)",
+        "gbif_id": 2491719,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "963": {
+        "name": "Common Yellowthroat",
+        "scientific_name": "Geothlypis trichas (Linnaeus, 1766)",
+        "gbif_id": 2489670,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "964": {
+        "name": "American Redstart",
+        "scientific_name": "Setophaga ruticilla (Linnaeus, 1758)",
+        "gbif_id": 2489985,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "965": {
+        "name": "Magnolia Warbler",
+        "scientific_name": "Setophaga magnolia (A.Wilson, 1811)",
+        "gbif_id": 6093209,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "966": {
+        "name": "Bay-breasted Warbler",
+        "scientific_name": "Setophaga castanea (A.Wilson, 1810)",
+        "gbif_id": 6093202,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "967": {
+        "name": "Chestnut-sided Warbler",
+        "scientific_name": "Setophaga pensylvanica (Linnaeus, 1766)",
+        "gbif_id": 6092942,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "968": {
+        "name": "Blackpoll Warbler",
+        "scientific_name": "Setophaga striata (J.R.Forster, 1772)",
+        "gbif_id": 6092935,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "969": {
+        "name": "Black-throated Blue Warbler",
+        "scientific_name": "Setophaga caerulescens (J.F.Gmelin, 1789)",
+        "gbif_id": 7341828,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "970": {
+        "name": "Lark Bunting",
+        "scientific_name": "Calamospiza melanocorys Stejneger, 1885",
+        "gbif_id": 2491893,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "971": {
+        "name": "White-throated Sparrow",
+        "scientific_name": "Zonotrichia albicollis (J.F.Gmelin, 1789)",
+        "gbif_id": 5231140,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "972": {
+        "name": "Harris's Sparrow",
+        "scientific_name": "Zonotrichia querula (Nuttall, 1840)",
+        "gbif_id": 5231139,
+        "iucn_status": "NEAR_THREATENED"
+    },
+    "973": {
+        "name": "White-crowned Sparrow",
+        "scientific_name": "Zonotrichia leucophrys (J.R.Forster, 1772)",
+        "gbif_id": 5231132,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "974": {
+        "name": "Golden-crowned Sparrow",
+        "scientific_name": "Zonotrichia atricapilla (J.F.Gmelin, 1789)",
+        "gbif_id": 5231138,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "975": {
+        "name": "Dark-eyed Junco",
+        "scientific_name": "Junco hyemalis (Linnaeus, 1758)",
+        "gbif_id": 9362842,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "976": {
+        "name": "Chipping Sparrow",
+        "scientific_name": "Spizella passerina (Bechstein, 1798)",
+        "gbif_id": 2492109,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "977": {
+        "name": "Scarlet Tanager",
+        "scientific_name": "Piranga olivacea (J.F.Gmelin, 1789)",
+        "gbif_id": 2488517,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "978": {
+        "name": "Western Tanager",
+        "scientific_name": "Piranga ludoviciana (A.Wilson, 1811)",
+        "gbif_id": 2488484,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "979": {
+        "name": "Northern Cardinal",
+        "scientific_name": "Cardinalis cardinalis (Linnaeus, 1758)",
+        "gbif_id": 2490384,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "980": {
+        "name": "Rose-breasted Grosbeak",
+        "scientific_name": "Pheucticus ludovicianus (Linnaeus, 1766)",
+        "gbif_id": 2490494,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "981": {
+        "name": "Black-headed Grosbeak",
+        "scientific_name": "Pheucticus melanocephalus (Swainson, 1827)",
+        "gbif_id": 2490487,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "982": {
+        "name": "Blue Grosbeak",
+        "scientific_name": "Passerina caerulea (Linnaeus, 1758)",
+        "gbif_id": 5230862,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "983": {
+        "name": "Lazuli Bunting",
+        "scientific_name": "Passerina amoena (Say, 1822)",
+        "gbif_id": 5230861,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "984": {
+        "name": "Indigo Bunting",
+        "scientific_name": "Passerina cyanea (Linnaeus, 1766)",
+        "gbif_id": 2490327,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "985": {
+        "name": "Painted Bunting",
+        "scientific_name": "Passerina ciris (Linnaeus, 1758)",
+        "gbif_id": 5230852,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "986": {
+        "name": "Bobolink",
+        "scientific_name": "Dolichonyx oryzivorus (Linnaeus, 1758)",
+        "gbif_id": 2484417,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "987": {
+        "name": "Red-winged Blackbird",
+        "scientific_name": "Agelaius phoeniceus (Linnaeus, 1766)",
+        "gbif_id": 9409198,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "988": {
+        "name": "Yellow-headed Blackbird",
+        "scientific_name": "Xanthocephalus xanthocephalus (Bonaparte, 1826)",
+        "gbif_id": 2484195,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "989": {
+        "name": "Brewer's Blackbird",
+        "scientific_name": "Euphagus cyanocephalus (Wagler, 1829)",
+        "gbif_id": 2484183,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "990": {
+        "name": "Brown-headed Cowbird",
+        "scientific_name": "Molothrus ater (Boddaert, 1783)",
+        "gbif_id": 2484391,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "991": {
+        "name": "Hooded Oriole",
+        "scientific_name": "Icterus cucullatus Swainson, 1827",
+        "gbif_id": 5229882,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "992": {
+        "name": "Bullock's Oriole",
+        "scientific_name": "Icterus bullockiorum (Swainson, 1827)",
+        "gbif_id": 10716565,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "993": {
+        "name": "Baltimore Oriole",
+        "scientific_name": "Icterus galbula (Linnaeus, 1758)",
+        "gbif_id": 2484340,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "994": {
+        "name": "Pine Grosbeak",
+        "scientific_name": "Pinicola enucleator (Linnaeus, 1758)",
+        "gbif_id": 2494771,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "995": {
+        "name": "Purple Finch",
+        "scientific_name": "Haemorhous purpureus (J.F.Gmelin, 1789)",
+        "gbif_id": 7804446,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "996": {
+        "name": "Cassin's Finch",
+        "scientific_name": "Haemorhous cassinii (S.F.Baird, 1854)",
+        "gbif_id": 8255548,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "997": {
+        "name": "House Finch",
+        "scientific_name": "Haemorhous mexicanus (P.L.Statius M\u00fcller, 1776)",
+        "gbif_id": 8323485,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "998": {
+        "name": "Red Crossbill",
+        "scientific_name": "Loxia curvirostra Linnaeus, 1758",
+        "gbif_id": 9629160,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "999": {
+        "name": "White-winged Crossbill",
+        "scientific_name": "Loxia leucoptera J.F.Gmelin, 1789",
+        "gbif_id": 8144830,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "1000": {
+        "name": "Lesser Goldfinch",
+        "scientific_name": "Spinus psaltria (Say, 1822)",
+        "gbif_id": 5231647,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "1001": {
+        "name": "American Goldfinch",
+        "scientific_name": "Spinus tristis (Linnaeus, 1758)",
+        "gbif_id": 5231640,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "1002": {
+        "name": "Evening Grosbeak",
+        "scientific_name": "Hesperiphona vespertina (W.Cooper, 1825)",
+        "gbif_id": 2494324,
+        "iucn_status": "VULNERABLE"
+    },
+    "1003": {
+        "name": "House Sparrow",
+        "scientific_name": "Ceratophyllus fringillae (Walker, 1856)",
+        "gbif_id": 1417235,
+        "iucn_status": "NOT_EVALUATED"
+    },
+    "1004": {
+        "name": "Vermilion Flycatcher",
+        "scientific_name": "Pyrocephalus rubinus (Boddaert, 1783)",
+        "gbif_id": 2483647,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "1005": {
+        "name": "European Starling",
+        "scientific_name": "Sturnus vulgaris Linnaeus, 1758",
+        "gbif_id": 9809229,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "1006": {
+        "name": "Fox Sparrow",
+        "scientific_name": "Passerella iliaca (Merrem, 1786)",
+        "gbif_id": 2491872,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "1007": {
+        "name": "Summer Tanager",
+        "scientific_name": "Piranga rubra (Linnaeus, 1758)",
+        "gbif_id": 2488485,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "1008": {
+        "name": "Orchard Oriole",
+        "scientific_name": "Icterus spurius (Linnaeus, 1766)",
+        "gbif_id": 5229935,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "1009": {
+        "name": "Yellow-rumped Warbler",
+        "scientific_name": "Setophaga coronata (Linnaeus, 1766)",
+        "gbif_id": 7341805,
+        "iucn_status": "LEAST_CONCERN"
+    },
+    "1010": {
+        "name": "Dark-eyed Junco",
+        "scientific_name": "Junco hyemalis (Linnaeus, 1758)",
+        "gbif_id": 9362842,
+        "iucn_status": "LEAST_CONCERN"
+    }
+}
