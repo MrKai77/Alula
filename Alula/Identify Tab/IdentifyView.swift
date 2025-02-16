@@ -23,10 +23,12 @@ struct IdentifyView: View {
                     Capsule()
                         .strokeBorder(.quaternary, lineWidth: 1)
                 }
+                .animation(.snappy(duration: 0.25), value: model.prediction?.birdName ?? "")
 
             ViewfinderView()
 
             CaptureButton()
+                .animation(.snappy(duration: 0.25), value: model.prediction?.birdName ?? "")
         }
         .padding()
     }
