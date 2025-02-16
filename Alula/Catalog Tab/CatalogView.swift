@@ -46,7 +46,7 @@ struct CatalogView: View {
 struct AssetView: View {
     @ObservedObject var model: AlulaModel = .shared
 
-    let asset: TakenPhoto
+    let asset: CaptureAsset
     @State private var isSheetPresented: Bool = false
 
     var body: some View {
@@ -65,15 +65,13 @@ struct AssetView: View {
                     .clipShape(.rect(cornerRadius: 6))
 
                 VStack(alignment: .leading) {
-                    Text((asset.data.bird_name ?? PredictionConverter.convert(from: asset.data.bird_id)) ?? "Unknown Bird")
+                    Text(asset.bird_name)
                         .fontWeight(.semibold)
 
-                    if let description = asset.data.bird_description {
-                        Text(description)
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                            .lineLimit(3)
-                    }
+                    Text(asset.bird_description)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                        .lineLimit(3)
                 }
                 .foregroundStyle(.primary)
             }
@@ -81,49 +79,5 @@ struct AssetView: View {
         .buttonStyle(.plain)
         .clipped()
         .contentShape(.rect)
-    }
-}
-
-struct BirdSheetView: View {
-    let asset: TakenPhoto
-
-    var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 12) {
-                Color.clear
-                    .overlay {
-                        asset.image
-                            .resizable()
-                            .scaledToFill()
-                    }
-                    .aspectRatio(contentMode: .fit)
-                    .clipShape(.rect)
-
-                VStack(alignment: .leading, spacing: 12) {
-                    HStack {
-                        Text((asset.data.bird_name ?? PredictionConverter.convert(from: asset.data.bird_id)) ?? "Unknown Bird")
-                            .fontWeight(.semibold)
-
-                        Spacer(minLength: .zero)
-
-                        Text("\(asset.data.bird_id)")
-                            .monospaced()
-                            .bold()
-                            .foregroundStyle(.quaternary)
-                    }
-                    .font(.title)
-
-                    if let description = asset.data.bird_description {
-                        Text(description)
-                            .foregroundStyle(.secondary)
-                            .lineLimit(nil)
-                    }
-                }
-                .padding(.horizontal, 24)
-            }
-        }
-        .presentationBackground {
-            BackgroundView()
-        }
     }
 }

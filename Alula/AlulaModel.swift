@@ -11,14 +11,22 @@ enum AlulaTab: String, Codable {
     case identify, catalog, community, profile
 }
 
-struct TakenPhoto: Identifiable {
+struct CaptureAsset: Identifiable {
     let id = UUID()
     let image: Image
-    let data: BirdDescription
+    let bird_id: Int
+    let bird_name: String
+    let bird_description: String
+    let scientific_name: String?
+    let iucn_red_list: GBIF_IUCN_Data.IUCN_Status
 
-    init(image: Image, data: BirdDescription) {
+    init(image: Image, data: BirdDescription, iucnData: GBIF_IUCN_Data?) {
         self.image = image
-        self.data = data
+        self.bird_id = data.bird_id
+        self.bird_name = data.bird_name ?? "Bird"
+        self.bird_description = data.bird_description ?? "No description available."
+        self.scientific_name = iucnData?.scientific_name
+        self.iucn_red_list = iucnData?.iucn_status ?? .unknown
     }
 }
 
@@ -35,11 +43,12 @@ class AlulaModel: ObservableObject {
     private var lastPredictionUpdate: Date = .distantPast
     private(set) var prediction: AlulaSkeleton.Prediction?
     private(set) var data: BirdDescription?
+    private(set) var iucnData: GBIF_IUCN_Data?
 
-    @Published var infoSheetSelectedAsset: TakenPhoto?
+    @Published var infoSheetSelectedAsset: CaptureAsset?
     @Published var isShowingInfoSheet: Bool = false
     @Published private(set) var viewfinderImage: Image?
-    @Published private(set) var takenImages: [TakenPhoto] = []
+    @Published private(set) var takenImages: [CaptureAsset] = []
 
     private let skeleton = AlulaSkeleton()
     private let camera: Camera = .init()
@@ -52,6 +61,7 @@ class AlulaModel: ObservableObject {
 //            print(try? await SupabaseBridge.shared.loadAchievements())
 //            print(try? await SupabaseBridge.shared.loadUsers())
 //            print(try? await SupabaseBridge.shared.loadDescription(birdId: 1))
+//            print(try? await SupabaseBridge.shared.loadGbifIucnRedListData(birdId: 0))
         }
     }
 
@@ -113,6 +123,23 @@ extension AlulaModel {
             bird_description: "No description available."
         )
     }
+
+    private func getIUCNData(for birdId: Int) async -> GBIF_IUCN_Data {
+        do {
+            if let data = try await SupabaseBridge.shared.loadGbifIucnRedListData(birdId: birdId) {
+                return data
+            }
+        } catch {
+            print("Failed to load IUCN data: \(error)")
+        }
+
+        return .init(
+            bird_id: birdId,
+            scientific_name: nil,
+            gbif_id: nil,
+            iucn_status: .unknown
+        )
+    }
 }
 
 // MARK: - Camera
@@ -153,6 +180,7 @@ extension AlulaModel {
 
                     if let prediction {
                         data = await getData(for: prediction)
+                        iucnData = await getIUCNData(for: Int(prediction.classification) ?? 0)
                     }
                 } else {
                     viewfinderImage = nil
@@ -166,10 +194,11 @@ extension AlulaModel {
 
         for await photo in unpackedPhotoStream {
             Task { @MainActor in
-                if let data {
-                    let takenPhoto = TakenPhoto(
+                if let data, let iucnData {
+                    let takenPhoto = CaptureAsset(
                         image: photo,
-                        data: data
+                        data: data,
+                        iucnData: iucnData
                     )
 
                     takenImages.append(takenPhoto)
