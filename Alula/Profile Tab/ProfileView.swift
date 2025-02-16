@@ -13,6 +13,8 @@ struct ProfileView: View {
     @State private var user: User?
     @State private var allAchievements: [Achievement]?
 
+    @State private var isEditingProfilePic = false
+
     var body: some View {
         VStack {
             if let user {
@@ -21,9 +23,28 @@ struct ProfileView: View {
                 ProgressView("Loading...")
             }
         }
+        .sheet(isPresented: $isEditingProfilePic) {
+            ProfilePictureCustomizationView(
+                profilePic: Binding(
+                    get: {
+                        user?.user_profilepic ?? 0
+                    },
+                    set: { newValue in
+                        isEditingProfilePic = false
+                        user?.user_profilepic = newValue
+
+                        guard let id = user?.user_id else { return }
+                        SupabaseBridge.shared.updateProfilePicture(
+                            for: id,
+                            with: newValue
+                        )
+                    }
+                )
+            )
+        }
         .task {
             do {
-                user = try await SupabaseBridge.shared.loadUsers().first
+                user = try await SupabaseBridge.shared.loadUsers().first { $0.user_id == "adly42" }
                 allAchievements = try await SupabaseBridge.shared.loadAchievements()
             } catch {
                 print("Failed to fetch users: \(error)")
@@ -39,6 +60,9 @@ struct ProfileView: View {
                     .scaledToFit()
                     .frame(width: 250, height: 250)
                     .clipShape(.circle)
+                    .onTapGesture {
+                        isEditingProfilePic = true
+                    }
 
                 Text(user.user_id)
                     .font(.largeTitle)
@@ -97,6 +121,50 @@ struct AchievementView: View {
     }
 }
 
+struct ProfilePictureCustomizationView: View {
+    @Binding var profilePic: Int
+
+    var body: some View {
+        VStack(spacing: 12) {
+            Text("Select your profile picture")
+                .font(.title)
+                .fontWeight(.semibold)
+
+            LazyVGrid(columns: Array(repeating: GridItem(), count: 3)) {
+                ForEach(1..<7) { index in
+                    Button {
+                        withAnimation(.smooth(duration: 0.25)) {
+                            profilePic = index
+                        }
+                    } label: {
+                        Image("profile_\(index)")
+                            .resizable()
+                            .scaledToFit()
+                            .clipShape(.circle)
+                            .padding(12)
+                            .overlay {
+                                if profilePic == index {
+                                    Circle()
+                                        .inset(by: 8)
+                                        .stroke(.secondary, lineWidth: 4)
+                                }
+                            }
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            .padding(.horizontal, 12)
+        }
+        .presentationDragIndicator(.visible)
+        .presentationDetents([.medium])
+    }
+}
+
 #Preview {
     ProfileView()
+}
+
+#Preview {
+    @Previewable @State var profilePic: Int = 1
+    ProfilePictureCustomizationView(profilePic: $profilePic)
 }

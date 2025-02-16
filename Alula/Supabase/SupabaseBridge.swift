@@ -54,6 +54,20 @@ class SupabaseBridge {
         }
     }
 
+    func updateProfilePicture(for userId: String, with imageId: Int) {
+        Task {
+            do {
+                try await client
+                    .from("users")
+                    .update(["user_profilepic": imageId])
+                    .eq("user_id", value: userId)
+                    .execute()
+            } catch {
+                print("Failed to update profile picture: \(error)")
+            }
+        }
+    }
+
     func loadDescription(birdId bird: Int) async throws -> BirdDescription? {
         do {
             let birdDescription: [BirdDescription] = try await client
