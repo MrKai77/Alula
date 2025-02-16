@@ -47,8 +47,10 @@ class AlulaModel: ObservableObject {
         handleTabChange()
 
         Task {
-            print(try? await SupabaseBridge.shared.loadAchievements())
-            print(try? await SupabaseBridge.shared.loadUsers())
+//            print(try? await SupabaseBridge.shared.loadAchievements())
+//            print(try? await SupabaseBridge.shared.loadUsers())
+
+            print(try? await SupabaseBridge.shared.loadDescription(birdId: 1))
         }
     }
 

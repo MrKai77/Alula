@@ -60,13 +60,13 @@ struct ProfileView: View {
                     }
                 }
 
-                if let achievements = user.getUnlockedAchievements() {
-                    Section("Achievements") {
-                        List(achievements) { achievement in
-                            AchievementView(achievement: achievement)
-                        }
-                    }
-                }
+//                if let achievements = user.getUnlockedAchievements() {
+//                    Section("Achievements") {
+//                        List(achievements) { achievement in
+//                            AchievementView(achievement: achievement)
+//                        }
+//                    }
+//                }
             }
         }
     }

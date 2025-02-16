@@ -53,6 +53,22 @@ class SupabaseBridge {
             throw error
         }
     }
+
+    func loadDescription(birdId bird: Int) async throws -> String {
+        do {
+            let birdDescription: [BirdDescription] = try await client
+                .from("descriptions")
+                .select()
+                .eq("bird_id", value: bird)
+                .execute()
+                .value
+
+            return birdDescription.first?.bird_description ?? "No description available"
+        } catch {
+            print(error)
+            throw error
+        }
+    }
 }
 
 struct Achievement: Codable, Identifiable {
@@ -108,4 +124,10 @@ struct User: Codable, Identifiable {
             Image(.profile1)
         }
     }
+}
+
+struct BirdDescription: Codable {
+    let bird_id: Int
+    let bird_name: String?
+    let bird_description: String?
 }
