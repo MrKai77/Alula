@@ -13,10 +13,8 @@ struct IdentifyView: View {
     var body: some View {
         VStack {
             ViewfinderView()
-
-            if let prediction = model.prediction {
-                Text(prediction)
-            }
+            Text(model.prediction ?? "Finding bird…")
+            CaptureButton()
         }
         .padding()
     }

@@ -23,16 +23,15 @@ class AlulaModel: ObservableObject {
 
     private var lastPredictionUpdate: Date = .distantPast
     private(set) var prediction: String?
+
     @Published private(set) var viewfinderImage: Image?
+    @Published private(set) var takenImages: [Image] = []
 
     private let skeleton = AlulaSkeleton()
     private let camera: Camera = .init()
 
     private init() {
-        Task {
-            await handleViewfinder()
-        }
-
+        prepareForCameraOutput()
         handleTabChange()
     }
 
@@ -43,34 +42,11 @@ class AlulaModel: ObservableObject {
             stopCamera()
         }
     }
+}
 
-    func startCamera() {
-        Task {
-            await camera.start()
-        }
-    }
+// MARK: - Image Classification
 
-    func stopCamera() {
-        Task {
-            await camera.stop()
-        }
-    }
-
-    private func handleViewfinder() async {
-        let imageStream = camera.previewStream.map(\.uiImage)
-
-        for await image in imageStream {
-            Task { @MainActor in
-                if let image {
-                    viewfinderImage = Image(uiImage: image)
-                    prediction = classifyImage(image)
-                } else {
-                    viewfinderImage = nil
-                }
-            }
-        }
-    }
-
+extension AlulaModel {
     private func classifyImage(_ image: UIImage) -> String? {
         guard Date.now.timeIntervalSince(lastPredictionUpdate) > 1 else {
             return prediction
@@ -99,5 +75,58 @@ class AlulaModel: ObservableObject {
         lastPredictionUpdate = Date.now
 
         return name
+    }
+}
+
+// MARK: - Camera
+
+extension AlulaModel {
+    func startCamera() {
+        Task {
+            await camera.start()
+        }
+    }
+
+    func stopCamera() {
+        Task {
+            await camera.stop()
+        }
+    }
+
+    func capturePhoto() {
+        camera.takePhoto()
+    }
+
+    private func prepareForCameraOutput() {
+        Task {
+            async let viewfinderTask: () = handleViewfinder()
+            async let cameraPhotosTask: () = handleTakenPhotos()
+            _ = await (viewfinderTask, cameraPhotosTask)
+        }
+    }
+
+    private func handleViewfinder() async {
+        let imageStream = camera.previewStream.map(\.uiImage)
+
+        for await image in imageStream {
+            Task { @MainActor in
+                if let image {
+                    viewfinderImage = Image(uiImage: image)
+                    prediction = classifyImage(image)
+                } else {
+                    viewfinderImage = nil
+                }
+            }
+        }
+    }
+
+    private func handleTakenPhotos() async {
+        let unpackedPhotoStream = camera.photoStream.compactMap { $0.unpack() }
+
+        for await photo in unpackedPhotoStream {
+            Task { @MainActor in
+                takenImages.append(photo)
+            }
+        }
     }
 }
