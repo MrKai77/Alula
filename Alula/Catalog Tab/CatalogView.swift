@@ -27,23 +27,6 @@ struct CatalogView: View {
                 )
             } else {
                 Form {
-
-                    //            ScrollView {
-                    //                LazyVGrid(columns: columns, spacing: Self.spacing) {
-                    //                    ForEach(model.takenImages, id: \.id) { asset in
-                    //                        Button {
-                    //                            print("A")
-                    //                        } label: {
-                    //                            asset.image
-                    //                                .resizable()
-                    //                                .scaledToFill()
-                    //                        }
-                    //                        .clipped()
-                    //                        .contentShape(.rect)
-                    //                    }
-                    //                }
-                    //            }
-
                     Section {
                         List(model.takenImages) { asset in
                             AssetView(asset: asset)

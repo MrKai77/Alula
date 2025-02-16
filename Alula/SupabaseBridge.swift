@@ -135,7 +135,7 @@ struct User: Codable, Identifiable {
 
         return allAchievements.filter { achievement in
             unlockedAchievements.contains(String(achievement.achievement_id))
-        } ?? []
+        }
     }
 
     var image: Image {

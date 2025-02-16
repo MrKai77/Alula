@@ -51,9 +51,7 @@ struct ProfileView: View {
                         LabeledContent("Last bird identified", value: formatDate(lastBirdTime))
                     }
 
-                    if let totalBirdsCaught = user.total_birds_caught {
-                        LabeledContent("Total birds caught", value: "\(model.takenImages.count)")
-                    }
+                    LabeledContent("Total birds caught", value: "\(model.takenImages.count)")
                 }
 
                 if let allAchievements {
