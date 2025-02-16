@@ -19,7 +19,11 @@ struct CommunityView: View {
                         UserView(user: user, allAchievements: achievements)
                     }
                 }
+                .listRowBackground(Color.primary.opacity(0.125))
+                .listRowSeparatorTint(.primary)
             }
+            .scrollContentBackground(.hidden)
+            .background { BackgroundView() }
             .navigationTitle("Community")
         }
         .task {

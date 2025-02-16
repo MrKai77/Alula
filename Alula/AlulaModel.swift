@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum AlulaTab: String, Codable {
-    case identify, catalog
+    case identify, catalog, community, profile
 }
 
 struct TakenPhoto: Identifiable {
@@ -49,14 +49,13 @@ class AlulaModel: ObservableObject {
         Task {
 //            print(try? await SupabaseBridge.shared.loadAchievements())
 //            print(try? await SupabaseBridge.shared.loadUsers())
-
-            print(try? await SupabaseBridge.shared.loadDescription(birdId: 1))
+//            print(try? await SupabaseBridge.shared.loadDescription(birdId: 1))
         }
     }
 
     func handleTabChange() {
         if tab == .identify {
-//            startCamera()
+            startCamera()
         } else {
             stopCamera()
         }

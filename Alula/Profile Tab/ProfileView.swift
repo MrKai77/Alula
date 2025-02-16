@@ -9,18 +9,9 @@ import SwiftUI
 
 struct ProfileView: View {
     @State private var user: User?
+    @State private var allAchievements: [Achievement]?
 
     var body: some View {
-//        NavigationStack {
-////            Form {
-//////                Section("Leaderboard") {
-//////                    List(users.sorted(by: { $0.total_birds_caught ?? 0 > $1.total_birds_caught ?? 0 })) { user in
-//////                        UserView(user: user)
-//////                    }
-//////                }
-////            }
-////            .navigationTitle("Community")
-//        }
         VStack {
             if let user {
                 userView(user)
@@ -31,6 +22,7 @@ struct ProfileView: View {
         .task {
             do {
                 user = try await SupabaseBridge.shared.loadUsers().first
+                allAchievements = try await SupabaseBridge.shared.loadAchievements()
             } catch {
                 print("Failed to fetch users: \(error)")
             }
@@ -39,15 +31,24 @@ struct ProfileView: View {
 
     func userView(_ user: User) -> some View {
         VStack {
-            user.image
-                .resizable()
-                .scaledToFit()
-                .frame(width: 250, height: 250)
-                .clipShape(.circle)
+            VStack {
+                user.image
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 250, height: 250)
+                    .clipShape(.circle)
 
-            Text(user.user_id)
-                .font(.largeTitle)
-                .fontWeight(.bold)
+                Text(user.user_id)
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+            }
+//            .frame(maxWidth: .infinity)
+//            .background {
+//                user.image
+//                    .resizable()
+//                    .scaledToFit()
+//                    .ignoresSafeArea()
+//            }
 
             Form {
                 Section("Statistics") {
@@ -60,13 +61,15 @@ struct ProfileView: View {
                     }
                 }
 
-//                if let achievements = user.getUnlockedAchievements() {
-//                    Section("Achievements") {
-//                        List(achievements) { achievement in
-//                            AchievementView(achievement: achievement)
-//                        }
-//                    }
-//                }
+                if let allAchievements {
+                    let achievements = user.getUnlockedAchievements(allAchievements: allAchievements)
+
+                    Section("Achievements") {
+                        List(achievements) { achievement in
+                            AchievementView(achievement: achievement)
+                        }
+                    }
+                }
             }
         }
     }
@@ -84,10 +87,19 @@ struct AchievementView: View {
 
     var body: some View {
         HStack {
-            Image(systemName: "star")
-                .foregroundColor(.yellow)
+            achievement.image
+                .resizable()
+                .scaledToFit()
+                .frame(width: 64, height: 64)
 
-            Text(achievement.achievement_name ?? "Unknown achievement")
+            VStack(alignment: .leading) {
+                Text(achievement.achievement_name ?? "Unknown achievement")
+
+                Text(achievement.achievement_desc)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(nil)
+            }
         }
     }
 }
