@@ -20,7 +20,13 @@ struct ViewfinderView: View {
                             .scaledToFill()
                     }
                 }
-                .clipped()
+                .background(.quaternary)
+                .clipShape(.rect(cornerRadius: 12))
+                .overlay {
+                    RoundedRectangle(cornerRadius: 12)
+                        .strokeBorder(lineWidth: 1)
+                        .foregroundStyle(.quaternary)
+                }
         }
     }
 }

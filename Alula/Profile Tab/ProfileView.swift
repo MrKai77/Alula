@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @ObservedObject var model: AlulaModel = .shared
+
     @State private var user: User?
     @State private var allAchievements: [Achievement]?
 
@@ -42,13 +44,6 @@ struct ProfileView: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
             }
-//            .frame(maxWidth: .infinity)
-//            .background {
-//                user.image
-//                    .resizable()
-//                    .scaledToFit()
-//                    .ignoresSafeArea()
-//            }
 
             Form {
                 Section("Statistics") {
@@ -57,7 +52,7 @@ struct ProfileView: View {
                     }
 
                     if let totalBirdsCaught = user.total_birds_caught {
-                        LabeledContent("Total birds caught", value: "\(totalBirdsCaught)")
+                        LabeledContent("Total birds caught", value: "\(model.takenImages.count)")
                     }
                 }
 

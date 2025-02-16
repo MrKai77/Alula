@@ -54,7 +54,7 @@ class SupabaseBridge {
         }
     }
 
-    func loadDescription(birdId bird: Int) async throws -> String {
+    func loadDescription(birdId bird: Int) async throws -> BirdDescription? {
         do {
             let birdDescription: [BirdDescription] = try await client
                 .from("descriptions")
@@ -63,7 +63,7 @@ class SupabaseBridge {
                 .execute()
                 .value
 
-            return birdDescription.first?.bird_description ?? "No description available"
+            return birdDescription.first
         } catch {
             print(error)
             throw error

@@ -18,28 +18,129 @@ struct CatalogView: View {
     ]
 
     var body: some View {
-        if model.takenImages.isEmpty {
-            ContentUnavailableView(
-                "No images taken",
-                image: "photo.badge.exclamationmark",
-                description: Text("Birds will appear here after you take photos!")
-            )
-        } else {
-            ScrollView {
-                LazyVGrid(columns: columns, spacing: Self.spacing) {
-                    ForEach(model.takenImages, id: \.id) { asset in
-                        Button {
-                            print("A")
-                        } label: {
-                            asset.image
-                                .resizable()
-                                .scaledToFill()
+        NavigationStack {
+            if model.takenImages.isEmpty {
+                ContentUnavailableView(
+                    "No images taken",
+                    image: "photo.badge.exclamationmark",
+                    description: Text("Birds will appear here after you take photos!")
+                )
+            } else {
+                Form {
+
+                    //            ScrollView {
+                    //                LazyVGrid(columns: columns, spacing: Self.spacing) {
+                    //                    ForEach(model.takenImages, id: \.id) { asset in
+                    //                        Button {
+                    //                            print("A")
+                    //                        } label: {
+                    //                            asset.image
+                    //                                .resizable()
+                    //                                .scaledToFill()
+                    //                        }
+                    //                        .clipped()
+                    //                        .contentShape(.rect)
+                    //                    }
+                    //                }
+                    //            }
+
+                    Section {
+                        List(model.takenImages) { asset in
+                            AssetView(asset: asset)
                         }
-                        .clipped()
-                        .contentShape(.rect)
+                    }
+                    .listRowBackground(Color.primary.opacity(0.125))
+                    .listRowSeparatorTint(.primary.opacity(0.5))
+                }
+                .scrollContentBackground(.hidden)
+                .background { BackgroundView() }
+                .navigationTitle("Catalog")
+            }
+        }
+    }
+}
+
+struct AssetView: View {
+    @ObservedObject var model: AlulaModel = .shared
+
+    let asset: TakenPhoto
+    @State private var isSheetPresented: Bool = false
+
+    var body: some View {
+        Button {
+            model.infoSheetSelectedAsset = asset
+            model.isShowingInfoSheet = true
+        } label: {
+            HStack {
+                Rectangle()
+                    .frame(width: 64, height: 64)
+                    .overlay {
+                        asset.image
+                            .resizable()
+                            .scaledToFill()
+                    }
+                    .clipShape(.rect(cornerRadius: 6))
+
+                VStack(alignment: .leading) {
+                    Text((asset.data.bird_name ?? PredictionConverter.convert(from: asset.data.bird_id)) ?? "Unknown Bird")
+                        .fontWeight(.semibold)
+
+                    if let description = asset.data.bird_description {
+                        Text(description)
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                            .lineLimit(3)
                     }
                 }
+                .foregroundStyle(.primary)
             }
+        }
+        .buttonStyle(.plain)
+        .clipped()
+        .contentShape(.rect)
+    }
+}
+
+struct BirdSheetView: View {
+    let asset: TakenPhoto
+
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 12) {
+                Color.clear
+                    .overlay {
+                        asset.image
+                            .resizable()
+                            .scaledToFill()
+                    }
+                    .aspectRatio(contentMode: .fit)
+                    .clipShape(.rect)
+
+                VStack(alignment: .leading, spacing: 12) {
+                    HStack {
+                        Text((asset.data.bird_name ?? PredictionConverter.convert(from: asset.data.bird_id)) ?? "Unknown Bird")
+                            .fontWeight(.semibold)
+
+                        Spacer(minLength: .zero)
+
+                        Text("\(asset.data.bird_id)")
+                            .monospaced()
+                            .bold()
+                            .foregroundStyle(.quaternary)
+                    }
+                    .font(.title)
+
+                    if let description = asset.data.bird_description {
+                        Text(description)
+                            .foregroundStyle(.secondary)
+                            .lineLimit(nil)
+                    }
+                }
+                .padding(.horizontal, 24)
+            }
+        }
+        .presentationBackground {
+            BackgroundView()
         }
     }
 }

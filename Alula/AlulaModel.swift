@@ -14,11 +14,11 @@ enum AlulaTab: String, Codable {
 struct TakenPhoto: Identifiable {
     let id = UUID()
     let image: Image
-    let bird: AlulaSkeleton.Prediction
+    let data: BirdDescription
 
-    init(image: Image, bird: AlulaSkeleton.Prediction) {
+    init(image: Image, data: BirdDescription) {
         self.image = image
-        self.bird = bird
+        self.data = data
     }
 }
 
@@ -34,8 +34,10 @@ class AlulaModel: ObservableObject {
 
     private var lastPredictionUpdate: Date = .distantPast
     private(set) var prediction: AlulaSkeleton.Prediction?
-    private(set) var lastPrediction: AlulaSkeleton.Prediction?
+    private(set) var data: BirdDescription?
 
+    @Published var infoSheetSelectedAsset: TakenPhoto?
+    @Published var isShowingInfoSheet: Bool = false
     @Published private(set) var viewfinderImage: Image?
     @Published private(set) var takenImages: [TakenPhoto] = []
 
@@ -93,6 +95,24 @@ extension AlulaModel {
 
         return prediction
     }
+
+    private func getData(for prediction: AlulaSkeleton.Prediction) async -> BirdDescription {
+        do {
+            if let description = try await SupabaseBridge.shared.loadDescription(
+                birdId: Int(prediction.classification) ?? 0
+            ) {
+                return description
+            }
+        } catch {
+            print("Failed to load bird data: \(error)")
+        }
+
+        return .init(
+            bird_id: Int(prediction.classification) ?? 0,
+            bird_name: prediction.birdName ?? "Bird",
+            bird_description: "No description available."
+        )
+    }
 }
 
 // MARK: - Camera
@@ -111,7 +131,6 @@ extension AlulaModel {
     }
 
     func capturePhoto() {
-        lastPrediction = prediction
         camera.takePhoto()
     }
 
@@ -131,6 +150,10 @@ extension AlulaModel {
                 if let image {
                     viewfinderImage = Image(uiImage: image)
                     prediction = classifyImage(image)
+
+                    if let prediction {
+                        data = await getData(for: prediction)
+                    }
                 } else {
                     viewfinderImage = nil
                 }
@@ -143,13 +166,16 @@ extension AlulaModel {
 
         for await photo in unpackedPhotoStream {
             Task { @MainActor in
-                if let lastPrediction {
+                if let data {
                     let takenPhoto = TakenPhoto(
                         image: photo,
-                        bird: lastPrediction
+                        data: data
                     )
 
                     takenImages.append(takenPhoto)
+
+                    infoSheetSelectedAsset = takenPhoto
+                    isShowingInfoSheet = true
                 }
             }
         }

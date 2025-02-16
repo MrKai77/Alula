@@ -46,6 +46,11 @@ struct ContentView: View {
                     .background { BackgroundView() }
             }
         }
+        .sheet(isPresented: $model.isShowingInfoSheet) {
+            if let asset = model.infoSheetSelectedAsset {
+                BirdSheetView(asset: asset)
+            }
+        }
     }
 }
 

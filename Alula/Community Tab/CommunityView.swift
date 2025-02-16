@@ -20,7 +20,7 @@ struct CommunityView: View {
                     }
                 }
                 .listRowBackground(Color.primary.opacity(0.125))
-                .listRowSeparatorTint(.primary)
+                .listRowSeparatorTint(.primary.opacity(0.5))
             }
             .scrollContentBackground(.hidden)
             .background { BackgroundView() }
@@ -71,6 +71,7 @@ struct UserView: View {
 
                 VStack(alignment: .leading) {
                     Text(user.user_id)
+                        .fontWeight(.semibold)
 
                     Text("Identified a \(birdName) at \(date)")
                         .font(.caption)
